@@ -1,0 +1,72 @@
+{
+    "makemake": {
+        "DivArt": {
+            "name": "DivArt",
+            "date": "2023",
+            "description": "Lors du 4e semestre de mon BUT MMI, nous avions comme projet de créer une billetterie en ligne pour une exposition d'art fictive. De là est né Divart, une agence proposant une exposition nommée 'Impressione moi'. Ce site contient aussi un dispositif de réalité augmenté réaliser avec Three.js et l'API webXR.",
+            "image": "",
+            "lien": "https://divart-museum.noamsebahoun.fr/"
+        },
+        "Commu'niquez": {
+            "name": "Commu'niquez",
+            "date": "2022",
+            "description": "Au cours du mois de décembre 2022, une partie des étudiants du BUT MMI et moi même, avons participé à la Nuit de l’info 2022. La Nuit de l’info est un marathon de programmation qui consiste à concevoir un produit digital de manière collaborative dans un temps limité. Pour cette édition, le challenge était de réaliser en 16h, un site de prévention sur les maladies sexuellement transmissibles. Pour réaliser ce projet de taille, nous étions une équipe de 17 étudiants avec chacun nos spécialités. Afin d’optimiser le temps, nous avons divisé l’équipe en 5 pôles : un pôle développement dont je faisais partie, un pôle recherche, un pôle écriture, un pôle design et enfin un pôle vidéo.<br>Le site devait comprendre: un jeu, une rubrique comportant des informations sur différentes maladies, une rubrique sur les moyens de se protéger contre ces maladies et une sur que faire en cas de contamination.<br>Lors de la réalisation de ce projet, nous avions à réaliser 5 défis annexes: un bot Discord en interaction avec le site, un Konami Code, un code le plus propre, une vidéo retraçant notre Nuit et une page la moins navigable possible.<br>J’ai personnellement contribué à la réalisation de 2 de ses défis, qui étaient le Konami Code et la page la moins navigable et ai réalisé seul une page d’information (Cf <a href='https://meauxlotov.poisson.butmmi.o2switch.site/a_qui_s_adresser.html'>A qui s’adresser ?</a>).<br>Nous avons terminé premier national pour le bot Discord et deuxième national pour le code le plus propre.",
+            "image": "",
+            "lien": "https://meauxlotov.poisson.butmmi.o2switch.site/index.html"
+        },
+        "DataViz": {
+            "name": "DataViz",
+            "date": "2022",
+            "description": "Au cours du troisième semestre du BUT MMI, nous avions un site à réaliser en mettant en forme des données sur des thèmes libre. Nous avons choisi avec mon groupe, de travailler sur les féminicide. En effet, ce sujet étant un réel problème de société, nous cherchons à sensibiliser le plus grand nombre avec ce projet.<br>Pour ce faire, nous avons récupéré des fichiers de données au format JSON (JavaScript Object Notation) et les avons traités avec JavaScript. Nous avons aussi utilisé la librairie d3.js dans le but de généré du SVG (Scalable Vector Graphics) grâce aux données (ex : un graphique qui donne le nombre de féminicide par ans).<br>Afin de faire des sauvegardes régulières de notre code et de garder une trace de notre progression, nous avons utilisé <a href='https://github.com/NoamSeb/DataViz'>GitHub</a> (service d’hébergement de code en ligne). Enfin pour héberger le produit final, nous avons utilisé GitHub Pages (service d’hébergement proposé par GitHub) car il permet d’héberger un site web à condition que celui-ci ne nécessite pas de connexion à une base de données.",
+            "image": "",
+            "lien": "https://noamseb.github.io/DataViz/"
+        },
+        "ResaWeb": {
+            "name": "ResaWeb - Evasio",
+            "date": "2022",
+            "description": "Au cours de ma première année du BUT MMI, j’ai réalisé un site de réservation en ligne en m’appuyant sur une base de données SQL (Structured Query Language) et en utilisant le langage PHP (Hypertext Preprocessor) comme intermédiaire entre le code et la base de données.<br>J’ai choisi comme thème pour ce projet un site d’escape game. Ce dernier m’a permis de laisser libre cours à mon imagination pour les noms de salle et l’écriture des synopsis des escape game.<br>De plus, j’ai pu faire une page “affiche-details.php” qui adapte son contenu en fonction du produit sélectionné. Grâce à PHP, j’ai aussi pû récupérer les données d’un formulaire de réservation qui m’a servi à programmer l’envoie d’un mail automatique de confirmation à la personne qui vient de réserver.",
+            "image": "",
+            "lien": "https://evasio.sebahoun.butmmi.o2switch.site/"
+        },
+        "Portrait chinois": {
+            "name": "Portrait chinois",
+            "date": "2021",
+            "description": "Au cours du premier semestre du BUT MMI, j’ai pû réaliser un site web sous forme de portrait chinois. Le portrait chinois est un jeu littéraire qui permet de déceler certains aspects de la personnalité d'un individu ou d'identifier ses goûts ou ses préférences personnelles grâce à un questionnaire (ex: si j’étais un animal, lequel serais-je ?)<br>Pour le projet en question, nous devions nous même nous prêter à ce jeu en l’appliquant à notre personnalité. Les seules contraintes était que nos allégories devaient être au format JSON et que l’utilisateur puisse ajouter une allégorie qui lui serait propre.<br>J’ai fait le contenu de mon site avec le langage HTML (HyperText Markup Language) et le j’ai stylisé ce contenu avec le langage CSS (Cascading Style Sheets). Ensuite J’ai traité les données JSON grâce au JavaScript et ai modifier le style aussi grâce au JavaScript. En effet, mon portrait chinois étant sous la forme d’un slider, le Javascript m’a permis de gérer les apparitions des contenus et l’ordre d’apparition de ces derniers.",
+            "image": "",
+            "lien": "https://portrait-chinois.sebahoun.butmmi.o2switch.site/"
+        }
+    },
+    "eris": {
+        "CV vidéo": {
+            "name": "CV Vidéo",
+            "date": "2023",
+            "description": "Dans le cadre du 3e semestre de mon BUT MMI, nous avons réalisé un CV vidéo. En allant de la conception jusqu'a la post-production, nous avons complètement imaginé ce court-métrage.",
+            "image": "",
+            "lien": "https://www.youtube.com/watch?v=sq6ApZR_ZdA"
+        },
+        "Interview": {
+            "name": "Interview",
+            "date": "2021",
+            "description": "Au cours du premier semestre du BUT MMI, nous devions réaliser une interview sur le domaine du livre et de la lecture. Ce projet s’est déroulé en deux temps : Dans un premier temps le tournage de l’interview en groupe et dans un second temps le montage en individuel. Pour assurer la bonne réalisation de ce projet, nous avons eu des cours ressources où nous avons appris à utiliser le matériel vidéo (caméra, lumière, micro-cravate) qui à été mis à notre disposition pour le jour du tournage.<br>Pour ce projet, nous devions trouver une personne à interviewer et préparer les questions à poser le jour de l’interview. Nous avons pû interviewer Linda Fardon, une des chargée de projet culturel de “Bibliocité”. Ce dernier est un opérateur culturel qui organise et produit des évènements autours du livre et de la lecture tels que des expositions, des rencontres avec des acteurs de ce domaine, des conférences, des débats…<br>Concernant la post-production, nous avons supprimé les bruits parasites avec le logiciel Audacity et avons monté la vidéo avec le logiciel Adobe Premiere Pro.<br>Dans l’optique de rendre le résultat plus moderne, j’ai créé un générique animé avec le logiciel Adobe After Effect.",
+            "image": "",
+            "lien": "https://www.youtube.com/watch?v=IvDC8WnCL-c"
+        }
+    },
+    "haumea": {
+        "Yayoi Kusama": {
+            "name": "Campagne Institutionnelle",
+            "date": "2023",
+            "description": "A l’occasion d’un voyage à Londres organisé par l’université, il nous a été demandé d’imaginer une campagne de communication pour une exposition qui avait lieu à Londres.<br>Nous avons choisi l’exposition “Infinity Mirror Rooms” présenté par Yayoi Kusama.<br>Nous avons imaginé des bannières web ainsi que des mockups pour montrer à quoi pourrait ressembler les affiches que nousavons réalisées dans la rue.",
+            "image": "",
+            "lien": "https://drive.google.com/file/d/1pJiDe7eUFoJ2Ivb7iI_JdBCXC4kWXiQ-/view"
+        },
+        "relais": {
+            "name": "Le Relais",
+            "date": "2022",
+            "description": "Au cours de ma première année du BUT MMI, il était demandé de retravailler la stratégie de communication d'un projet citoyen existant ou fictif. Cette stratégie devait inclure un site web réalisé grâce au CMS Wordpress ainsi qu'une communication sur différents réseaux sociaux. Ce projet étant à réaliser en équipe, nous avons choisi de nous pencher sur le cas de la société coopérative et participative « Le Relais ». En effet, cette dernière vise à réduire l’empreinte carbone en récupérant des textiles usagés afin de leur donner une seconde vie.<br>Nous avons utilisé l’outil de prototypage Figma pour créer le contenu textuel et Adobe Premiere Pro pour le contenu vidéo de nos publication Instagram. De plus, nous avons créé un motion Design avec Adobe After Effect visible sur le site ainsi que sur Instagram.<br>Enfin, nous avons utilisé Wordpress avec le thème Inspiro pour faire l’habillage du site.",
+            "image": "",
+            "lien": "https://relais.sebahoun.butmmi.o2switch.site/",
+            "socialLink": "https://linktr.ee/lerelais"
+        }
+    }
+}

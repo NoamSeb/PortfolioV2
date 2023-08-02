@@ -53,20 +53,12 @@ init();
 
 async function init() {
   async function starySky() {
-    const map = await loadTexture(`https://solartextures.b-cdn.net/2k_stars_milky_way.jpg`);
+    const map = await loadTexture(`https://solartextures.b-cdn.net/8k_stars_milky_way.jpg`);
     const sphereGeometry = new THREE.SphereGeometry(30, 32, 16);
-    const sphereMaterial = new THREE.MeshBasicMaterial({ map });
-    const outerSphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
-    sky = outerSphere;
-    scene.add(outerSphere);
-
-    const contentGeometry = new THREE.PlaneGeometry(20, 20); // You can use any desired geometry here.
-    const contentMaterial = new THREE.MeshBasicMaterial({ map, side: THREE.DoubleSide });
-    const innerMesh = new THREE.Mesh(contentGeometry, contentMaterial);
-    outerSphere.add(innerMesh);
-
-    innerMesh.position.set(0, 0, -30);
-  }
+    const sphereMaterial = new THREE.MeshBasicMaterial({ map, side: THREE.BackSide });
+    const sky = new THREE.Mesh(sphereGeometry, sphereMaterial);
+    scene.add(sky)
+  };
   starySky();
 
   const makemakeTexture = await loadTexture(`https://solartextures.b-cdn.net/2k_makemake_fictional.jpg`);
@@ -126,7 +118,7 @@ async function init() {
   torus3.rotation.x = -5;
   torus3.material.opacity = 0.2;
 
-  scene.add(makemake, eris, haumea, sky, torus, torus2, torus3);
+  scene.add(makemake, eris, haumea, torus, torus2, torus3);
   console.log(scene.children);
   group.add(makemake, eris, haumea);
 
@@ -151,7 +143,7 @@ async function init() {
   camera.position.z = 5;
 
   animate();
-}
+};
 
 function onDocumentClick(event) {
   event.preventDefault();
@@ -174,7 +166,7 @@ function onDocumentClick(event) {
   }
 }
 
-var sound = new Howl({
+let sound = new Howl({
   src: ['medias/song/planetHover.wav'],
   volume: 0.3
 });
@@ -261,11 +253,14 @@ function animate() {
 
 function showPopup(planetName) {
   const dynamicContent = `
+  <img src="./medias/images/cross.png" class="closeTravelPopUp">
+  <div class="travelComplete">
     <div class="travelToPlanete">
       <p class="travelPopUpTitle">You are about to travel!</p>
       <p>Do you want to travel to ${planetName}?</p>
-      <a href="planet.php?${planetName}"><button>Travel</button></a>
+      <a href="./planet.html?name=${planetName}"><button>Travel</button></a>
     </div>
+  </div>
   `;
 
   const popupContainer = document.createElement('div');
@@ -274,10 +269,7 @@ function showPopup(planetName) {
 
   body.appendChild(popupContainer);
 
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Close';
-  closeButton.classList.add('close-button');
-
+  const closeButton = document.querySelector('.closeTravelPopUp');
   closeButton.addEventListener('click', () => {
     body.removeChild(popupContainer);
   });
