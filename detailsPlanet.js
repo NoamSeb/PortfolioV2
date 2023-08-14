@@ -1,35 +1,33 @@
-fetch('./data/data.json').then(Response => {
-    return Response.json();
-}).then(data => {
-
-    //selection des éléments du geojson
-    element = data.features
-
-    //récupération des regions/departements/communes et ajout dans des listes
-    element.forEach(element => {
-        console.log(element.name);
-    });
-
-    let loadedData = {
-        features: element
-    }
-
-    //On découpe l'URL en plusieurs parties afin de garder uniquement l'id du site
-    let name = document.location.href.split("?")[1].split("=")[1];
-    //On check si un élément à le même id
-    let objName = loadedData.features.find(item => {
-        return item.name == name
+fetch('./data/data.json')
+    .then(response => {
+        return response.json();
     })
+    .then(data => {
+        console.log(data);
 
-    let ht = '<p>Entreprise : ' + objName.properties.nom_site + '</p>' + '</br>' +
-        '<p>Region : ' + objId.properties.region + '</p>' + '</br>' +
-        '<p>Commune : ' + objId.properties.commune + ' ( ' + objId.properties.dpt + ' )' + '</p>' + '</br>' +
-        '<p>Adresse : ' + objId.properties.adresse + ' ( ' + objId.properties.code_post + ' )' + '</p>' + '</br>' +
-        '<p>Activité : ' + objId.properties.activite + ' ( ' + objId.properties.code_act + ' )' + '</p>' + '</br>' +
-        '<p> Description du site : ' + objId.properties.descrip + '</p>' + '</br>' +
-        '<p>Polluants : ' + objId.properties.nom_classe + '</p>' + '</br>' +
-        '<p>Type de Pollution : ' + objId.properties.type_pollu.replace("{", "").replace("}", "").replace(/'/g, "") + '</p>' + '</br>' +
-        '<p>Origine de la pollution : ' + objId.properties.oigine_pollution + '</p>';
-    document.getElementById("siteInfo").innerHTML = ht;
-    console.log(objName);
-});
+        // Selection des éléments dans le JSON
+        const elements = data.features;
+
+        elements.forEach(element => {
+            console.log(element.name);
+        });
+
+        // On découpe l'URL pour obtenir le nom de la planète
+        const name = document.location.href.split("?")[1].split("=")[1];
+
+        // On cherche un élément avec le même nom
+        const objName = elements.find(item => {
+            return item.name === name;
+        });
+
+        if (objName) {
+            let ht = '<h1>' + objName.name + '</h1>' + '</br>' +
+            '<p>' + objName.properties.DivArt.name + '</p>' +
+            '<p>' + objName.properties.DivArt.date + '</p>'+
+            '<p>' + objName.properties.DivArt.description + '</p>'
+            document.getElementById("planetInfo").innerHTML = ht;
+            console.log(objName);
+        } else {
+            console.log("Planet not found");
+        }
+    });

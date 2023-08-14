@@ -2,15 +2,16 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
 let controls;
 
 const body = document.querySelector('body');
-const travelPopUp = document.querySelector('.travelToPlanete');
+const cursor = document.querySelector('.rounded');
 
 let selectedObject = null;
 const raycaster = new THREE.Raycaster();
 const pointer = new THREE.Vector2();
+
 
 let group;
 
@@ -139,7 +140,7 @@ async function init() {
   });
 
   document.addEventListener('click', onDocumentClick, false);
-  
+
   camera.position.z = 5;
 
   animate();
@@ -250,13 +251,27 @@ function animate() {
 
   renderer.render(scene, camera);
 }
+const makeMakeDesc = "On makemake, u could discover some web's project I made. From simple HTML/CSS website to complete website with data bases."
+const erisDesc = "On eris, u could discover some amazing audio-visual's projects I made."
+const haumeaDesc = " On haumea, u could discover some communication's projects I made."
 
+function adaptPopUpContent(planetName){
+  if(planetName == "makemake"){
+    return makeMakeDesc;
+  }else if(planetName == "eris"){
+    return erisDesc;
+  }else if(planetName == "haumea"){
+    return haumeaDesc;
+  }
+}
 function showPopup(planetName) {
   const dynamicContent = `
   <img src="./medias/images/cross.png" class="closeTravelPopUp">
   <div class="travelComplete">
     <div class="travelToPlanete">
-      <p class="travelPopUpTitle">You are about to travel!</p>
+      <p class="travelPopUpTitle">You are about to travel!</p>`+
+      adaptPopUpContent(planetName)
+      +`
       <p>Do you want to travel to ${planetName}?</p>
       <a href="./planet.html?name=${planetName}"><button>Travel</button></a>
     </div>
@@ -275,4 +290,8 @@ function showPopup(planetName) {
   });
 
   popupContainer.appendChild(closeButton);
+  const popupLink = popupContainer.querySelector('a');
+  popupLink.addEventListener('click', (event) => {
+    event.stopPropagation(); // Stop the event from propagating to the 3D objects
+  });
 }
