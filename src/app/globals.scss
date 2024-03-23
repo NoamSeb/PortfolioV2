@@ -1,21 +1,16 @@
+body {
+  margin: 0;
+  background-color: var(--break-white);
+}
+main {
+  width: 100vw;
+  height: 100vh;
+}
+h2 {
+  font-size: 2.5rem;
+}
 // Global Colors
 :root {
   --break-white: #e5e5e5;
   --break-black: #161616;
-}
-
-@font-face {
-  font-family: DM sans Regular;
-  src: url(../../public/fonts/DMSans_18pt-Regular.ttf) format("ttf");
-}
-@font-face {
-  font-family: DM-sans-Bold-Italic;
-  src: url(../../public/fonts/DMSans_18pt-BoldItalic.ttf) format("ttf");
-}
-
-.b {
-  font-family: DM-sans-Bold-Italic, sans-serif;
-}
-.r {
-  font-family: DM sans Regular, sans-serif;
 }
