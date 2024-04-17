@@ -20,6 +20,7 @@
   height: 100vh;
   h1 {
     position: relative;
+    z-index: 10;
     margin-left: 20vw;
     padding-top: 40vh;
     width: fit-content;
@@ -29,7 +30,29 @@
       margin-left: 20%;
     }
   }
+  img {
+    width: 30vw;
+    height: 30vw;
+    position: relative;
+    margin-left: 45vw;
+    margin-top: -45vh;
+    z-index: -1;
+  }
 }
-#whoAmI {
+.whoAmI,
+.whatIDO,
+.testimonials,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
   margin-left: 2.5vw;
+  height: 100vh;
+  h2 {
+    font-size: 2rem;
+  }
+  div {
+    max-width: 80vw;
+  }
 }

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: DM sans Regular;
+  src: url(/fonts/DMSans_18pt-Regular.ttf) format("ttf");
+}
+
 .topBar {
   position: fixed;
   top: 0;
@@ -8,8 +13,15 @@
     align-items: center;
     padding: 0 3vw;
     margin: 2vh;
+    p {
+      font-family: DM sans Regular, sans-serif;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
-  img {
+  svg {
     width: 3vw;
     height: auto;
   }

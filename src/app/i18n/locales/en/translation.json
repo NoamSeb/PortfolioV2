@@ -1,6 +1,43 @@
 {
+  "navBar": {
+    "whoAmI": "Who Am I ?",
+    "whatIDO": "What do I do ?",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
   "myName": "Noam",
   "mySurname": "Sebahoun",
-  "whoAmI": "Who Am I?",
-  "lorem": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. At consectetur sapiente, in corrupti fugiat aut fugit rem doloribus ducimus illum voluptatibus blanditiis eius, ut minus nam est exercitationem similique tempora!"
+  "whoAmI": {
+    "title": "Who Am I ?",
+    "content1": "Hello, I'm Noam Sebahoun!",
+    "content2": "Since my childhood, I've been fascinated by the world of video games, a passion that sparked my interest in development. I then began my studies in the field of web development to understand development in general, and obtained a Bachelor's degree in Multimedia and Internet Jobs, thus laying a solid foundation for my career.",
+    "content3": "Currently, I am a student at the IIM Digital School in Paris, focusing on the video game axis, in order to leverage my technical skills and passion for this field that I am so passionate about.",
+    "content4": "Always eager to broaden my skillset, I approach each challenge with enthusiasm and a commitment to continuous improvement."
+  },
+  "whatIDO": {
+    "title": "What do I do ?"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "tesimonials": [
+      {
+        "name": "Julien Chamayou",
+        "work": "Software engineer at Sopra Steria",
+        "comment": "I had the opportunity to supervise Noam during his internship within a web application development project at Sopra Steria. Noam is committed, personable, and proactive. He integrated very well into the team and effectively improved his skills over time on a technical stack he was not familiar with (Java, Spring, VueJS) in order to deliver high-quality outcomes, always adhering to the team's processes."
+      },
+      {
+        "name": "Emilien Regent",
+        "work": "Senior programmer at Ubisoft Paris",
+        "comment": ""
+      },
+      {
+        "name": "Amel Chabah",
+        "work": "Student in Web Development",
+        "comment": ""
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact"
+  }
 }

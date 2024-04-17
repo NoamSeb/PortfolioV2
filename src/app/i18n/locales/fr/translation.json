@@ -1,6 +1,43 @@
 {
+  "navBar": {
+    "whoAmI": "Qui suis-je ?",
+    "whatIDO": "Ce que je fais",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
+  },
   "myName": "Noam",
   "mySurname": "Sebahoun",
-  "whoAmI": "Qui suis-je ?",
-  "lorem": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. At consectetur sapiente, in corrupti fugiat aut fugit rem doloribus ducimus illum voluptatibus blanditiis eius, ut minus nam est exercitationem similique tempora!"
+  "whoAmI": {
+    "title": "Qui suis-je ?",
+    "content1": "Bonjour, je suis Noam Sebahoun !",
+    "content2": "Depuis mon enfance, je suis fasciné par le monde des jeux vidéo, une passion qui a suscité mon intérêt pour le développement. J’ai alors commencé mes études dans le domaine du web afin d’appréhender le développement de manière générale, et ai obtenu un diplôme de Bachelor en Métiers du Multimédia et de l'Internet, posant ainsi des bases solides pour ma carrière.",
+    "content3": "Actuellement, je suis étudiant à l'IIM Digital School à Paris dans l’axe jeu vidéo, afin de mettre mes compétences techniques et ma passion en faveur de ce domaine qui me passionne tant.",
+    "content4": "Désireux d'élargir mes savoir-faire, j'aborde chaque défi avec enthousiasme et un engagement envers l'amélioration continue."
+  },
+  "whatIDO": {
+    "title": "Ce que je fais"
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "tesimonials": [
+      {
+        "name": "Julien Chamayou",
+        "work": "Ingénieur Logiciel chez Sopra Steria",
+        "comment": "J’ai eu l’occasion d’encadrer Noam lors de son stage au sein d’une mission de développement d’une application web chez Sopra Steria. Noam est engagé, avenant et volontaire. Il s’est très bien intégré à l’équipe, et a su au fil de la période monter de façon efficace en compétences sur une stack technique qu’il ne maîtrisait pas (Java, Spring, VueJS) afin de produire des réalisations de qualité, toujours dans le respect des process de l’équipe."
+      },
+      {
+        "name": "Emilien Regent",
+        "work": "Senior programmer chez Ubisoft Paris",
+        "comment": ""
+      },
+      {
+        "name": "Amel Chabah",
+        "work": "Etudiante en Développement Web",
+        "comment": ""
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact"
+  }
 }
