@@ -3,6 +3,7 @@ import { useTranslation } from "../i18n";
 import styles from "./page.module.scss";
 import TopBar from "@/components/topBar/TopBar";
 import NavBar from "@/components/navBar/NavBar";
+import Projects from "@/components/projects/Projects";
 import Testimonials from "@/components/testimonials/Testimonials";
 
 export default async function Page({ params: { lng } }) {
@@ -27,13 +28,14 @@ export default async function Page({ params: { lng } }) {
           <h2 className={styles.b}>{t("whoAmI.title")}</h2>{" "}
           <div>
             {[1, 2, 3, 4].map((i) => (
-              <p>{t("whoAmI.content" + i + "")}</p>
+              <p className={styles.r}>{t("whoAmI.content" + i + "")}</p>
             ))}
             <img src="" alt="" />
           </div>
         </div>
         <div id="whatIDO" className={styles.whatIDO}>
           <h2 className={styles.b}>{t("whatIDO.title")}</h2>{" "}
+          <Projects lng={lng} />
         </div>
         <div id="testimonials" className={styles.testimonials}>
           <h2 className={styles.b}>{t("testimonials.title")}</h2>{" "}

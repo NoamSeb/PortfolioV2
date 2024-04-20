@@ -30,25 +30,26 @@
 /*------ Settings ------*/
 .container {
   --color: #161616;
-  --size: 30px;
+  --size: 3vw;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   cursor: pointer;
-  font-size: var(--size);
   user-select: none;
   fill: var(--color);
 }
 
-.container .moon {
+.moon {
   position: absolute;
+  max-width: var(--size);
   animation: keyframes-fill 0.5s;
 }
 
-.container .sun {
+.sun {
   position: absolute;
   display: none;
+  max-width: var(--size);
   animation: keyframes-fill 0.5s;
 }
 

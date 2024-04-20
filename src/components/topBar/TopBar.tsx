@@ -11,8 +11,8 @@ export default function TopBar() {
         </Link>
         <label className={styles.container}>
           <input checked={true} type="checkbox" />
-          <img src="./images/sun.svg" alt="" className={styles.sun} />
-          <img src="./images/moon.svg" alt="" className={styles.moon} />
+          <img src="./sun.svg" alt="" className={styles.sun} />
+          <img src="./moon.svg" alt="" className={styles.moon} />
         </label>
         <p>
           <Link href="./en">EN</Link> | <Link href="./fr">FR</Link>

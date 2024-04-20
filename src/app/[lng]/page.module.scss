@@ -18,11 +18,12 @@
 
 .titleSection {
   height: 100vh;
+  gap: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   h1 {
-    position: relative;
     z-index: 10;
-    margin-left: 20vw;
-    padding-top: 40vh;
     width: fit-content;
     font-size: 4rem;
     text-transform: uppercase;
@@ -33,9 +34,6 @@
   img {
     width: 30vw;
     height: 30vw;
-    position: relative;
-    margin-left: 45vw;
-    margin-top: -45vh;
     z-index: -1;
   }
 }
@@ -50,9 +48,17 @@
   margin-left: 2.5vw;
   height: 100vh;
   h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   div {
     max-width: 80vw;
   }
+}
+.whoAmI {
+  div {
+    font-size: 1.2rem;
+  }
+}
+.testimonials {
+  max-width: 70vw;
 }

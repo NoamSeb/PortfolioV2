@@ -15,7 +15,21 @@
     "content4": "Always eager to broaden my skillset, I approach each challenge with enthusiasm and a commitment to continuous improvement."
   },
   "whatIDO": {
-    "title": "What do I do ?"
+    "title": "What do I do ?",
+    "projects": [
+      {
+        "name": "Loop",
+        "image": "./projects/loop/loop.png",
+        "description": "Description of Project 1",
+        "link": "loop"
+      },
+      {
+        "name": "Planete Danete",
+        "image": "./projects/planete-danete/planeteDanette.png",
+        "description": "Description of Project 2",
+        "link": "planete-danete"
+      }
+    ]
   },
   "testimonials": {
     "title": "Testimonials",
@@ -28,12 +42,12 @@
       {
         "name": "Emilien Regent",
         "work": "Senior programmer at Ubisoft Paris",
-        "comment": ""
+        "comment": "Lorem Ipsum dolor sit amet"
       },
       {
         "name": "Amel Chabah",
         "work": "Student in Web Development",
-        "comment": ""
+        "comment": "Noam is an exceptional collaborator whose bright personality and remarkable skills have left a mark on every project we have shared. Endowed with natural charisma and innate leadership qualities, he inspires everyone to give their best. A born educator, he motivates and guides his team with uncommon ease. His ease with public speaking and relentless commitment make him a true asset to all his projects. Always in pursuit of perfection, Noam embraces challenges with enthusiasm, bringing positive energy to every situation. Working alongside him is a real pleasure, and I am convinced that he will continue to shine and be a source of inspiration for all his future projects."
       }
     ]
   },
