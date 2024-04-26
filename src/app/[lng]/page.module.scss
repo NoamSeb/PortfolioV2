@@ -18,7 +18,7 @@
 
 .titleSection {
   height: 100vh;
-  gap: 10vw;
+  gap: 15vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,9 +27,15 @@
     width: fit-content;
     font-size: 4rem;
     text-transform: uppercase;
+    margin-bottom: 0;
     .b {
       margin-left: 20%;
     }
+  }
+  .status {
+    margin-left: 20%;
+    font-size: 1.2rem;
+    font-style: normal;
   }
   img {
     width: 30vw;
@@ -45,7 +51,7 @@
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
-  margin-left: 2.5vw;
+  margin-left: 4vw;
   height: 100vh;
   h2 {
     font-size: 3rem;

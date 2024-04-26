@@ -13,8 +13,8 @@ export default async function Projects({ lng }) {
         projectData.whatIDO.projects &&
         projectData.whatIDO.projects.map((project, index) => (
           <div key={index} className={styles.project}>
+            <img src={project.image} alt="" />
             <Link href={`/${project.link}`}>
-              <img src={project.image} alt="" />
               <div className={styles.sail}>
                 <p>{project.name}</p>
               </div>

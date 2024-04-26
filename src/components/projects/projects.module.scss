@@ -11,17 +11,20 @@ $height: 40vh;
 
   .project {
     a {
-      width: 100% !important;
-      height: 100% !important;
+      text-decoration: none;
+      width: $width;
+      height: $height;
       position: relative;
-    }
-    &:hover {
-      .sail {
-        opacity: 1;
+      bottom: 100%;
+      &:hover {
+        .sail {
+          opacity: 1;
+        }
       }
     }
     width: $width;
     height: $height;
+
     img {
       width: $width;
       height: $height;
@@ -32,7 +35,6 @@ $height: 40vh;
       justify-content: center;
       align-items: center;
       position: relative;
-      bottom: 100%;
       z-index: 1;
       width: $width;
       height: $height;
