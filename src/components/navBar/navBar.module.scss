@@ -1,5 +1,7 @@
 .navBar {
-  background-color: var(--break-black);
+  background-color: #161616;
+  position: relative;
+  z-index: 100;
   color: white;
   width: fit-content;
   padding: 0.5vw;

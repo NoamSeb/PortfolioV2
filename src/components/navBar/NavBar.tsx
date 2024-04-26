@@ -1,21 +1,23 @@
 import style from "./navBar.module.scss";
 import Link from "next/link";
+import { useTranslation } from "../../app/i18n";
 
-export default function NavBar() {
+export default async function NavBar({ lng }) {
+  const { t } = await useTranslation(lng);
   return (
     <nav className={style.navBar}>
       <ul>
         <Link href="#whoAmI">
-          <li>Who Am I ?</li>
+          <li>{t("navBar.whoAmI")}</li>
         </Link>
         <Link href="#whatIDO">
-          <li>What do I do ?</li>
+          <li>{t("navBar.whatIDO")}</li>
         </Link>
         <Link href="#testimonials">
-          <li>Testimonials</li>
+          <li>{t("navBar.testimonials")}</li>
         </Link>
         <Link href="#contact">
-          <li>Contact</li>
+          <li>{t("navBar.contact")}</li>
         </Link>
       </ul>
 

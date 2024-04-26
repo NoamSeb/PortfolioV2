@@ -1,0 +1,52 @@
+$width: 40vw;
+$height: 40vh;
+
+@font-face {
+  font-family: DM sans Regular;
+  src: url(/fonts/DMSans_18pt-Regular.ttf) format("ttf");
+}
+.projects {
+  display: flex;
+  gap: 2vw;
+
+  .project {
+    a {
+      text-decoration: none;
+      width: $width;
+      height: $height;
+      position: relative;
+      bottom: 100%;
+      &:hover {
+        .sail {
+          opacity: 1;
+        }
+      }
+    }
+    width: $width;
+    height: $height;
+
+    img {
+      width: $width;
+      height: $height;
+    }
+    .sail {
+      opacity: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+      width: $width;
+      height: $height;
+      background-color: rgba($color: #000000, $alpha: 0.7);
+      p {
+        color: white;
+        font-size: 1.7vw;
+        font-family: DM sans Regular, sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,15 +1,28 @@
+@font-face {
+  font-family: DM sans Regular;
+  src: url(/fonts/DMSans_18pt-Regular.ttf) format("ttf");
+}
+
 .topBar {
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 100;
   div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 3vw;
     margin: 2vh;
+    p {
+      font-family: DM sans Regular, sans-serif;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
-  img {
+  svg {
     width: 3vw;
     height: auto;
   }
@@ -18,25 +31,26 @@
 /*------ Settings ------*/
 .container {
   --color: #161616;
-  --size: 30px;
-  display: flex;
+  --size: 3vw;
+  display: none;
   justify-content: center;
   align-items: center;
   position: relative;
   cursor: pointer;
-  font-size: var(--size);
   user-select: none;
   fill: var(--color);
 }
 
-.container .moon {
+.moon {
   position: absolute;
+  max-width: var(--size);
   animation: keyframes-fill 0.5s;
 }
 
-.container .sun {
+.sun {
   position: absolute;
   display: none;
+  max-width: var(--size);
   animation: keyframes-fill 0.5s;
 }
 

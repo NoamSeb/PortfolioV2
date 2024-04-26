@@ -1,0 +1,72 @@
+{
+  "navBar": {
+    "whoAmI": "Qui suis-je ?",
+    "whatIDO": "Ce que je fais",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
+  },
+  "myName": "Noam",
+  "mySurname": "Sebahoun",
+  "status": "Game Programmer en devenir",
+  "whoAmI": {
+    "title": "Qui suis-je ?",
+    "content1": "Bonjour, je suis Noam Sebahoun !",
+    "content2": "Depuis mon enfance, je suis fasciné par le monde des jeux vidéo, une passion qui a suscité mon intérêt pour le développement. J’ai alors commencé mes études dans le domaine du web afin d’appréhender le développement de manière générale, et ai obtenu un diplôme de Bachelor en Métiers du Multimédia et de l'Internet, posant ainsi des bases solides pour ma carrière.",
+    "content3": "Actuellement, je suis étudiant à l'IIM Digital School à Paris dans l’axe jeu vidéo, afin de mettre mes compétences techniques et ma passion en faveur de ce domaine qui me passionne tant.",
+    "content4": "Désireux d'élargir mes savoir-faire, j'aborde chaque défi avec enthousiasme et un engagement envers l'amélioration continue."
+  },
+  "whatIDO": {
+    "title": "Ce que je fais",
+    "projects": [
+      {
+        "name": "Loop",
+        "image": "./projects/loop/loop.png",
+        "description": "Description of Project 1",
+        "link": "loop"
+      },
+      {
+        "name": "Planète Danette",
+        "image": "./projects/planete-danete/planeteDanette.png",
+        "description": "Description of Project 2",
+        "link": "planete-danete"
+      },
+      {
+        "name": "DivArt",
+        "image": "./projects/DivArt/DivArt.png",
+        "description": "In progress...",
+        "link": "DivArt"
+      },
+      {
+        "name": "Feminicide",
+        "image": "./projects/Feminicide/Feminicide.png",
+        "description": "In progress...",
+        "link": "Feminicide"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "tesimonials": [
+      {
+        "name": "Julien Chamayou",
+        "work": "Ingénieur Logiciel chez Sopra Steria",
+        "comment": "J’ai eu l’occasion d’encadrer Noam lors de son stage au sein d’une mission de développement d’une application web chez Sopra Steria. Noam est engagé, avenant et volontaire. \n Il s’est très bien intégré à l’équipe, et a su au fil de la période monter de façon efficace en compétences sur une stack technique qu’il ne maîtrisait pas (Java, Spring, VueJS) afin de produire des réalisations de qualité, toujours dans le respect des process de l’équipe."
+      },
+      {
+        "name": "Emilien Regent",
+        "work": "Senior programmer chez Ubisoft Paris",
+        "comment": "Noam a montré une réelle appétence pour le moteur Unity. Il est rapidement monté en compétence sur les sujets vu en cours (socle moteur, 3Cs) et n'a pas hésité à approfondir d'autres concepts par lui-même (scriptable objects, cinemachine)."
+      },
+      {
+        "name": "Amel Chabah",
+        "work": "UX/UI Designer & Développeur Full-Stack chez GAEL Systems",
+        "comment": "Noam est un collaborateur exceptionnel dont la personnalité lumineuse et les compétences remarquables ont marqué chaque projet que nous avons partagé. \n Doté d'un charisme naturel et d'un sens du leadership inné, il inspire chacun à donner le meilleur de soi-même. \n Pédagogue né, il motive et guide son équipe avec une facilité hors du commun. Son aisance à l’oral et son engagement sans relâche en font une véritable force pour tous ses projets. Toujours en quête de perfection, Noam embrasse les défis avec enthousiasme, apportant une énergie positive à chaque situation. Travailler à ses côtés est un réel plaisir, et je suis convaincue qu'il continuera à rayonner et à être une source d'inspiration pour tous ses futurs projets."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subTitle": "Que ce soit pour discuter d'un projet excitant, pour poser une question ou simplement pour dire bonjour, je suis toujours ouvert aux échanges. \n N'hésitez pas à me contacter et je vous répondrai dès que possible.",
+    "CV": "Téléchargez mon CV"
+  }
+}
