@@ -1,17 +1,16 @@
+// components/Projects.tsx
 import styles from "./projects.module.scss";
 import Link from "next/link";
 
-export default async function Projects({ lng }) {
+const Projects: React.FC<{ lng: string }> = ({ lng }) => {
   // Fetching Projects data from JSON
-  const projectData = await import(
-    "../../app/i18n/locales/" + lng + "/translation.json"
-  );
+  const projectData = require(`../../app/i18n/locales/${lng}/translation.json`);
 
   return (
     <div className={styles.projects}>
       {projectData.whatIDO &&
         projectData.whatIDO.projects &&
-        projectData.whatIDO.projects.map((project, index) => (
+        projectData.whatIDO.projects.map((project: any, index: number) => (
           <div key={index} className={styles.project}>
             <img src={project.image} alt="" />
             <Link href={`/${project.link}`}>
@@ -23,4 +22,6 @@ export default async function Projects({ lng }) {
         ))}
     </div>
   );
-}
+};
+
+export default Projects;

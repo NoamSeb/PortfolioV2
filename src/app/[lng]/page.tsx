@@ -6,7 +6,6 @@ import NavBar from "@/components/navBar/NavBar";
 import Projects from "@/components/projects/Projects";
 import Testimonials from "@/components/testimonials/Testimonials";
 import Contact from "@/components/contact/Contact";
-import Logo from "./assets/logo.svg";
 
 export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng);
