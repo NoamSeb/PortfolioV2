@@ -13,7 +13,7 @@ const Projects: React.FC<{ lng: string }> = ({ lng }) => {
         projectData.whatIDO.projects.map((project: any, index: number) => (
           <div key={index} className={styles.project}>
             <img src={project.image} alt="" />
-            <Link href={`/${project.link}`}>
+            <Link href={`/${lng}/${project.link}`}>
               <div className={styles.sail}>
                 <p>{project.name}</p>
               </div>

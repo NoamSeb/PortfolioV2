@@ -1,7 +1,10 @@
 import styles from "./contact.module.scss";
 import { useTranslation } from "../../app/i18n";
 
-export default async function Contact({ lng }) {
+interface ContactProps {
+  lng: string;
+}
+export default async function Contact({ lng }: ContactProps) {
   const { t } = await useTranslation(lng);
 
   return (

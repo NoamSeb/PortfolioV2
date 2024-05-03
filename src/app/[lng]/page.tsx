@@ -7,7 +7,11 @@ import Projects from "@/components/projects/Projects";
 import Testimonials from "@/components/testimonials/Testimonials";
 import Contact from "@/components/contact/Contact";
 
-export default async function Page({ params: { lng } }) {
+interface PageProps {
+  lng: string;
+}
+
+export default async function Page({ params: { lng } }: { params: PageProps }) {
   const { t } = await useTranslation(lng);
 
   return (
@@ -35,6 +39,13 @@ export default async function Page({ params: { lng } }) {
               <p className={styles.r}>{t("whoAmI.content" + i + "")}</p>
             ))}
             <img src="" alt="" />
+          </div>
+          <div className={styles.opquastCertif}>
+            <h3 className={styles.b}>{t("whoAmI.opquast.title")}</h3>
+            <div className={styles.opquastCertifContent}>
+              <img src="logo_opquast_m.webp" alt="opquast logo" />
+              <p className={styles.r}>{t("whoAmI.opquast.content")}</p>
+            </div>
           </div>
         </div>
         <div id="whatIDO" className={styles.whatIDO}>

@@ -2,7 +2,10 @@ import style from "./navBar.module.scss";
 import Link from "next/link";
 import { useTranslation } from "../../app/i18n";
 
-export default async function NavBar({ lng }) {
+interface NavProps {
+  lng: string;
+}
+export default async function NavBar({ lng }: NavProps) {
   const { t } = await useTranslation(lng);
   return (
     <nav className={style.navBar}>
