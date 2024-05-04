@@ -22,7 +22,7 @@ export default async function NavBar({ lng }: NavProps) {
         <Link href="#contact">
           <li>{t("navBar.contact")}</li>
         </Link>
-      </ul
+      </ul>
     </nav>
   );
 }
