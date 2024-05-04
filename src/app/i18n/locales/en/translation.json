@@ -55,7 +55,12 @@
         },
         "description": {
           "title": "Description",
-          "content": "In December 2024, I had the very special pleasure of participating in the Night of Info. Accompanied by my friends Amézir Messaoud, Amel Chabah, and Driss Benadjal, we created a website on the theme of climate change (which was the theme imposed for this 2024 edition). In addition to the limited time, another constraint for this website was that it had to include a question-answer game. That's when we thought about adding 3D using the ThreeJS library. After 8 hours of hackathon, we delivered our \"Planet Danette\" website. It won second place for the most accessible website. It's a result we're very proud of, especially considering how complex it is to make a website accessible with 3D."
+          "content": "In December 2024, I had the very special pleasure of participating in the Night of Info. Accompanied by my friends Amézir Messaoud, Amel Chabah, and Driss Benadjal, we created a website on the theme of climate change (which was the theme imposed for this 2024 edition). In addition to the limited time, another constraint for this website was that it had to include a question-answer game. That's when we thought about adding 3D using the ThreeJS library. After 8 hours of hackathon, we delivered our \"Planet Danette\" website. It won second place for the most accessible website. It's a result we're very proud of, especially considering how complex it is to make a website accessible with 3D.",
+          "images": [
+            "./projects/planete-danete/websitePic1.png",
+            "./projects/planete-danete/websitePic2.png",
+            "./projects/planete-danete/websitePic3.png"
+          ]
         },
         "link": "planete-danette"
       },
@@ -72,7 +77,12 @@
         },
         "description": {
           "title": "Description",
-          "content": "At the end of my second year of MMI, we had to create a website for a fictional art exhibition. We chose to focus on the Impressionist movement because we found it very interesting and thought it would fit well with the concept of the site we had in mind. For this project, I was the interactive developer. My task was to create an augmented reality feature directly accessible from the website! To do this, I used Blender to create a custom scene that I imported as GLTF using the ThreeJS library, allowing me to manage the 3D environment in the browser, and I used WebXR to implement this famous augmented reality feature."
+          "content": "At the end of my second year of MMI, we had to create a website for a fictional art exhibition. We chose to focus on the Impressionist movement because we found it very interesting and thought it would fit well with the concept of the site we had in mind. For this project, I was the interactive developer. My task was to create an augmented reality feature directly accessible from the website! To do this, I used Blender to create a custom scene that I imported as GLTF using the ThreeJS library, allowing me to manage the 3D environment in the browser, and I used WebXR to implement this famous augmented reality feature.",
+          "images": [
+            "./projects/DivArt/websitePic1.png",
+            "./projects/DivArt/websitePic2.png",
+            "./projects/DivArt/websitePic3.png"
+          ]
         },
         "link": "DivArt"
       },
@@ -88,7 +98,11 @@
         },
         "description": {
           "title": "Description",
-          "content": "At the beginning of my second year of MMI, we were asked to create a data visualization website on a theme of our choice. For this project, I was accompanied by Clara Many and Pagnarith Kok Srey. We chose to address the theme of femicides because we believe it is still too little highlighted despite its importance in society. To populate our site, we retrieved data from the feminicides.fr website, which lists the number of femicides per year since 2016. This impactful project was presented on the Gustave Eiffel University website for the Day against Violence towards Women. It was also mentioned on the list of committed student projects proposed by the Gustave Eiffel University website."
+          "content": "At the beginning of my second year of MMI, we were asked to create a data visualization website on a theme of our choice. For this project, I was accompanied by Clara Many and Pagnarith Kok Srey. We chose to address the theme of femicides because we believe it is still too little highlighted despite its importance in society. To populate our site, we retrieved data from the feminicides.fr website, which lists the number of femicides per year since 2016. This impactful project was presented on the Gustave Eiffel University website for the Day against Violence towards Women. It was also mentioned on the list of committed student projects proposed by the Gustave Eiffel University website.",
+          "images": [
+            "./projects/Feminicide/websitePic1.png",
+            "./projects/Feminicide/websitePic2.png"
+          ]
         },
         "link": "Feminicide"
       }

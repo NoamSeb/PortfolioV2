@@ -34,7 +34,11 @@
         },
         "description": {
           "title": "Description",
-          "content": "Dans le cadre d'un projet d'étude, nous avons eu l'occasion de créer un mini-jeu en utilisant le moteur Unity. Pour nous guider dans cette réalisation, nous avons suivi des cours et consulté des ressources pour comprendre le fonctionnement du moteur ainsi que du langage de programmation, qui est le C#. Nous avions la liberté de choisir la thématique du jeu, ses mécaniques physiques, à condition qu'il y ait une condition de victoire/défaite, l'utilisation du système d'entrée (Input System) ainsi que l'utilisation de prefabs. Dans le cadre de ce projet, j'ai souhaité approfondir mes connaissances en apprenant à utiliser les objets scriptables (scriptable objects) ainsi que Cinemachine, ce qui m'a permis de donner plus de vie à mon jeu."
+          "content": "Dans le cadre d'un projet d'étude, nous avons eu l'occasion de créer un mini-jeu en utilisant le moteur Unity. Pour nous guider dans cette réalisation, nous avons suivi des cours et consulté des ressources pour comprendre le fonctionnement du moteur ainsi que du langage de programmation, qui est le C#. Nous avions la liberté de choisir la thématique du jeu, ses mécaniques physiques, à condition qu'il y ait une condition de victoire/défaite, l'utilisation du système d'entrée (Input System) ainsi que l'utilisation de prefabs. Dans le cadre de ce projet, j'ai souhaité approfondir mes connaissances en apprenant à utiliser les objets scriptables (scriptable objects) ainsi que Cinemachine, ce qui m'a permis de donner plus de vie à mon jeu.",
+          "images": [
+            "./projects/loop/gamePic1.png",
+            "./projects/loop/gamePic2.png"
+          ]
         },
         "link": "loop"
       },
@@ -51,7 +55,12 @@
         },
         "description": {
           "title": "Description",
-          "content": "En décembre 2024, j'ai eu le privilège de participer à la Nuit de l'Info. Accompagné de mes amis Amézir Messaoud, Amel Chabah et Driss Benadjal, nous avons réalisé un site sur le thème du changement climatique, qui était imposé pour cette édition 2024. En plus du temps limité, une autre contrainte pour ce site était l'inclusion d'un jeu de questions-réponses. C'est alors que nous avons décidé d'ajouter de la 3D en utilisant la bibliothèque ThreeJS. Après 8 heures de hackathon, nous avons livré notre site \"Planète Danette\". Celui-ci a décroché la deuxième place pour le site le plus accessible. C'est un résultat dont nous sommes très fiers, d'autant plus qu'il est très complexe de rendre un site accessible avec de la 3D."
+          "content": "En décembre 2024, j'ai eu le privilège de participer à la Nuit de l'Info. Accompagné de mes amis Amézir Messaoud, Amel Chabah et Driss Benadjal, nous avons réalisé un site sur le thème du changement climatique, qui était imposé pour cette édition 2024. En plus du temps limité, une autre contrainte pour ce site était l'inclusion d'un jeu de questions-réponses. C'est alors que nous avons décidé d'ajouter de la 3D en utilisant la bibliothèque ThreeJS. Après 8 heures de hackathon, nous avons livré notre site \"Planète Danette\". Celui-ci a décroché la deuxième place pour le site le plus accessible. C'est un résultat dont nous sommes très fiers, d'autant plus qu'il est très complexe de rendre un site accessible avec de la 3D.",
+          "images": [
+            "./projects/planete-danete/websitePic1.png",
+            "./projects/planete-danete/websitePic2.png",
+            "./projects/planete-danete/websitePic3.png"
+          ]
         },
         "link": "planete-danette"
       },
@@ -68,7 +77,12 @@
         },
         "description": {
           "title": "Description",
-          "content": "À la fin de ma deuxième année de MMI, nous devions créer un site pour une exposition artistique fictive. Nous avons décidé de nous inspirer du mouvement impressionniste, car nous le trouvions très intéressant et qu'il correspondait bien à l'idée de site que nous avions en tête. Pour ce projet, j'ai été chargé du développement interactif. Mon travail consistait à créer un dispositif de réalité augmentée directement accessible depuis le site ! Pour cela, j'ai utilisé Blender pour créer une scène personnalisée que j'ai importée en format GLTF à l'aide de la bibliothèque ThreeJS, ce qui m'a permis de gérer l'environnement 3D dans le navigateur, et j'ai utilisé WebXR pour réaliser cette fameuse réalité augmentée."
+          "content": "À la fin de ma deuxième année de MMI, nous devions créer un site pour une exposition artistique fictive. Nous avons décidé de nous inspirer du mouvement impressionniste, car nous le trouvions très intéressant et qu'il correspondait bien à l'idée de site que nous avions en tête. Pour ce projet, j'ai été chargé du développement interactif. Mon travail consistait à créer un dispositif de réalité augmentée directement accessible depuis le site ! Pour cela, j'ai utilisé Blender pour créer une scène personnalisée que j'ai importée en format GLTF à l'aide de la bibliothèque ThreeJS, ce qui m'a permis de gérer l'environnement 3D dans le navigateur, et j'ai utilisé WebXR pour réaliser cette fameuse réalité augmentée.",
+          "images": [
+            "./projects/DivArt/websitePic1.png",
+            "./projects/DivArt/websitePic2.png",
+            "./projects/DivArt/websitePic3.png"
+          ]
         },
         "link": "DivArt"
       },
@@ -84,7 +98,11 @@
         },
         "description": {
           "title": "Description",
-          "content": "Au début de ma deuxième année de MMI, il nous a été demandé de réaliser un site internet de visualisation de données sur le thème de notre choix. Pour ce projet, j'étais accompagné de Clara Many et de Pagnarith Kok Srey. Nous avons décidé d'aborder le sujet des féminicides car nous pensons qu'il est encore trop peu mis en avant malgré son importance dans nos sociétés. Pour alimenter notre site, nous avons récupéré les données du site feminicides.fr qui recense le nombre de féminicides par an depuis 2016. Ce projet, touchant, a été présenté sur le site de l'université Gustave Eiffel à l'occasion de la Journée contre les violences envers les femmes. Il a également été mentionné sur la liste des projets étudiants engagés proposée par le site de l'université Gustave Eiffel."
+          "content": "Au début de ma deuxième année de MMI, il nous a été demandé de réaliser un site internet de visualisation de données sur le thème de notre choix. Pour ce projet, j'étais accompagné de Clara Many et de Pagnarith Kok Srey. Nous avons décidé d'aborder le sujet des féminicides car nous pensons qu'il est encore trop peu mis en avant malgré son importance dans nos sociétés. Pour alimenter notre site, nous avons récupéré les données du site feminicides.fr qui recense le nombre de féminicides par an depuis 2016. Ce projet, touchant, a été présenté sur le site de l'université Gustave Eiffel à l'occasion de la Journée contre les violences envers les femmes. Il a également été mentionné sur la liste des projets étudiants engagés proposée par le site de l'université Gustave Eiffel.",
+          "images": [
+            "./projects/Feminicide/websitePic1.png",
+            "./projects/Feminicide/websitePic2.png"
+          ]
         },
         "link": "Feminicide"
       }
