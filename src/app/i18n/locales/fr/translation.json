@@ -10,7 +10,7 @@
   "status": "Game Programmer en devenir",
   "whoAmI": {
     "title": "Qui suis-je ?",
-    "content1": "Hello, je suis Noam Sebahoun !",
+    "content1": "Salut, je suis Noam Sebahoun !",
     "content2": "Depuis mon enfance, je suis fasciné par le monde des jeux vidéo, une passion qui a suscité mon intérêt pour le développement. J’ai alors commencé mes études dans le domaine du web afin d’appréhender le développement de manière générale, et ai obtenu un diplôme de Bachelor en Métiers du Multimédia et de l'Internet, posant ainsi des bases solides pour ma carrière.",
     "content3": "Actuellement, je suis étudiant à l'IIM Digital School à Paris dans l’axe jeu vidéo, afin de mettre mes compétences techniques et ma passion en faveur de ce domaine qui me passionne tant.",
     "content4": "Désireux d'élargir mes savoir-faire, j'aborde chaque défi avec enthousiasme et un engagement envers l'amélioration continue.",
@@ -40,7 +40,11 @@
             "./projects/loop/gamePic2.png"
           ]
         },
-        "link": "loop"
+        "link": "loop",
+        "externalLink": {
+          "title": "Voir le projet",
+          "link": "https://noamseb.itch.io/loop"
+        }
       },
       {
         "name": "Planète Danette",
@@ -62,7 +66,11 @@
             "./projects/planete-danete/websitePic3.png"
           ]
         },
-        "link": "planete-danette"
+        "link": "planete-danette",
+        "externalLink": {
+          "title": "Voir le projet",
+          "link": "https://planetedanette.vercel.app/"
+        }
       },
       {
         "name": "DivArt",
@@ -84,7 +92,11 @@
             "./projects/DivArt/websitePic3.png"
           ]
         },
-        "link": "DivArt"
+        "link": "DivArt",
+        "externalLink": {
+          "title": "Voir le projet",
+          "link": "https://divart-museum.noamsebahoun.fr/"
+        }
       },
       {
         "name": "Feminicide",
@@ -104,7 +116,11 @@
             "./projects/Feminicide/websitePic2.png"
           ]
         },
-        "link": "Feminicide"
+        "link": "Feminicide",
+        "externalLink": {
+          "title": "Voir le projet",
+          "link": "https://noamseb.github.io/DataViz/"
+        }
       }
     ]
   },

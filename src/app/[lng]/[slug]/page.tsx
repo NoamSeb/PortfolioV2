@@ -55,6 +55,13 @@ export default async function Page({
               </p>
               <h2 className={styles.b}>{t(project.description.title)}</h2>
               <p className={styles.r}>{project.description.content}</p>
+              <Link href={`${project.externalLink.link}`}>
+                <button
+                  className={`${styles.projectInfosDescriptionExternalLink} ${styles.b}`}
+                >
+                  {t(project.externalLink.title)}
+                </button>
+              </Link>
             </div>
           </div>
         </div>

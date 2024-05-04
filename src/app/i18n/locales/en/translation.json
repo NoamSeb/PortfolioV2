@@ -40,7 +40,11 @@
             "./projects/loop/gamePic2.png"
           ]
         },
-        "link": "loop"
+        "link": "loop",
+        "externalLink": {
+          "title": "See project",
+          "link": "https://noamseb.itch.io/loop"
+        }
       },
       {
         "name": "Planète Danette",
@@ -62,7 +66,11 @@
             "./projects/planete-danete/websitePic3.png"
           ]
         },
-        "link": "planete-danette"
+        "link": "planete-danette",
+        "externalLink": {
+          "title": "See project",
+          "link": "https://planetedanette.vercel.app/"
+        }
       },
       {
         "name": "DivArt",
@@ -84,7 +92,11 @@
             "./projects/DivArt/websitePic3.png"
           ]
         },
-        "link": "DivArt"
+        "link": "DivArt",
+        "externalLink": {
+          "title": "See project",
+          "link": "https://divart-museum.noamsebahoun.fr/"
+        }
       },
       {
         "name": "Feminicide",
@@ -104,7 +116,11 @@
             "./projects/Feminicide/websitePic2.png"
           ]
         },
-        "link": "Feminicide"
+        "link": "Feminicide",
+        "externalLink": {
+          "title": "See project",
+          "link": "https://noamseb.github.io/DataViz/"
+        }
       }
     ]
   },

@@ -61,5 +61,20 @@
       margin-left: 2rem;
       max-width: 30vw;
     }
+    a {
+      text-decoration: none;
+      button {
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+          background-color: #161616;
+          color: #fff;
+        }
+      }
+    }
   }
 }

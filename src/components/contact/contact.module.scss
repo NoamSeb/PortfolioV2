@@ -16,13 +16,17 @@
   font-weight: 100;
 }
 .downloadCV {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
   color: black;
   font-style: normal;
-  transition: text-decoration 0.3s ease, font-style 0.3s ease;
+  transition: 0.5s;
+  font-style: italic;
   &:hover {
-    font-style: italic;
-    text-decoration: underline;
+    background-color: #161616;
+    color: #fff;
   }
 }
 .contactLinks {
