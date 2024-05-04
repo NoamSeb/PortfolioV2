@@ -29,4 +29,37 @@
     text-transform: uppercase;
     margin-bottom: 0;
   }
+  img {
+    width: 35vw;
+    height: 20vw;
+    z-index: -1;
+  }
+}
+.projectInfos {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  &Images {
+    width: 60vw;
+    img {
+      width: 90%;
+      height: auto;
+    }
+  }
+  &Description {
+    width: 40vw;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .stacks {
+      display: flex;
+      gap: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-left: 2rem;
+      max-width: 30vw;
+    }
+  }
 }

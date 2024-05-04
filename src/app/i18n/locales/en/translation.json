@@ -13,33 +13,83 @@
     "content1": "Hello, I'm Noam Sebahoun!",
     "content2": "Since my childhood, I've been fascinated by the world of video games, a passion that sparked my interest in development. I then began my studies in the field of web development to understand development in general, and obtained a Bachelor's degree in Multimedia and Internet Jobs, thus laying a solid foundation for my career.",
     "content3": "Currently, I am a student at the IIM Digital School in Paris, focusing on the video game axis, in order to leverage my technical skills and passion for this field that I am so passionate about.",
-    "content4": "Always eager to broaden my skillset, I approach each challenge with enthusiasm and a commitment to continuous improvement."
+    "content4": "Always eager to broaden my skillset, I approach each challenge with enthusiasm and a commitment to continuous improvement.",
+    "opquast": {
+      "title": "Opquast certification",
+      "content": "I am also Opquast certified, which is a certification that validates the knowledge of good web practices. This certification is recognized by the French government and is a real asset in the field of web development. I scored 830 points, which corresponds to the advanced level."
+    }
   },
   "whatIDO": {
     "title": "What do I do ?",
     "projects": [
       {
-        "name": "Loop",
+        "name": "loop",
         "image": "./projects/loop/loop.png",
-        "description": "Description of loop",
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "Unity",
+            "C#"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "As part of a study project, we had the pleasure of creating a mini-game using the Unity engine. To help us achieve this project, we had resource classes to understand the engine and the programming language, which is C#. We were free to choose the theme, the game physics, provided there was a win/lose condition, the use of the Input System, and the use of prefabs. During this project, I wanted to go a step further by learning how to use scriptable objects and Cinemachine, which allowed me to give more life to my game.",
+          "images": [
+            "./projects/loop/gamePic1.png",
+            "./projects/loop/gamePic2.png"
+          ]
+        },
         "link": "loop"
       },
       {
         "name": "Planète Danette",
         "image": "./projects/planete-danete/planeteDanette.png",
-        "description": "Description of Planète Danette",
-        "link": "planete-danete"
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "ThreeJS",
+            "NextJS",
+            "NodeJS"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "In December 2024, I had the very special pleasure of participating in the Night of Info. Accompanied by my friends Amézir Messaoud, Amel Chabah, and Driss Benadjal, we created a website on the theme of climate change (which was the theme imposed for this 2024 edition). In addition to the limited time, another constraint for this website was that it had to include a question-answer game. That's when we thought about adding 3D using the ThreeJS library. After 8 hours of hackathon, we delivered our \"Planet Danette\" website. It won second place for the most accessible website. It's a result we're very proud of, especially considering how complex it is to make a website accessible with 3D."
+        },
+        "link": "planete-danette"
       },
       {
         "name": "DivArt",
         "image": "./projects/DivArt/DivArt.png",
-        "description": "Description of DivArt",
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "Blender",
+            "ThreeJS",
+            "WebXR"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "At the end of my second year of MMI, we had to create a website for a fictional art exhibition. We chose to focus on the Impressionist movement because we found it very interesting and thought it would fit well with the concept of the site we had in mind. For this project, I was the interactive developer. My task was to create an augmented reality feature directly accessible from the website! To do this, I used Blender to create a custom scene that I imported as GLTF using the ThreeJS library, allowing me to manage the 3D environment in the browser, and I used WebXR to implement this famous augmented reality feature."
+        },
         "link": "DivArt"
       },
       {
         "name": "Feminicide",
         "image": "./projects/Feminicide/Feminicide.png",
-        "description": "In progress...",
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "JavaScript",
+            "D3JS"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "At the beginning of my second year of MMI, we were asked to create a data visualization website on a theme of our choice. For this project, I was accompanied by Clara Many and Pagnarith Kok Srey. We chose to address the theme of femicides because we believe it is still too little highlighted despite its importance in society. To populate our site, we retrieved data from the feminicides.fr website, which lists the number of femicides per year since 2016. This impactful project was presented on the Gustave Eiffel University website for the Day against Violence towards Women. It was also mentioned on the list of committed student projects proposed by the Gustave Eiffel University website."
+        },
         "link": "Feminicide"
       }
     ]
@@ -50,7 +100,7 @@
       {
         "name": "Julien Chamayou",
         "work": "Software engineer at Sopra Steria",
-        "comment": "I had the opportunity to supervise Noam during his internship within a web application development project at Sopra Steria. Noam is committed, personable, and proactive. \n He integrated very well into the team and effectively improved his skills over time on a technical stack he was not familiar with (Java, Spring, VueJS) in order to deliver high-quality outcomes, always adhering to the team's processes."
+        "comment": "I had the opportunity to supervise Noam during his internship within a web application development project at Sopra Steria. Noam is committed, personable, and proactive. He integrated very well into the team and effectively improved his skills over time on a technical stack he was not familiar with (Java, Spring, VueJS) in order to deliver high-quality outcomes, always adhering to the team's processes."
       },
       {
         "name": "Emilien Regent",
@@ -60,13 +110,14 @@
       {
         "name": "Amel Chabah",
         "work": "UX/UI Designer & Full-Stack Developer at GAEL Systems",
-        "comment": "Noam is an exceptional collaborator whose bright personality and remarkable skills have left a mark on every project we have shared. Endowed with natural charisma and innate leadership qualities, he inspires everyone to give their best. \n A born educator, he motivates and guides his team with uncommon ease. His ease with public speaking and relentless commitment make him a true asset to all his projects. \n Always in pursuit of perfection, Noam embraces challenges with enthusiasm, bringing positive energy to every situation. Working alongside him is a real pleasure, and I am convinced that he will continue to shine and be a source of inspiration for all his future projects."
+        "comment": "Noam is an exceptional collaborator whose bright personality and remarkable skills have left a mark on every project we have shared. Endowed with natural charisma and innate leadership qualities, he inspires everyone to give their best. A born educator, he motivates and guides his team with uncommon ease. His ease with public speaking and relentless commitment make him a true asset to all his projects. Always in pursuit of perfection, Noam embraces challenges with enthusiasm, bringing positive energy to every situation. Working alongside him is a real pleasure, and I am convinced that he will continue to shine and be a source of inspiration for all his future projects."
       }
     ]
   },
   "contact": {
     "title": "Contact",
-    "subTitle": "Whether it's to discuss an exciting project, ask a question, or just to say hello, I'm always open to conversations. \n Feel free to get in touch, and I'll respond as soon as possible.",
+    "subTitle": "Whether it's to discuss an exciting project, ask a question, or just to say hello, I'm always open to conversations. Feel free to get in touch, and I'll respond as soon as possible.",
+    "subTitle2": "If you have any questions, please feel free to contact me by mail or, on LinkedIn.",
     "CV": "Download my CV"
   }
 }

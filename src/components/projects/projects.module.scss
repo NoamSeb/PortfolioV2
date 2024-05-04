@@ -5,6 +5,14 @@ $height: 40vh;
   font-family: DM sans Regular;
   src: url(/fonts/DMSans_18pt-Regular.ttf) format("ttf");
 }
+.projectContainer {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: 0 !important;
+  overflow: auto;
+  overflow-y: hidden;
+  padding-right: 4vw;
+}
 .projects {
   display: flex;
   gap: 2vw;

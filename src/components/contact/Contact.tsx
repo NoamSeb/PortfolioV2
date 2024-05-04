@@ -9,14 +9,25 @@ export default async function Contact({ lng }: ContactProps) {
 
   return (
     <div className={styles.contact}>
-      <p>{t("contact.subTitle")}</p>
-      <p>
-        If you have any questions, please feel free to contact me by mail or, on
-        LinkedIn
-      </p>
-      <a href="./CV_nsebahoun.pdf" download="noam_sebahoun_CV">
-        {t("contact.CV")}
-      </a>
+      <p className={styles.r}>{t("contact.subTitle")}</p>
+      <p className={styles.r}>{t("contact.subTitle2")}</p>
+      <div className={styles.contactLinks}>
+        <a
+          href="./CV_nsebahoun.pdf"
+          download="noam_sebahoun_CV"
+          className={`${styles.b} ${styles.downloadCV}`}
+        >
+          {t("contact.CV")}
+        </a>
+        <div className={styles.socials}>
+          <a href="mailto:noam.sebahoun@gmail.com">
+            <img src="email.png" alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/noam-sebahoun-03a79a206/">
+            <img src="linkedin.png" alt="" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

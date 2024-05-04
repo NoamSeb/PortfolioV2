@@ -21,9 +21,11 @@
   }
 }
 .testimonials {
+  width: 80vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: space-around;
+  gap: 30px;
   .testimonial {
     width: 80%;
   }

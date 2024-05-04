@@ -10,10 +10,14 @@
   "status": "Game Programmer en devenir",
   "whoAmI": {
     "title": "Qui suis-je ?",
-    "content1": "Bonjour, je suis Noam Sebahoun !",
+    "content1": "Hello, je suis Noam Sebahoun !",
     "content2": "Depuis mon enfance, je suis fasciné par le monde des jeux vidéo, une passion qui a suscité mon intérêt pour le développement. J’ai alors commencé mes études dans le domaine du web afin d’appréhender le développement de manière générale, et ai obtenu un diplôme de Bachelor en Métiers du Multimédia et de l'Internet, posant ainsi des bases solides pour ma carrière.",
     "content3": "Actuellement, je suis étudiant à l'IIM Digital School à Paris dans l’axe jeu vidéo, afin de mettre mes compétences techniques et ma passion en faveur de ce domaine qui me passionne tant.",
-    "content4": "Désireux d'élargir mes savoir-faire, j'aborde chaque défi avec enthousiasme et un engagement envers l'amélioration continue."
+    "content4": "Désireux d'élargir mes savoir-faire, j'aborde chaque défi avec enthousiasme et un engagement envers l'amélioration continue.",
+    "opquast": {
+      "title": "Certification Opquast",
+      "content": "Je suis également certifié Opquast, qui est une certification qui valide la connaissance des bonnes pratiques web. Cette certification est reconnue par le gouvernement français et constitue un réel atout dans le domaine du développement web. J'ai obtenu 830 points, ce qui correspond au niveau avancé."
+    }
   },
   "whatIDO": {
     "title": "Ce que je fais",
@@ -21,25 +25,67 @@
       {
         "name": "Loop",
         "image": "./projects/loop/loop.png",
-        "description": "Description of Project 1",
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "Unity",
+            "C#"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "Dans le cadre d'un projet d'étude, nous avons eu l'occasion de créer un mini-jeu en utilisant le moteur Unity. Pour nous guider dans cette réalisation, nous avons suivi des cours et consulté des ressources pour comprendre le fonctionnement du moteur ainsi que du langage de programmation, qui est le C#. Nous avions la liberté de choisir la thématique du jeu, ses mécaniques physiques, à condition qu'il y ait une condition de victoire/défaite, l'utilisation du système d'entrée (Input System) ainsi que l'utilisation de prefabs. Dans le cadre de ce projet, j'ai souhaité approfondir mes connaissances en apprenant à utiliser les objets scriptables (scriptable objects) ainsi que Cinemachine, ce qui m'a permis de donner plus de vie à mon jeu."
+        },
         "link": "loop"
       },
       {
         "name": "Planète Danette",
         "image": "./projects/planete-danete/planeteDanette.png",
-        "description": "Description of Project 2",
-        "link": "planete-danete"
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "ThreeJS",
+            "NextJS",
+            "NodeJS"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "En décembre 2024, j'ai eu le privilège de participer à la Nuit de l'Info. Accompagné de mes amis Amézir Messaoud, Amel Chabah et Driss Benadjal, nous avons réalisé un site sur le thème du changement climatique, qui était imposé pour cette édition 2024. En plus du temps limité, une autre contrainte pour ce site était l'inclusion d'un jeu de questions-réponses. C'est alors que nous avons décidé d'ajouter de la 3D en utilisant la bibliothèque ThreeJS. Après 8 heures de hackathon, nous avons livré notre site \"Planète Danette\". Celui-ci a décroché la deuxième place pour le site le plus accessible. C'est un résultat dont nous sommes très fiers, d'autant plus qu'il est très complexe de rendre un site accessible avec de la 3D."
+        },
+        "link": "planete-danette"
       },
       {
         "name": "DivArt",
         "image": "./projects/DivArt/DivArt.png",
-        "description": "In progress...",
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "Blender",
+            "ThreeJS",
+            "WebXR"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "À la fin de ma deuxième année de MMI, nous devions créer un site pour une exposition artistique fictive. Nous avons décidé de nous inspirer du mouvement impressionniste, car nous le trouvions très intéressant et qu'il correspondait bien à l'idée de site que nous avions en tête. Pour ce projet, j'ai été chargé du développement interactif. Mon travail consistait à créer un dispositif de réalité augmentée directement accessible depuis le site ! Pour cela, j'ai utilisé Blender pour créer une scène personnalisée que j'ai importée en format GLTF à l'aide de la bibliothèque ThreeJS, ce qui m'a permis de gérer l'environnement 3D dans le navigateur, et j'ai utilisé WebXR pour réaliser cette fameuse réalité augmentée."
+        },
         "link": "DivArt"
       },
       {
         "name": "Feminicide",
         "image": "./projects/Feminicide/Feminicide.png",
-        "description": "In progress...",
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "JavaScript",
+            "D3JS"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "Au début de ma deuxième année de MMI, il nous a été demandé de réaliser un site internet de visualisation de données sur le thème de notre choix. Pour ce projet, j'étais accompagné de Clara Many et de Pagnarith Kok Srey. Nous avons décidé d'aborder le sujet des féminicides car nous pensons qu'il est encore trop peu mis en avant malgré son importance dans nos sociétés. Pour alimenter notre site, nous avons récupéré les données du site feminicides.fr qui recense le nombre de féminicides par an depuis 2016. Ce projet, touchant, a été présenté sur le site de l'université Gustave Eiffel à l'occasion de la Journée contre les violences envers les femmes. Il a également été mentionné sur la liste des projets étudiants engagés proposée par le site de l'université Gustave Eiffel."
+        },
         "link": "Feminicide"
       }
     ]
@@ -50,7 +96,7 @@
       {
         "name": "Julien Chamayou",
         "work": "Ingénieur Logiciel chez Sopra Steria",
-        "comment": "J’ai eu l’occasion d’encadrer Noam lors de son stage au sein d’une mission de développement d’une application web chez Sopra Steria. Noam est engagé, avenant et volontaire. \n Il s’est très bien intégré à l’équipe, et a su au fil de la période monter de façon efficace en compétences sur une stack technique qu’il ne maîtrisait pas (Java, Spring, VueJS) afin de produire des réalisations de qualité, toujours dans le respect des process de l’équipe."
+        "comment": "J’ai eu l’occasion d’encadrer Noam lors de son stage au sein d’une mission de développement d’une application web chez Sopra Steria. Noam est engagé, avenant et volontaire. Il s’est très bien intégré à l’équipe, et a su au fil de la période monter de façon efficace en compétences sur une stack technique qu’il ne maîtrisait pas (Java, Spring, VueJS) afin de produire des réalisations de qualité, toujours dans le respect des process de l’équipe."
       },
       {
         "name": "Emilien Regent",
@@ -60,13 +106,14 @@
       {
         "name": "Amel Chabah",
         "work": "UX/UI Designer & Développeur Full-Stack chez GAEL Systems",
-        "comment": "Noam est un collaborateur exceptionnel dont la personnalité lumineuse et les compétences remarquables ont marqué chaque projet que nous avons partagé. \n Doté d'un charisme naturel et d'un sens du leadership inné, il inspire chacun à donner le meilleur de soi-même. \n Pédagogue né, il motive et guide son équipe avec une facilité hors du commun. Son aisance à l’oral et son engagement sans relâche en font une véritable force pour tous ses projets. Toujours en quête de perfection, Noam embrasse les défis avec enthousiasme, apportant une énergie positive à chaque situation. Travailler à ses côtés est un réel plaisir, et je suis convaincue qu'il continuera à rayonner et à être une source d'inspiration pour tous ses futurs projets."
+        "comment": "Noam est un collaborateur exceptionnel dont la personnalité lumineuse et les compétences remarquables ont marqué chaque projet que nous avons partagé. Doté d'un charisme naturel et d'un sens du leadership inné, il inspire chacun à donner le meilleur de soi-même. Pédagogue né, il motive et guide son équipe avec une facilité hors du commun. Son aisance à l’oral et son engagement sans relâche en font une véritable force pour tous ses projets. Toujours en quête de perfection, Noam embrasse les défis avec enthousiasme, apportant une énergie positive à chaque situation. Travailler à ses côtés est un réel plaisir, et je suis convaincue qu'il continuera à rayonner et à être une source d'inspiration pour tous ses futurs projets."
       }
     ]
   },
   "contact": {
     "title": "Contact",
-    "subTitle": "Que ce soit pour discuter d'un projet excitant, pour poser une question ou simplement pour dire bonjour, je suis toujours ouvert aux échanges. \n N'hésitez pas à me contacter et je vous répondrai dès que possible.",
+    "subTitle": "Que ce soit pour discuter d'un projet excitant, pour poser une question ou simplement pour dire bonjour, je suis toujours ouvert aux échanges. N'hésitez pas à me contacter et je vous répondrai dès que possible.",
+    "subTitle2": "Si vous avez des questions, n'hésitez pas à me contacter par mail ou, sur LinkedIn",
     "CV": "Téléchargez mon CV"
   }
 }

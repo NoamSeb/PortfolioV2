@@ -8,12 +8,12 @@ interface ProjectProps {
   slug: string;
 }
 
-export default function Page({
+export default async function Page({
   params: { lng, slug },
 }: {
   params: ProjectProps;
 }) {
-  const { t } = useTranslation(lng);
+  const { t } = await useTranslation(lng);
 
   const projectData = require(`../../i18n/locales/${lng}/translation.json`);
 
@@ -31,13 +31,33 @@ export default function Page({
     <>
       <header>
         <TopBar />
-      </header>
-      <main>
         <div className={styles.titleSection}>
           <h1 className={styles.b}>{project.name}</h1>
           <img src={project.image} alt={project.name} />
         </div>
-        <p>{project.description}</p>
+      </header>
+      <main>
+        <div>
+          <div className={styles.projectInfos}>
+            <div className={styles.projectInfosImages}>
+              {project.description.images.map(
+                (image: string, index: number) => (
+                  <img key={index} src={image} alt={project.name} />
+                )
+              )}
+            </div>
+            <div className={styles.projectInfosDescription}>
+              <h2 className={styles.b}>{t(project.stacks.title)}</h2>
+              <p className={`${styles.r} ${styles.stacks}`}>
+                {project.stacks.content.map((stack: string) => (
+                  <span key={stack}>{stack}</span>
+                ))}
+              </p>
+              <h2 className={styles.b}>{t(project.description.title)}</h2>
+              <p className={styles.r}>{project.description.content}</p>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );

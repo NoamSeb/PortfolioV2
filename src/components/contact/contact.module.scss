@@ -1,0 +1,40 @@
+@font-face {
+  font-family: DM sans Regular;
+  src: url(/fonts/DMSans_18pt-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: DM-sans-Bold-Italic;
+  src: url(/fonts/DMSans_18pt-BoldItalic.ttf) format("ttf");
+}
+
+.b {
+  font-family: DM-sans-Bold-Italic, sans-serif;
+  font-style: italic;
+}
+.r {
+  font-family: DM sans Regular, sans-serif;
+  font-weight: 100;
+}
+.downloadCV {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  transition: text-decoration 0.3s ease, font-style 0.3s ease;
+  &:hover {
+    font-style: italic;
+    text-decoration: underline;
+  }
+}
+.contactLinks {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.socials {
+  img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem;
+  }
+}

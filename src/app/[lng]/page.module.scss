@@ -65,6 +65,20 @@
     font-size: 1.2rem;
   }
 }
+.opquast {
+  &Certif {
+    &Content {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 2vw;
+      img {
+        width: 20vw;
+        height: auto;
+      }
+    }
+  }
+}
 .testimonials {
   max-width: 70vw;
 }
