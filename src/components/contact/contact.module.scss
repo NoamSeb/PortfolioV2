@@ -42,3 +42,11 @@
     margin: 0 1rem;
   }
 }
+@media screen and (width < 800px) {
+  .contactLinks {
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+}

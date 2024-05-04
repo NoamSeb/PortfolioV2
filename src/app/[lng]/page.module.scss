@@ -82,3 +82,40 @@
 .testimonials {
   max-width: 70vw;
 }
+
+@media screen and (width<800px) {
+  .titleSection {
+    margin-right: 5vw;
+    img {
+      display: none;
+    }
+  }
+  .opquastCertifContent {
+    flex-direction: column;
+    img {
+      width: 30vw;
+    }
+  }
+}
+@media screen and (width < 500px) {
+  .titleSection {
+    h1 {
+      font-size: 3rem;
+      .b {
+        margin-left: 10%;
+      }
+    }
+    img {
+      display: none;
+    }
+    .status {
+      font-size: 1rem;
+    }
+  }
+  .opquastCertifContent {
+    flex-direction: column;
+    img {
+      width: 50vw;
+    }
+  }
+}

@@ -22,20 +22,7 @@ export default async function NavBar({ lng }: NavProps) {
         <Link href="#contact">
           <li>{t("navBar.contact")}</li>
         </Link>
-      </ul>
-
-      {/* <input
-        hidden
-        className={style.checkIcon}
-        id="check-icon"
-        name="check-icon"
-        type="checkbox"
-      />
-      <label className={style.iconMenu} htmlFor="check-icon">
-        <div className={`${style.bar}, ${style.bar1}`}></div>
-        <div className={`${style.bar}, ${style.bar2}`}></div>
-        <div className={`${style.bar}, ${style.bar3}`}></div>
-      </label> */}
+      </ul
     </nav>
   );
 }

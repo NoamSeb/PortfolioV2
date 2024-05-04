@@ -83,3 +83,19 @@
     transform: rotate(25deg);
   }
 }
+@media screen and (width < 800) {
+  .topBar {
+    svg {
+      width: 3.5vw;
+      height: auto;
+    }
+  }
+}
+@media screen and (width < 800) {
+  .topBar {
+    svg {
+      width: 5vw;
+      height: auto;
+    }
+  }
+}
