@@ -12,6 +12,7 @@ $height: 40vh;
   overflow: auto;
   overflow-y: hidden;
   padding-right: 4vw;
+  scrollbar-width: none;
 }
 .projects {
   display: flex;
@@ -80,6 +81,7 @@ $height: 40vh;
 }
 @media screen and (width < 600px) {
   .projects {
+    max-height: 20vh;
     .project {
       width: 100vw;
       height: 50vh;

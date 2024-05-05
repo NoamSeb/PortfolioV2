@@ -43,7 +43,7 @@ export default async function Page({ params: { lng } }: { params: PageProps }) {
           <div className={styles.opquastCertif}>
             <h3 className={styles.b}>{t("whoAmI.opquast.title")}</h3>
             <div className={styles.opquastCertifContent}>
-              <img src="logo_opquast_m.webp" alt="opquast logo" />
+              <img src="logo_opquast.png" alt="opquast logo" />
               <p className={styles.r}>{t("whoAmI.opquast.content")}</p>
             </div>
           </div>

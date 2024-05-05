@@ -1,6 +1,7 @@
 import React from "react";
 import { dir } from "i18next";
 import { languages } from "../i18n/settings";
+import "./globals.scss";
 
 interface RootLayoutProps {
   children: React.ReactNode;

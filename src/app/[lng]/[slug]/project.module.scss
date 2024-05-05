@@ -78,3 +78,34 @@
     }
   }
 }
+@media screen and (width < 700px) {
+  .titleSection {
+    gap: 0;
+    h1 {
+      text-align: center;
+    }
+    img {
+      display: none;
+    }
+  }
+  .projectInfos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    &Images {
+      width: 90vw;
+      img {
+        width: 90%;
+      }
+    }
+    &Description {
+      width: 80vw;
+      margin-bottom: 10vh;
+      p {
+        max-width: 70vw;
+      }
+    }
+  }
+}

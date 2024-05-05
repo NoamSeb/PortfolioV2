@@ -1,15 +1,14 @@
 .navBar {
   background-color: #161616;
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 100;
   color: white;
   width: fit-content;
-  padding: 0.5vw;
   border-radius: 50px;
-  transform: translate(-50%, -50%);
-  position: fixed;
-  margin-left: 50vw;
-  bottom: 0;
+
   ul {
     display: flex;
     justify-content: space-around;
@@ -17,12 +16,113 @@
     list-style: none;
     padding: 0;
     width: 50vw;
+
     a {
       text-decoration: none;
       color: white;
     }
+
     li {
-      font-family: DM sans Regular, sans-serif;
+      font-family: "DM sans Regular", sans-serif;
     }
+  }
+}
+
+.responsivNavBar {
+  background-color: #161616;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  color: white;
+  width: fit-content;
+  border-radius: 50px;
+
+  .burgerMenu {
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    background-color: #161616;
+
+    span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 5px auto;
+      transition: all 0.3s ease;
+    }
+
+    &.active {
+      span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      span:nth-child(2) {
+        opacity: 0;
+      }
+      span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+      }
+    }
+  }
+
+  .showNav {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+    z-index: 1;
+    padding: 10px;
+    color: black;
+
+    ul {
+      flex-direction: column;
+      align-items: center;
+
+      li {
+        padding: 10px 0;
+      }
+    }
+  }
+
+  // &.menuActive {
+  //   .showNav {
+  //     display: block;
+  //   }
+  // }
+}
+
+@media screen and (min-width: 768px) {
+  .responsivNavBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}
+
+.toggleNav {
+  display: none; // On cache l'input checkbox
+}
+
+.toggleNav:checked + .showNav {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  a {
+    text-decoration: none;
+    color: black;
   }
 }
