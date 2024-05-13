@@ -1,7 +1,6 @@
 import style from "./navBar.module.scss";
 import Link from "next/link";
 import { useTranslation } from "../../app/i18n";
-import { useEffect } from "react";
 
 interface NavProps {
   lng: string;
@@ -29,12 +28,9 @@ export default async function NavBar({ lng }: NavProps) {
         </ul>
       </div>
       <div className={style.responsivNavBar}>
-        {/* <label htmlFor=""></label>
-        <input type="checkbox" className={style.burgerMenu} /> */}
         <label htmlFor="toggleNav" className={style.burgerMenu}></label>
         <input type="checkbox" id="toggleNav" className={style.toggleNav} />
-
-        <ul className={style.showNav}>
+        <ul className={`${style.showNav} ${style.b}`}>
           <li>
             <Link href="#whoAmI">{t("navBar.whoAmI")}</Link>
           </li>

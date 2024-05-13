@@ -7,7 +7,9 @@ export default function TopBar() {
     <div className={styles.topBar}>
       <div>
         <Link href="./">
-          <Logo />
+          <div className={styles.logoLink}>
+            <Logo />
+          </div>
         </Link>
         <label className={styles.container}>
           <input checked={true} type="checkbox" />

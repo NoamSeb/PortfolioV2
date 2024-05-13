@@ -1,3 +1,21 @@
+@font-face {
+  font-family: DM sans Regular;
+  src: url(/fonts/DMSans_18pt-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: DM-sans-Bold-Italic;
+  src: url(/fonts/DMSans_18pt-BoldItalic.ttf) format("ttf");
+}
+
+.b {
+  font-family: DM-sans-Bold-Italic, sans-serif;
+  font-style: italic;
+}
+.r {
+  font-family: DM sans Regular, sans-serif;
+  font-weight: 100;
+}
+
 .navBar {
   background-color: #161616;
   position: fixed;
@@ -71,24 +89,23 @@
       }
     }
   }
-
+  // .flexNav {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   justify-content: space-around;
+  // }
   .showNav {
     display: none;
     height: 100vh;
     width: 100vw;
-    background-color: wheat;
+    background-color: #e5e5e5;
     z-index: 1;
     padding: 10px;
     color: black;
-
-    ul {
-      flex-direction: column;
-      align-items: center;
-
-      li {
-        padding: 10px 0;
-      }
-    }
+    padding: 0px;
+    font-size: 3rem;
+    text-align: start;
   }
 
   // &.menuActive {
@@ -111,14 +128,14 @@
 }
 
 .toggleNav {
-  display: none; // On cache l'input checkbox
+  display: none;
 }
 
 .toggleNav:checked + .showNav {
   display: flex;
   margin: 0;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
   flex-direction: column;
 
   a {
