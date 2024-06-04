@@ -26,6 +26,7 @@
   color: white;
   width: fit-content;
   border-radius: 50px;
+  margin-bottom: 2svh;
 
   ul {
     display: flex;
@@ -67,26 +68,46 @@
     height: 50px;
     width: 100px;
     background-color: #161616;
+    border-radius: 40px;
 
     span {
+      transform: translateY(10px);
+    }
+    span,
+    span::before,
+    span::after {
       display: block;
-      width: 25px;
-      height: 3px;
+      width: 30px;
+      height: 4px;
       background-color: white;
       margin: 5px auto;
       transition: all 0.3s ease;
     }
 
-    &.active {
-      span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-      }
-      span:nth-child(2) {
-        opacity: 0;
-      }
-      span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
-      }
+    span::before,
+    span::after {
+      content: "";
+      position: absolute;
+    }
+
+    span::before {
+      transform: translateY(0px);
+    }
+
+    span::after {
+      transform: translateY(5px);
+    }
+
+    &.active span {
+      background-color: transparent;
+    }
+
+    &.active span::before {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    &.active span::after {
+      transform: rotate(-45deg) translate(5px, -5px);
     }
   }
   // .flexNav {

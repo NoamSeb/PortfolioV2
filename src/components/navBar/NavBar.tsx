@@ -28,7 +28,9 @@ export default async function NavBar({ lng }: NavProps) {
         </ul>
       </div>
       <div className={style.responsivNavBar}>
-        <label htmlFor="toggleNav" className={style.burgerMenu}></label>
+        <label htmlFor="toggleNav" className={style.burgerMenu}>
+          <span></span>
+        </label>
         <input type="checkbox" id="toggleNav" className={style.toggleNav} />
         <ul className={`${style.showNav} ${style.b}`}>
           <li>
