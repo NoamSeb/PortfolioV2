@@ -41,6 +41,7 @@
   align-items: start;
   &Images {
     width: 60vw;
+    margin-left: 2rem;
     img {
       width: 90%;
       height: auto;
@@ -48,6 +49,8 @@
   }
   &Description {
     width: 40vw;
+    position: sticky;
+    top: 2rem;
     h2 {
       font-size: 2rem;
       margin-bottom: 1rem;

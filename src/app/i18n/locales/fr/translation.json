@@ -23,6 +23,33 @@
     "title": "Ce que je fais",
     "projects": [
       {
+        "name": "WebOdyssey",
+        "image": "./projects/WebOdyssey/WebOdyssey.png",
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "NodeJS",
+            "NextJS"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "Pour célébrer le 30e anniversaire de la formation MMI/SRC, nous avons organisé un événement exceptionnel avec des escape rooms, offrant ainsi à nos invités une soirée d'anniversaire mémorable. Dans le cadre de ce projet, j'ai occupé le poste de développeur back-end pour le site WebOdyssey, le nom de notre événement. J'ai développé une API en utilisant NodeJS, qui a permis de gérer efficacement les différentes fonctionnalités de l'événement. De plus, j'ai mis en place un système de mailing avec NodeMailer pour envoyer des confirmations par e-mail ainsi que les billets d'entrée aux visiteurs. Grâce à cette approche, nous avons assuré une expérience fluide et professionnelle pour tous les participants.",
+          "images": [
+            "./projects/WebOdyssey/websitePic1.png",
+            "./projects/WebOdyssey/websitePic2.png",
+            "./projects/WebOdyssey/websitePic3.png",
+            "./projects/WebOdyssey/websitePic4.png",
+            "./projects/WebOdyssey/websitePic5.png"
+          ]
+        },
+        "link": "WebOdyssey",
+        "externalLink": {
+          "title": "Voir le projet",
+          "link": "https://webodyssey-mmi.fr"
+        }
+      },
+      {
         "name": "Loop",
         "image": "./projects/loop/loop.png",
         "stacks": {
