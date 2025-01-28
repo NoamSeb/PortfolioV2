@@ -12,7 +12,26 @@ $height: 40vh;
   overflow: auto;
   overflow-y: hidden;
   padding-right: 4vw;
-  scrollbar-width: none;
+  
+  scrollbar-width: auto;
+  scrollbar-color: var(--break-black) transparent;
+
+  &::-webkit-scrollbar {
+    height: 8px; 
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--break-black);
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
 }
 .projects {
   display: flex;

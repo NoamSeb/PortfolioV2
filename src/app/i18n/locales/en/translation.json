@@ -1,7 +1,7 @@
 {
   "navBar": {
     "whoAmI": "Who Am I ?",
-    "whatIDO": "What do I do ?",
+    "whatIDO": "What I do ?",
     "testimonials": "Testimonials",
     "contact": "Contact"
   },
@@ -20,7 +20,7 @@
     }
   },
   "whatIDO": {
-    "title": "What do I do ?",
+    "title": "What I do ?",
     "projects": [
       {
         "name": "WebOdyssey",
