@@ -1,5 +1,6 @@
 import { useTranslation } from "../i18n";
 import Head from "next/head";
+import { Metadata } from 'next';
 import styles from "./page.module.scss";
 import TopBar from "@/components/topBar/TopBar";
 import NavBar from "@/components/navBar/NavBar";
@@ -10,6 +11,12 @@ import Contact from "@/components/contact/Contact";
 interface PageProps {
   lng: string;
 }
+
+export const metadata: Metadata = {
+  title: 'Portfolio | Noam Sebahoun',
+  description:
+    'Welcome to my online portfolio. Explore my projects, discover my skills in web and game programming, and get in touch for collaboration opportunities.',
+};
 
 export default async function Page({ params: { lng } }: { params: PageProps }) {
   const { t } = await useTranslation(lng);

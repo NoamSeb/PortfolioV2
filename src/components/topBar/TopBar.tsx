@@ -49,18 +49,18 @@ export default function TopBar() {
       initial={{ y: "0%" }} // Initial position
     >
       <div>
-        <Link href="./">
+        <Link href="./" aria-label="Go to home page">
           <div className={styles.logoLink}>
             <Logo />
           </div>
         </Link>
-        <label className={styles.container}>
+        {/* <label className={styles.container}>
           <input checked={true} type="checkbox" />
           <img src="./sun.svg" alt="Sun icon" className={styles.sun} />
           <img src="./moon.svg" alt="Moon icon" className={styles.moon} />
-        </label>
+        </label> */}
         <p>
-          <Link href={`/en/${slug}`}>EN</Link> | <Link href={`/fr/${slug}`}>FR</Link>
+          <Link href={`/en/${slug}`} aria-label="Translate the website in english">EN</Link> | <Link href={`/fr/${slug}`} aria-label="Traduire le site en français">FR</Link>
         </p>
       </div>
     </motion.div>

@@ -20,11 +20,14 @@ export default async function Contact({ lng }: ContactProps) {
           {t("contact.CV")}
         </a>
         <div className={styles.socials}>
-          <a href="mailto:noam.sebahoun@gmail.com">
+          <a href="mailto:noam.sebahoun@gmail.com" aria-label="Me contacter par mail">
             <img src="email.png" alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/noam-sebahoun-03a79a206/">
+          <a href="https://www.linkedin.com/in/noam-sebahoun-03a79a206/" aria-label="Voir ma page LinkedIn">
             <img src="linkedin.png" alt="" />
+          </a>
+          <a href="https://noamseb.itch.io/" aria-label="Voir ma page Itch.io">
+            <img src="itchLogo.png" alt="" />
           </a>
         </div>
       </div>

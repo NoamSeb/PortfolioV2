@@ -60,10 +60,11 @@
 
   .burgerMenu {
     position: fixed;
-    bottom: 1rem;
+    bottom: 2rem;
     left: 0;
     right: 0;
     margin: 0 auto;
+    transform: translateX(-50%);
     cursor: pointer;
     height: 50px;
     width: 100px;
@@ -110,12 +111,7 @@
       transform: rotate(-45deg) translate(5px, -5px);
     }
   }
-  // .flexNav {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   justify-content: space-around;
-  // }
+ 
   .showNav {
     display: none;
     height: 100vh;
@@ -129,11 +125,6 @@
     text-align: start;
   }
 
-  // &.menuActive {
-  //   .showNav {
-  //     display: block;
-  //   }
-  // }
 }
 
 @media screen and (min-width: 768px) {
@@ -157,7 +148,7 @@
   margin: 0;
   align-items: flex-start;
   justify-content: space-evenly;
-  flex-direction: column;
+  flex-direction: column; 
 
   a {
     text-decoration: none;

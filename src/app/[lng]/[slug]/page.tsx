@@ -2,28 +2,36 @@ import Link from "next/link";
 import { useTranslation } from "../../i18n";
 import TopBar from "@/components/topBar/TopBar";
 import styles from "./project.module.scss";
+import { Metadata } from 'next';
 
 interface ProjectProps {
-  lng: string;
-  slug: string;
+  params: {
+    lng: string;
+    slug: string;
+  };
+}
+
+export async function generateMetadata({ params }: ProjectProps): Promise<Metadata> {
+  const { slug } = params;
+  return {
+    title: `Project | ${slug}`,
+  };
 }
 
 export default async function Page({
   params: { lng, slug },
 }: {
-  params: ProjectProps;
+  params: { lng: string; slug: string };
 }) {
   const { t } = await useTranslation(lng);
 
   const projectData = require(`../../i18n/locales/${lng}/translation.json`);
 
-  // Find the project based on the slug
   const project = projectData.whatIDO.projects.find(
     (project: any) => project.link === slug
   );
 
   if (!project) {
-    // If project not found, you can handle this case, like redirecting to a 404 page
     return <div>Project not found</div>;
   }
 

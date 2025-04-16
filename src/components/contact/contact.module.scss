@@ -37,9 +37,17 @@
 }
 .socials {
   img {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     margin: 0 1rem;
+  }
+}
+@media screen and (width < 950){
+  .socials{
+    img{
+      width: 2rem !important;
+      height: 2rem !important;
+    }
   }
 }
 @media screen and (width < 800px) {
@@ -48,5 +56,13 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
+  }
+}
+@media screen and (width < 400) {
+  .socials{
+    img{
+      width: 1rem !important;
+      height: 1rem !important;
+    }
   }
 }

@@ -23,6 +23,31 @@
     "title": "Ce que je fais",
     "projects": [
       {
+        "name": "Lunacy",
+        "image": "./projects/Lunacy/Lunacy.png",
+        "stacks": {
+          "title": "Stacks",
+          "content": [
+            "Unity",
+            "C#"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "content": "Lunacy est un jeu mobile que j’ai développé à l’IIM Digital School à Paris. Vous y incarnez le dernier survivant d’un vaisseau spatial condamné, en route vers un crash. Votre seul espoir est de rejoindre le cockpit pour reprendre le contrôle de l’appareil. Pour y parvenir, vous devrez résoudre des énigmes et déverrouiller des portes à l’aide de drones de réparation, afin de progresser vers votre salut. Mais au fil de votre traversée des couloirs sombres du vaisseau, vous devrez également lutter contre la folie spatiale qui vous guette. Parviendrez-vous à vous sauver avant qu’il ne soit trop tard ?",
+          "images": [
+            "./projects/Lunacy/Lunacy1.png",
+            "./projects/Lunacy/Lunacy2.png",
+            "./projects/Lunacy/Lunacy3.png"
+          ]
+        },
+        "link": "Lunacy",
+        "externalLink": {
+          "title": "Voir le projet",
+          "link": "https://estrag0n.itch.io/lunacy"
+        }
+      },
+      {
         "name": "WebOdyssey",
         "image": "./projects/WebOdyssey/WebOdyssey.png",
         "stacks": {
