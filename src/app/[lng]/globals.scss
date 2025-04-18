@@ -14,6 +14,7 @@ body {
   padding: 0;
   background-color: var(--break-white);
   overflow-x: hidden;
+  cursor: none;
 }
 main {
   width: 100vw;
@@ -24,10 +25,13 @@ h2 {
 }
 a {
   text-decoration: none;
+  cursor:none;
 }
 
 // Global Colors
 :root {
   --break-white: #e5e5e5;
   --break-black: #161616;
+
+  --hover-size: 40px;
 }

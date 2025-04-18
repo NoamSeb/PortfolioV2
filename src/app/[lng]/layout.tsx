@@ -2,6 +2,7 @@ import React from "react";
 import { dir } from "i18next";
 import { languages } from "../i18n/settings";
 import "./globals.scss";
+import Cursor from "@/components/cursor/cursor";
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -21,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang={lng} dir={dir(lng)}>
       <head />
-      <body>{children}
+      <body>
+        <Cursor/>
+        {children}
       </body>
     </html>
     
