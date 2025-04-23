@@ -1,15 +1,15 @@
 {
   "navBar": {
-    "whoAmI": "Who Am I ?",
-    "whatIDO": "What I do ?",
-    "testimonials": "Testimonials",
-    "contact": "Contact"
+    "GameProject": "Game Projects",
+    "OtherProject": "Other Projects",
+    "testimonials": "Recommandations",
+    "aboutMe": "About Me"
   },
   "myName": "Noam",
   "mySurname": "Sebahoun",
-  "status": "Game Programmer to become",
+  "status": "Game Programmer C# / C++",
   "whoAmI": {
-    "title": "Who Am I ?",
+    "title": "About me...",
     "content1": "Hello, I'm Noam Sebahoun!",
     "content2": "Since my childhood, I've been fascinated by the world of video games, a passion that sparked my interest in development. I then began my studies in the field of web development to understand development in general, and obtained a Bachelor's degree in Multimedia and Internet Jobs, thus laying a solid foundation for my career.",
     "content3": "Currently, I am a student at the IIM Digital School in Paris, focusing on the video game axis, in order to leverage my technical skills and passion for this field that I am so passionate about.",
@@ -20,18 +20,27 @@
     }
   },
   "whatIDO": {
-    "title": "What I do ?",
+    "title": "A glimps of my work",
+    "gameProjectPageTitle" : "Game Projects",
+    "otherProjectPageTitle" : "Other Projects",
     "projects": [
       {
         "name": "Lunacy",
         "image": "./projects/Lunacy/Lunacy.png",
+        "year": "2025",
+        "duration":"1 month",
+        "teamSize" : "Team of 9",
+        "platform" : "Mobile",
+        "type": "Game",
+        "engine": "Unity",
+        "myTasks": "UI programmer, Gameplay programmer, Project Management",
+        "tags": ["#Uity", "#mobile"],
+        "selected": true,
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "Unity",
-            "C#"
-          ]
+          "content": ["Unity", "C#"]
         },
+
         "description": {
           "title": "Description",
           "content": "Lunacy is a mobile game I developed at IIM Digital School in Paris. In it, you play as the last survivor aboard a doomed spaceship, heading for a crash. Your only hope is to return to the cockpit and regain control of the vessel. To reach it, you'll need to solve puzzles and unlock doors using repair drones, guiding your way toward survival. But as you journey through the ship’s dark corridors, you’ll have to fight off the creeping grip of space madness. Will you save yourself before it’s too late?",
@@ -45,17 +54,23 @@
         "externalLink": {
           "title": "See project",
           "link": "https://estrag0n.itch.io/lunacy"
-        }
+        },
+        "MyWorkTitle": "My work",
+        "Work": {}
       },
       {
         "name": "WebOdyssey",
         "image": "./projects/WebOdyssey/WebOdyssey.png",
+        "year": "2024",
+        "duration":"3 month",
+        "teamSize" : "Team of 6",
+        "type": "Website",
+        "myTasks": "Back-end programmer, Network Administrator",
+        "tags": ["#Website", "#Network"],
+        "selected":true,
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "NodeJS",
-            "NextJS"
-          ]
+          "content": ["NodeJS", "NextJS"]
         },
         "description": {
           "title": "Description",
@@ -71,17 +86,25 @@
         "externalLink": {
           "title": "See project",
           "link": "https://web-odyssey.vercel.app/"
-        }
+        },
+        "MyWorkTitle": "My work",
+        "Work": {}
       },
       {
         "name": "loop",
         "image": "./projects/loop/loop.png",
+        "year": "2024",
+        "duration":"1 month",
+        "teamSize" : "Alone",
+        "platform" : "Windows",
+        "type": "Game",
+        "engine": "Unity",
+        "myTasks": "Gameplay programmer, UI programmer",
+        "tags": ["#Game", "#Unity"],
+        "selected":true,
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "Unity",
-            "C#"
-          ]
+          "content": ["Unity", "C#"]
         },
         "description": {
           "title": "Description",
@@ -102,11 +125,7 @@
         "image": "./projects/planete-danete/planeteDanette.png",
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "ThreeJS",
-            "NextJS",
-            "NodeJS"
-          ]
+          "content": ["ThreeJS", "NextJS", "NodeJS"]
         },
         "description": {
           "title": "Description",
@@ -128,11 +147,7 @@
         "image": "./projects/DivArt/DivArt.png",
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "Blender",
-            "ThreeJS",
-            "WebXR"
-          ]
+          "content": ["Blender", "ThreeJS", "WebXR"]
         },
         "description": {
           "title": "Description",
@@ -154,10 +169,7 @@
         "image": "./projects/Feminicide/Feminicide.png",
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "JavaScript",
-            "D3JS"
-          ]
+          "content": ["JavaScript", "D3JS"]
         },
         "description": {
           "title": "Description",
@@ -176,7 +188,7 @@
     ]
   },
   "testimonials": {
-    "title": "Testimonials",
+    "title": "Recommandations",
     "tesimonials": [
       {
         "name": "Julien Chamayou",

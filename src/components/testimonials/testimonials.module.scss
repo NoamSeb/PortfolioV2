@@ -6,8 +6,17 @@
   font-family: DM-sans-Bold-Italic;
   src: url(/fonts/DMSans_18pt-BoldItalic.ttf) format("ttf");
 }
+
+.b {
+  font-family: DM-sans-Bold-Italic, sans-serif;
+  font-size: large;
+}
+.r {
+  font-family: DM sans Regular, sans-serif;
+  font-weight: 100;
+}
+
 .testimonials {
-  max-width: 30vw;
   p {
     font-family: DM sans Regular, sans-serif;
     font-weight: 100;
@@ -28,6 +37,9 @@
   gap: 30px;
   .testimonial {
     width: 80%;
+    &Content{
+      font-style: italic;
+    }
   }
 }
 @media screen and (width < 800px) {

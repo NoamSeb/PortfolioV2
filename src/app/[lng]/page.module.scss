@@ -17,7 +17,7 @@
 }
 
 .titleSection {
-  height: 100vh;
+  height: 80vh;
   gap: 15vw;
   display: flex;
   justify-content: center;
@@ -34,20 +34,17 @@
     }
   }
   .status {
-    margin-left: 20%;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-style: normal;
   }
   img {
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25w;
     z-index: -1;
   }
 }
-.whoAmI,
-.whatIDO,
-.testimonials,
-.contact {
+
+.whatIDO{
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -58,30 +55,13 @@
     font-size: 3rem;
   }
   div {
-    max-width: 80vw;
+    max-width: 90vw;
   }
 }
 .whoAmI {
   div {
     font-size: 1.2rem;
   }
-}
-.opquast {
-  &Certif {
-    &Content {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      gap: 2vw;
-      img {
-        width: 20vw;
-        height: auto;
-      }
-    }
-  }
-}
-.testimonials {
-  max-width: 70vw;
 }
 
 @media screen and (width<800px) {

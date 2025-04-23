@@ -14,16 +14,16 @@ export default async function NavBar({ lng }: NavProps) {
       <div className={style.desktop}>
         <ul>
           <li>
-            <Link href="#whoAmI">{t("navBar.whoAmI")}</Link>
+            <Link href={`/${lng}/GameProjects`}>{t("navBar.GameProject")}</Link>
           </li>
           <li>
-            <Link href="#whatIDO">{t("navBar.whatIDO")}</Link>
+            <Link href={`/${lng}/OtherProjects`}>{t("navBar.OtherProject")}</Link>
           </li>
           <li>
-            <Link href="#testimonials">{t("navBar.testimonials")}</Link>
+            <Link href={`/${lng}/Recommandations`}>{t("navBar.testimonials")}</Link>
           </li>
           <li>
-            <Link href="#contact">{t("navBar.contact")}</Link>
+            <Link href={`/${lng}/AboutMe`}>{t("navBar.aboutMe")}</Link>
           </li>
         </ul>
       </div>

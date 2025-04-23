@@ -17,10 +17,10 @@ export default async function Testimonials({ lng }: TestimonialsProps) {
               <p>
                 <b>{testimonial.name}</b>
               </p>
-              <p>{testimonial.comment}</p>
-              <p>
-                <b>{testimonial.work}</b>
+              <p className={styles.b}>
+                {testimonial.work}
               </p>
+              <p className={styles.testimonialContent}>"{testimonial.comment}"</p>
             </div>
           )
         )}

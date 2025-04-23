@@ -1,15 +1,15 @@
 {
-  "navBar": {
-    "whoAmI": "Qui suis-je ?",
-    "whatIDO": "Ce que je fais",
-    "testimonials": "Témoignages",
-    "contact": "Contact"
+ "navBar": {
+    "GameProject": "Projet de jeux",
+    "OtherProject": "Autres Projects",
+    "testimonials": "Recommandations",
+    "aboutMe": "A propos de moi"
   },
   "myName": "Noam",
   "mySurname": "Sebahoun",
-  "status": "Game Programmer en devenir",
+  "status": "Game Programmer C# / C++",
   "whoAmI": {
-    "title": "Qui suis-je ?",
+    "title": "A propos de moi...",
     "content1": "Salut, je suis Noam Sebahoun !",
     "content2": "Depuis mon enfance, je suis fasciné par le monde des jeux vidéo, une passion qui a suscité mon intérêt pour le développement. J’ai alors commencé mes études dans le domaine du web afin d’appréhender le développement de manière générale, et ai obtenu un diplôme de Bachelor en Métiers du Multimédia et de l'Internet, posant ainsi des bases solides pour ma carrière.",
     "content3": "Actuellement, je suis étudiant à l'IIM Digital School à Paris dans l’axe jeu vidéo, afin de mettre mes compétences techniques et ma passion en faveur de ce domaine qui me passionne tant.",
@@ -20,11 +20,22 @@
     }
   },
   "whatIDO": {
-    "title": "Ce que je fais",
+    "title": "Un aperçu de mon travail",
+    "gameProjectPageTitle" : "Projet de jeu",
+    "otherProjectPageTitle" : "Autres projets",
     "projects": [
       {
         "name": "Lunacy",
         "image": "./projects/Lunacy/Lunacy.png",
+        "year" : "2025",
+        "duration":"1 mois",
+        "teamSize" : "Equipe de 9",
+        "platform" : "Mobile",
+        "type" : "Jeu",
+        "engine": "Unity",
+        "myTasks" : "programmeur UI, programmeur Gameplay, Project Management",
+        "tags" :  ["#Unity", "#mobile"],
+        "selected": true,
         "stacks": {
           "title": "Stacks",
           "content": [
@@ -45,11 +56,18 @@
         "externalLink": {
           "title": "Voir le projet",
           "link": "https://estrag0n.itch.io/lunacy"
-        }
+        },
+        "MyWorkTitle": "My work",
+        "Work": {}
       },
       {
         "name": "WebOdyssey",
         "image": "./projects/WebOdyssey/WebOdyssey.png",
+        "year" : "2024",
+        "type" : "Site Web",
+        "myTasks" : "Programmeur Back-end, Administration Réseau",
+        "tags" :  ["#Website", "#Network"],
+        "selected":true,
         "stacks": {
           "title": "Stacks",
           "content": [
@@ -72,11 +90,19 @@
         "externalLink": {
           "title": "Voir le projet",
           "link": "https://web-odyssey.vercel.app/"
-        }
+        },
+        "MyWorkTitle": "My work",
+        "Work": {}
       },
       {
         "name": "Loop",
         "image": "./projects/loop/loop.png",
+        "year": "2024",
+        "type": "Jeu",
+        "engine": "Unity",
+        "myTasks": "Programmeur Gameplay, programmeur UI",
+        "tags": ["#Game", "#Unity"],
+        "selected":true,
         "stacks": {
           "title": "Stacks",
           "content": [
@@ -177,7 +203,7 @@
     ]
   },
   "testimonials": {
-    "title": "Témoignages",
+    "title": "Recommendations",
     "tesimonials": [
       {
         "name": "Julien Chamayou",

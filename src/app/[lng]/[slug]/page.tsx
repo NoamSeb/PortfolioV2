@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { useTranslation } from "../../i18n";
-import TopBar from "@/components/topBar/TopBar";
 import styles from "./project.module.scss";
 import { Metadata } from 'next';
+
+import TopBar from "@/components/topBar/TopBar";
+import NavBar from "@/components/navBar/NavBar";
 
 interface ProjectProps {
   params: {
@@ -63,7 +65,7 @@ export default async function Page({
               </p>
               <h2 className={styles.b}>{t(project.description.title)}</h2>
               <p className={styles.r}>{project.description.content}</p>
-              <Link href={`${project.externalLink.link}`}>
+              <Link href={`${project.externalLink.link}`} text-area={`See ${project.name} Project`}>
                 <button
                   className={`${styles.projectInfosDescriptionExternalLink} ${styles.b}`}
                 >
@@ -72,7 +74,11 @@ export default async function Page({
               </Link>
             </div>
           </div>
+            <div className={styles.myWorkOnProject}>
+                <h2 className={styles.b}>{t(project.MyWorkTitle)}</h2>
+            </div>
         </div>
+        <NavBar lng={lng}/>
       </main>
     </>
   );

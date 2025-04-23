@@ -1,9 +1,19 @@
 $width: 40vw;
-$height: 40vh;
+$height: 60vh;
 
 @font-face {
   font-family: DM sans Regular;
   src: url(/fonts/DMSans_18pt-Regular.ttf) format("ttf");
+}
+.b {
+  font-family: DM-sans-Bold-Italic, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: large;
+}
+.r {
+  font-family: DM sans Regular, sans-serif;
+  font-weight: 100;
 }
 .projectContainer {
   width: 100vw !important;
@@ -12,12 +22,12 @@ $height: 40vh;
   overflow: auto;
   overflow-y: hidden;
   padding-right: 4vw;
-  
+
   scrollbar-width: auto;
   scrollbar-color: var(--break-black) transparent;
 
   &::-webkit-scrollbar {
-    height: 8px; 
+    height: 8px;
   }
 
   &::-webkit-scrollbar-thumb {
@@ -35,45 +45,57 @@ $height: 40vh;
 }
 .projects {
   display: flex;
+  flex-wrap: wrap;
   gap: 2vw;
 
   .project {
+    width: $width;
+    height: $height;
+    max-width: 90vw !important;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 2vh;
+
     a {
       text-decoration: none;
       width: $width;
       height: $height;
       position: relative;
-      bottom: 100%;
+      // bottom:100%;
       &:hover {
         .sail {
+          width: $width;
+          height: $height;
           opacity: 1;
         }
       }
     }
-    width: $width;
-    height: $height;
 
     img {
       width: $width;
       height: $height;
     }
-    .sail {
-      opacity: 0;
+    
+    .tags{
       display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      z-index: 1;
-      width: $width;
-      height: $height;
-      background-color: rgba($color: #000000, $alpha: 0.7);
-      p {
-        color: white;
-        font-size: 1.7vw;
-        font-family: DM sans Regular, sans-serif;
-        font-weight: 100;
-        text-transform: uppercase;
-        text-decoration: none;
+      justify-content: start;
+      width: 5vw;
+      div{
+        width: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--break-white);
+        background-color: var(--break-black);
+        border-radius: 50px;
+        margin-right: 0.5vw;
+
+        p{
+          padding: 5px 10px 5px 10px;
+          font-size: small;
+        }
       }
     }
   }

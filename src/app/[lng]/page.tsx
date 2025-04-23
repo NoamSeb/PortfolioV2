@@ -39,33 +39,9 @@ export default async function Page({ params: { lng } }: { params: PageProps }) {
           </div>
           <img src="/face-picture.webp" alt="" />
         </div>
-        <div id="whoAmI" className={styles.whoAmI}>
-          <h2 className={styles.b}>{t("whoAmI.title")}</h2>{" "}
-          <div>
-            {[1, 2, 3, 4].map((i) => (
-              <p className={styles.r}>{t("whoAmI.content" + i + "")}</p>
-            ))}
-            <img src="" alt="" />
-          </div>
-          <div className={styles.opquastCertif}>
-            <h3 className={styles.b}>{t("whoAmI.opquast.title")}</h3>
-            <div className={styles.opquastCertifContent}>
-              <img src="logo_opquast.png" alt="opquast logo" />
-              <p className={styles.r}>{t("whoAmI.opquast.content")}</p>
-            </div>
-          </div>
-        </div>
         <div id="whatIDO" className={styles.whatIDO}>
           <h2 className={styles.b}>{t("whatIDO.title")}</h2>{" "}
           <Projects lng={lng} />
-        </div>
-        <div id="testimonials" className={styles.testimonials}>
-          <h2 className={styles.b}>{t("testimonials.title")}</h2>{" "}
-          <Testimonials lng={lng} />
-        </div>
-        <div id="contact" className={styles.contact}>
-          <h2 className={styles.b}>{t("contact.title")}</h2>{" "}
-          <Contact lng={lng} />
         </div>
       </main>
     </>

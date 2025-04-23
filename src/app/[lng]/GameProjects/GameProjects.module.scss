@@ -1,0 +1,85 @@
+$width: 40vw;
+$height: 60vh;
+
+@font-face {
+  font-family: DM sans Regular;
+  src: url(/fonts/DMSans_18pt-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: DM-sans-Bold-Italic;
+  src: url(/fonts/DMSans_18pt-BoldItalic.ttf) format("ttf");
+}
+
+.b {
+  font-family: DM-sans-Bold-Italic, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.r {
+  font-family: DM sans Regular, sans-serif;
+  font-weight: 100;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+.project {
+  width: $width;
+  height: $height;
+  max-width: 90vw !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 2vh;
+  &Container {
+    margin-top: 10vh;
+    margin-left: 5vw;
+  }
+  &Infos {
+    font-style: bold;
+  }
+  a {
+    text-decoration: none;
+    width: $width;
+    height: $height;
+    position: relative;
+    // bottom:100%;
+    &:hover {
+      .sail {
+        width: $width;
+        height: $height;
+        opacity: 1;
+      }
+    }
+  }
+
+  img {
+    width: $width;
+    height: $height;
+  }
+  
+  .tags{
+    display: flex;
+    justify-content: start;
+    width: 5vw;
+    div{
+      width: 5vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--break-white);
+      background-color: var(--break-black);
+      border-radius: 50px;
+      margin-right: 0.5vw;
+
+      p{
+        padding: 5px 10px 5px 10px;
+        font-size: small;
+      }
+    }
+  }
+}
