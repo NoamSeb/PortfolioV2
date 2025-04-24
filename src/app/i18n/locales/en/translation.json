@@ -21,19 +21,19 @@
   },
   "whatIDO": {
     "title": "A glimps of my work",
-    "gameProjectPageTitle" : "Game Projects",
-    "otherProjectPageTitle" : "Other Projects",
+    "gameProjectPageTitle": "Game Projects",
+    "otherProjectPageTitle": "Other Projects",
     "projects": [
       {
         "name": "Lunacy",
         "image": "./projects/Lunacy/Lunacy.png",
         "year": "2025",
-        "duration":"1 month",
-        "teamSize" : "Team of 9",
-        "platform" : "Mobile",
+        "duration": "1 month",
+        "teamSize": "Team of 9",
+        "platform": "Mobile",
         "type": "Game",
         "engine": "Unity",
-        "myTasks": "UI programmer, Gameplay programmer, Project Management",
+        "myTasks": "UI programmer, Project Management",
         "tags": ["#Uity", "#mobile"],
         "selected": true,
         "stacks": {
@@ -56,18 +56,63 @@
           "link": "https://estrag0n.itch.io/lunacy"
         },
         "MyWorkTitle": "My work",
-        "Work": {}
+        "Work": [
+          {
+            "task": "UI programming",
+            "descTask": "On this project, I was made some UI behaviors. Menus interactions, level selector or battery stock animations. Because our game is splited into different biomes, we wanted to put all the game into the same scene to avoid loading during the gameplay. So I've made a biome manager C# script based on a custom save system.",
+            "mediaTask": ""
+          },
+          {
+            "task": "Project Management",
+            "descTask": "To organize the team the best way possible, we've made a doc with special namming convention. A bit later I've made a Trello board to organize different tasks for each trade. Knowing which member is in which task, allowed us to go forward",
+            "mediaTask": "./projects/Lunacy/workOnProject/Trello.png"
+          }
+        ]
+      },
+      {
+        "name": "Fungi",
+        "image": "./projects/Fungi/Fungi.png",
+        "year": "2024",
+        "duration": "3 days",
+        "teamSize": "Team 6",
+        "platform": "PC",
+        "type": "Game",
+        "engine": "Unity",
+        "myTasks": "UI programmer, Gameplay programmer",
+        "tags": ["#Unity", "#jam"],
+        "selected": true,
+        "stacks": {
+          "title": "Stacks",
+          "content": ["Unity", "C#"]
+        },
+
+        "description": {
+          "title": "Description",
+          "content": "Lunacy is a mobile game I developed at IIM Digital School in Paris. In it, you play as the last survivor aboard a doomed spaceship, heading for a crash. Your only hope is to return to the cockpit and regain control of the vessel. To reach it, you'll need to solve puzzles and unlock doors using repair drones, guiding your way toward survival. But as you journey through the ship’s dark corridors, you’ll have to fight off the creeping grip of space madness. Will you save yourself before it’s too late?",
+          "images": [
+            "./projects/Lunacy/Lunacy1.png",
+            "./projects/Lunacy/Lunacy2.png",
+            "./projects/Lunacy/Lunacy3.png"
+          ]
+        },
+        "link": "Fungi",
+        "externalLink": {
+          "title": "See project",
+          "link": "https://zoyette.itch.io/fungi"
+        },
+        "MyWorkTitle": "My work",
+        "Work": []
       },
       {
         "name": "WebOdyssey",
         "image": "./projects/WebOdyssey/WebOdyssey.png",
         "year": "2024",
-        "duration":"3 month",
-        "teamSize" : "Team of 6",
+        "duration": "3 month",
+        "teamSize": "Team of 6",
         "type": "Website",
         "myTasks": "Back-end programmer, Network Administrator",
         "tags": ["#Website", "#Network"],
-        "selected":true,
+        "selected": true,
         "stacks": {
           "title": "Stacks",
           "content": ["NodeJS", "NextJS"]
@@ -94,14 +139,14 @@
         "name": "loop",
         "image": "./projects/loop/loop.png",
         "year": "2024",
-        "duration":"1 month",
-        "teamSize" : "Alone",
-        "platform" : "Windows",
+        "duration": "1 month",
+        "teamSize": "Alone",
+        "platform": "Windows",
         "type": "Game",
         "engine": "Unity",
         "myTasks": "Gameplay programmer, UI programmer",
         "tags": ["#Game", "#Unity"],
-        "selected":true,
+        "selected": true,
         "stacks": {
           "title": "Stacks",
           "content": ["Unity", "C#"]

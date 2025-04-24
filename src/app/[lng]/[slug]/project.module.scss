@@ -16,18 +16,26 @@
   font-weight: 100;
 }
 
+
 .titleSection {
-  height: 100vh;
-  gap: 15vw;
+  height: 80vh;
+  gap: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  &Text{
+    width: 40%;
+  }
   h1 {
     z-index: 10;
     width: fit-content;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     margin-bottom: 0;
+  }
+  .xpTitle{
+    font-size: large;
+    font-style: italic;
   }
   img {
     width: 35vw;
@@ -37,13 +45,18 @@
 }
 .projectInfos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: start;
   &Images {
-    width: 60vw;
+    width: 55vw;
     margin-left: 2rem;
+    
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1rem;
     img {
-      width: 90%;
+      width: 45%;
       height: auto;
     }
   }
@@ -77,6 +90,43 @@
           background-color: #161616;
           color: #fff;
         }
+      }
+    }
+  }
+}
+.myWorkOnProject{
+  margin-top: 10vh;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .work{
+    max-width: 80vw;
+    &Detail{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10rem;
+      margin-bottom: 10vh;
+
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+
+      &:nth-child(odd) {
+        flex-direction: row;
+      }
+      &Text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+      }
+      img{
+        width: 45%;
+        height: auto;
       }
     }
   }
