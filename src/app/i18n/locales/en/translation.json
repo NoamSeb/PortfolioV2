@@ -53,7 +53,8 @@
         "link": "Lunacy",
         "externalLink": {
           "title": "See project",
-          "link": "https://estrag0n.itch.io/lunacy"
+          "customButton": "./GooglePlayBannerEn.png",
+          "link": "https://play.google.com/store/apps/details?id=com.Moonfish.Lunacy&hl=en-US&pli=1"
         },
         "projectVideo":"./projects/Lunacy/LunacyTrailerEn.mp4",
         "MyWorkTitle": "My work",
@@ -98,7 +99,7 @@
         "link": "Fungi",
         "externalLink": {
           "title": "See project",
-          "image": "",
+          "customButton": "./ItchBanner.svg",
           "link": "https://zoyette.itch.io/fungi"
         },
         "projectVideo":"./projects/Fungi/FungiGameplay.mp4",

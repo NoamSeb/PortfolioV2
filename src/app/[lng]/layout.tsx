@@ -3,6 +3,7 @@ import { dir } from "i18next";
 import { languages } from "../i18n/settings";
 import "./globals.scss";
 import Cursor from "@/components/cursor/cursor";
+import { Analytics } from "@vercel/analytics/react"
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body>
         <Cursor/>
         {children}
+        <Analytics />
       </body>
     </html>
     

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useTranslation } from "../../i18n";
 import styles from "./project.module.scss";
-import { Metadata } from 'next';
+import { Metadata } from "next";
 
 import TopBar from "@/components/topBar/TopBar";
 import NavBar from "@/components/navBar/NavBar";
@@ -20,7 +20,9 @@ interface WorkItem {
   mediaTask?: string;
 }
 
-export async function generateMetadata({ params }: ProjectProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: ProjectProps): Promise<Metadata> {
   const { slug } = params;
   return {
     title: `Project | ${slug}`,
@@ -34,7 +36,9 @@ export default async function Page({
 }) {
   const { t } = await useTranslation(lng);
 
-  const projectData = await import(`../../i18n/locales/${lng}/translation.json`);
+  const projectData = await import(
+    `../../i18n/locales/${lng}/translation.json`
+  );
 
   const project = projectData.whatIDO.projects.find(
     (project: any) => project.link === slug
@@ -57,9 +61,15 @@ export default async function Page({
         <div>
           <div className={styles.projectInfos}>
             <div className={styles.projectInfosImages}>
-              {project.description.images.map((image: string, index: number) => (
-                <img key={index} src={image} alt={`${project.name} ${index + 1}`} />
-              ))}
+              {project.description.images.map(
+                (image: string, index: number) => (
+                  <img
+                    key={index}
+                    src={image}
+                    alt={`${project.name} ${index + 1}`}
+                  />
+                )
+              )}
             </div>
             <div className={styles.projectInfosDescription}>
               <h2 className={styles.b}>{t(project.stacks.title)}</h2>
@@ -76,15 +86,24 @@ export default async function Page({
                 }}
               />
               <Link href={project.externalLink.link}>
-                <button className={`${styles.projectInfosDescriptionExternalLink} ${styles.b}`}>
-                  {t(project.externalLink.title)}
-                </button>
+                {project.externalLink.customButton ? (
+                  <img
+                    src={project.externalLink.customButton}
+                    alt={t(project.externalLink.title)}
+                    className={styles.customButtonImage}
+                  />
+                ) : (
+                  <button
+                    className={`${styles.projectInfosDescriptionExternalLink} ${styles.b}`}
+                  >
+                    {t(project.externalLink.title)}
+                  </button>
+                )}
               </Link>
             </div>
           </div>
 
           <div className={styles.projectVideo}>
-            {/* <iframe src={t(project.projectVideo)} allowFullScreen></iframe> */}
             <video src={t(project.projectVideo)} autoPlay muted loop />
           </div>
 
@@ -99,7 +118,9 @@ export default async function Page({
                   }`}
                 >
                   <div className={styles.workDetailText}>
-                    <h3 className={`${styles.b} ${styles.TaskTitle}`}>{item.task}</h3>
+                    <h3 className={`${styles.b} ${styles.TaskTitle}`}>
+                      {item.task}
+                    </h3>
                     <p
                       className={`${styles.r} ${styles.TaskDesc}`}
                       dangerouslySetInnerHTML={{ __html: item.descTask }}
