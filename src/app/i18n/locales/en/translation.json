@@ -21,19 +21,19 @@
   },
   "whatIDO": {
     "title": "A glimps of my work",
-    "gameProjectPageTitle": "Game Projects",
-    "otherProjectPageTitle": "Other Projects",
+    "gameProjectPageTitle" : "Game Projects",
+    "otherProjectPageTitle" : "Other Projects",
     "projects": [
       {
         "name": "Lunacy",
         "image": "./projects/Lunacy/Lunacy.png",
         "year": "2025",
-        "duration": "1 month",
-        "teamSize": "Team of 9",
-        "platform": "Mobile",
+        "duration":"1 month",
+        "teamSize" : "Team of 9",
+        "platform" : "Mobile",
         "type": "Game",
         "engine": "Unity",
-        "myTasks": "UI programmer, Project Management",
+        "myTasks": "UI programmer, Gameplay programmer, Project Management",
         "tags": ["#Uity", "#mobile"],
         "selected": true,
         "stacks": {
@@ -55,16 +55,17 @@
           "title": "See project",
           "link": "https://estrag0n.itch.io/lunacy"
         },
+        "projectVideo":"./projects/Lunacy/LunacyTrailerEn.mp4",
         "MyWorkTitle": "My work",
         "Work": [
           {
             "task": "UI programming",
-            "descTask": "On this project, I was made some UI behaviors. Menus interactions, level selector or battery stock animations. Because our game is splited into different biomes, we wanted to put all the game into the same scene to avoid loading during the gameplay. So I've made a biome manager C# script based on a custom save system.",
-            "mediaTask": ""
+            "descTask": "On this project, I developed several <b>UI behaviors</b>, including <b>menu</b> interactions, a <b>level selector</b>, and <b>battery stock animations</b>.</br>Since our game is divided into different biomes, we decided to place everything in a single scene to avoid loading times during gameplay.</br>To make this work, I created a <b>biome manager script</b> in C#, built on a custom save system.",
+            "mediaTask": "./projects/Lunacy/workOnProject/LunacyUI.gif"
           },
           {
             "task": "Project Management",
-            "descTask": "To organize the team the best way possible, we've made a doc with special namming convention. A bit later I've made a Trello board to organize different tasks for each trade. Knowing which member is in which task, allowed us to go forward",
+            "descTask": "To <b>organize the team</b> as efficiently as possible, we created a <b>documentation</b> with a specific naming convention.</br>Later on, I set up a <b>Trello board</b> to assign and <b>track tasks</b> for each role.</br>Knowing who was responsible for what helped us move forward smoothly.",
             "mediaTask": "./projects/Lunacy/workOnProject/Trello.png"
           }
         ]
@@ -88,31 +89,43 @@
 
         "description": {
           "title": "Description",
-          "content": "Lunacy is a mobile game I developed at IIM Digital School in Paris. In it, you play as the last survivor aboard a doomed spaceship, heading for a crash. Your only hope is to return to the cockpit and regain control of the vessel. To reach it, you'll need to solve puzzles and unlock doors using repair drones, guiding your way toward survival. But as you journey through the ship’s dark corridors, you’ll have to fight off the creeping grip of space madness. Will you save yourself before it’s too late?",
+          "content": "Fungi is a small game I developed during Ludum Dare 56, a 3-day game jam with the theme: <i>Tiny Creatures</i>.</br>The game follows a little mushroom trying to fit into his tribe while helping its members.</br>However, his journey is challenging due to his differences...",
           "images": [
-            "./projects/Lunacy/Lunacy1.png",
-            "./projects/Lunacy/Lunacy2.png",
-            "./projects/Lunacy/Lunacy3.png"
+            "./projects/Fungi/Fungi1.png",
+            "./projects/Fungi/Fungi2.png"
           ]
         },
         "link": "Fungi",
         "externalLink": {
           "title": "See project",
+          "image": "",
           "link": "https://zoyette.itch.io/fungi"
         },
+        "projectVideo":"./projects/Fungi/FungiGameplay.mp4",
         "MyWorkTitle": "My work",
-        "Work": []
+        "Work": [
+          {
+            "task": "UI programming",
+            "descTask": "Since the project lasted <b>3 days</b>, the main task for the UI was to design the <b>main menu</b>. I made the menu fully controller-compatible by setting the <i>'Play'</i> button as the default selection and enabling navigation through buttons using controller arrows. Additionally, I displayed <b>control text</b>, integrating the <b>input system configuration</b> to serve as a <b>tutorial</b> for the players.",
+            "mediaTask": "./projects/Fungi/workOnProject/FungiMenu.png"
+          },
+          {
+            "task": "Gameplay Programmer",
+            "descTask": "For this project, I managed the <b>Input System</b> configuration and the gameplay mechanics linked to it. Additionally, I implemented features such as <b>bouncing on mushrooms</b> and creating <b>spore platforms</b>. These platforms spawn slightly above the character's position, allowing him to reach higher areas than with a regular jump.",
+            "mediaTask": "./projects/Fungi/workOnProject/FungiGameplay.gif"
+          }
+        ]
       },
       {
         "name": "WebOdyssey",
         "image": "./projects/WebOdyssey/WebOdyssey.png",
         "year": "2024",
-        "duration": "3 month",
-        "teamSize": "Team of 6",
+        "duration":"3 month",
+        "teamSize" : "Team of 6",
         "type": "Website",
         "myTasks": "Back-end programmer, Network Administrator",
         "tags": ["#Website", "#Network"],
-        "selected": true,
+        "selected":true,
         "stacks": {
           "title": "Stacks",
           "content": ["NodeJS", "NextJS"]
@@ -139,14 +152,14 @@
         "name": "loop",
         "image": "./projects/loop/loop.png",
         "year": "2024",
-        "duration": "1 month",
-        "teamSize": "Alone",
-        "platform": "Windows",
+        "duration":"1 month",
+        "teamSize" : "Alone",
+        "platform" : "Windows",
         "type": "Game",
         "engine": "Unity",
         "myTasks": "Gameplay programmer, UI programmer",
         "tags": ["#Game", "#Unity"],
-        "selected": true,
+        "selected":true,
         "stacks": {
           "title": "Stacks",
           "content": ["Unity", "C#"]

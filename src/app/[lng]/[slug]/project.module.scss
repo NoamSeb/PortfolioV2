@@ -16,26 +16,18 @@
   font-weight: 100;
 }
 
-
 .titleSection {
-  height: 80vh;
+  height: 70vh;
   gap: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  &Text{
-    width: 40%;
-  }
   h1 {
     z-index: 10;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     margin-bottom: 0;
-  }
-  .xpTitle{
-    font-size: large;
-    font-style: italic;
   }
   img {
     width: 35vw;
@@ -45,16 +37,14 @@
 }
 .projectInfos {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: start;
   &Images {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
     width: 55vw;
     margin-left: 2rem;
-    
-    display:flex;
-    flex-wrap:wrap;
-    gap: 1rem;
     img {
       width: 45%;
       height: auto;
@@ -94,6 +84,18 @@
     }
   }
 }
+.projectVideo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  margin-top: 10vh;
+  video{
+    width: 60%;
+    height: auto;
+  }
+}
 .myWorkOnProject{
   margin-top: 10vh;
 
@@ -127,6 +129,17 @@
       img{
         width: 45%;
         height: auto;
+      }
+    }
+    .Task{
+      &Title{
+        font-size: 2.2rem;
+      }
+      &Desc{
+        font-size: 1.2rem;
+        b{
+          font-weight: bold !important;
+        }
       }
     }
   }

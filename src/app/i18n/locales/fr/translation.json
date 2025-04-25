@@ -1,5 +1,5 @@
 {
- "navBar": {
+  "navBar": {
     "GameProject": "Projet de jeux",
     "OtherProject": "Autres Projects",
     "testimonials": "Recommandations",
@@ -21,27 +21,24 @@
   },
   "whatIDO": {
     "title": "Un aperçu de mon travail",
-    "gameProjectPageTitle" : "Projet de jeu",
-    "otherProjectPageTitle" : "Autres projets",
+    "gameProjectPageTitle": "Projet de jeu",
+    "otherProjectPageTitle": "Autres projets",
     "projects": [
       {
         "name": "Lunacy",
         "image": "./projects/Lunacy/Lunacy.png",
-        "year" : "2025",
-        "duration":"1 mois",
-        "teamSize" : "Equipe de 9",
-        "platform" : "Mobile",
-        "type" : "Jeu",
+        "year": "2025",
+        "duration": "1 mois",
+        "teamSize": "Equipe de 9",
+        "platform": "Mobile",
+        "type": "Jeu",
         "engine": "Unity",
-        "myTasks" : "programmeur UI, programmeur Gameplay, Project Management",
-        "tags" :  ["#Unity", "#mobile"],
+        "myTasks": "programmeur UI, Gestion de Projet",
+        "tags": ["#Unity", "#mobile"],
         "selected": true,
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "Unity",
-            "C#"
-          ]
+          "content": ["Unity", "C#"]
         },
         "description": {
           "title": "Description",
@@ -57,8 +54,20 @@
           "title": "Voir le projet",
           "link": "https://estrag0n.itch.io/lunacy"
         },
+        "projectVideo":"./projects/Lunacy/LunacyTrailerFr.mp4",
         "MyWorkTitle": "My work",
-        "Work": []
+        "Work": [
+          {
+            "task": "Programmeur UI",
+            "descTask": "Sur ce projet, j’ai développé plusieurs <b>comportements d’interface utilisateur</b>, comme les interactions avec les <b>menus</b>, un <b>sélecteur de niveaux</b> et des <b>animations pour le stock de batterie</b>.</br>Comme notre jeu est divisé en différents biomes, nous avons choisi de tout intégrer dans une seule scène afin d’éviter les temps de chargement pendant la partie.</br>Pour cela, j’ai créé un <b>script de gestion des biomes en C#</b>, basé sur un système de sauvegarde personnalisé.",
+            "mediaTask": "./projects/Lunacy/workOnProject/LunacyUI.gif"
+          },
+          {
+            "task": "Gestion de Projet",
+            "descTask": "Pour <b>organiser l’équipe</b> de la manière la plus efficace possible, nous avons rédigé une <b>documentation</b> avec une convention de nommage pour le projet.</br>Un peu plus tard, j’ai mis en place un <b>tableau Trello</b> pour répartir et <b>suivre les tâches</b> selon les différents métiers.</br>Le fait de savoir qui était responsable de quoi nous a permis d’avancer plus sereinement.",
+            "mediaTask": "./projects/Lunacy/workOnProject/Trello.png"
+          }
+        ]
       },
       {
         "name": "Fungi",
@@ -79,46 +88,43 @@
 
         "description": {
           "title": "Description",
-          "content": "Lunacy is a mobile game I developed at IIM Digital School in Paris. In it, you play as the last survivor aboard a doomed spaceship, heading for a crash. Your only hope is to return to the cockpit and regain control of the vessel. To reach it, you'll need to solve puzzles and unlock doors using repair drones, guiding your way toward survival. But as you journey through the ship’s dark corridors, you’ll have to fight off the creeping grip of space madness. Will you save yourself before it’s too late?",
+          "content": "Fungi est un petit jeu que j’ai réalisé pendant la Ludum Dare 56, une game jam de 3 jours dont le thème était : <i>Tiny Creatures (Petites créatures)</i>.</br>Le jeu raconte l’histoire d’un petit champignon qui tente de s’intégrer dans sa tribu tout en aidant ses membres.</br>Cependant, son parcours est compliqué à cause de sa différence.",
           "images": [
-            "./projects/Lunacy/Lunacy1.png",
-            "./projects/Lunacy/Lunacy2.png",
-            "./projects/Lunacy/Lunacy3.png"
+            "./projects/Fungi/Fungi1.png",
+            "./projects/Fungi/Fungi2.png"
           ]
         },
         "link": "Fungi",
         "externalLink": {
           "title": "See project",
-          "link": "https://estrag0n.itch.io/lunacy"
+          "link": "https://zoyette.itch.io/fungi"
         },
+        "projectVideo":"./projects/Fungi/FungiGameplay.mp4",
         "MyWorkTitle": "My work",
         "Work": [
           {
             "task": "UI programming",
-            "descTask": "On this project, I was made some UI behaviors. Menus interactions, level selector or battery stock animations. Because our game is splited into different biomes, we wanted to put all the game into the same scene to avoid loading during the gameplay. So I've made a biome manager C# script based on a custom save system.",
-            "mediaTask": ""
+            "descTask": "Étant donné que le projet a duré <b>3 jours</b>, la tâche principale pour l'UI était la création du <b>menu principal</b>. J'ai rendu le menu entièrement compatible avec la manette en définissant le bouton <i>'Jouer'</i> comme sélection par défaut et en permettant la navigation entre les boutons à l'aide des flèches de la manette. De plus, j'ai affiché le <b>texte des commandes</b>, en intégrant la <b>configuration de l'input system</b> pour servir de <b>tutoriel</b> aux joueurs.",
+            "mediaTask": "./projects/Fungi/workOnProject/FungiMenu.png"
           },
           {
-            "task": "Project Management",
-            "descTask": "To organize the team the best way possible, we've made a doc with special namming convention. A bit later I've made a Trello board to organize different tasks for each trade. Knowing which member is in which task, allowed us to go forward",
-            "mediaTask": "./projects/Lunacy/workOnProject/Trello.png"
+            "task": "Programmeur Gameplay",
+            "descTask": "Pour ce projet, j'ai géré la <b>configuration de l'input</b> system ainsi que les mécaniques de gameplay associées. J'ai également mis en place des fonctionnalités comme le <b>rebond sur des champignons</b> ou la création de <b>plateformes de spores</b>. Ces plateformes apparaissent légèrement au-dessus de la position du personnage, ce qui lui permet d’atteindre des zones plus élevées qu’avec un simple saut.",
+            "mediaTask": "./projects/Fungi/workOnProject/FungiGameplay.gif"
           }
         ]
       },
       {
         "name": "WebOdyssey",
         "image": "./projects/WebOdyssey/WebOdyssey.png",
-        "year" : "2024",
-        "type" : "Site Web",
-        "myTasks" : "Programmeur Back-end, Administration Réseau",
-        "tags" :  ["#Website", "#Network"],
-        "selected":true,
+        "year": "2024",
+        "type": "Site Web",
+        "myTasks": "Programmeur Back-end, Administration Réseau",
+        "tags": ["#Website", "#Network"],
+        "selected": true,
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "NodeJS",
-            "NextJS"
-          ]
+          "content": ["NodeJS", "NextJS"]
         },
         "description": {
           "title": "Description",
@@ -137,7 +143,7 @@
           "link": "https://web-odyssey.vercel.app/"
         },
         "MyWorkTitle": "My work",
-        "Work": []
+        "Work": {}
       },
       {
         "name": "Loop",
@@ -147,13 +153,10 @@
         "engine": "Unity",
         "myTasks": "Programmeur Gameplay, programmeur UI",
         "tags": ["#Game", "#Unity"],
-        "selected":true,
+        "selected": true,
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "Unity",
-            "C#"
-          ]
+          "content": ["Unity", "C#"]
         },
         "description": {
           "title": "Description",
@@ -174,11 +177,7 @@
         "image": "./projects/planete-danete/planeteDanette.png",
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "ThreeJS",
-            "NextJS",
-            "NodeJS"
-          ]
+          "content": ["ThreeJS", "NextJS", "NodeJS"]
         },
         "description": {
           "title": "Description",
@@ -200,11 +199,7 @@
         "image": "./projects/DivArt/DivArt.png",
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "Blender",
-            "ThreeJS",
-            "WebXR"
-          ]
+          "content": ["Blender", "ThreeJS", "WebXR"]
         },
         "description": {
           "title": "Description",
@@ -226,10 +221,7 @@
         "image": "./projects/Feminicide/Feminicide.png",
         "stacks": {
           "title": "Stacks",
-          "content": [
-            "JavaScript",
-            "D3JS"
-          ]
+          "content": ["JavaScript", "D3JS"]
         },
         "description": {
           "title": "Description",
