@@ -230,6 +230,12 @@
       {
         "name": "Planète Danette",
         "image": "./projects/planete-danete/planeteDanette.png",
+        "year": "2024",
+        "type": "Website",
+        "duration":"13 hours",
+        "teamSize" : "Team of 3",
+        "myTasks": "3D programmer",
+        "tags": ["#Website", "#Game", "#Hackathon"],
         "stacks": {
           "title": "Stacks",
           "content": ["ThreeJS", "NextJS", "NodeJS"]
@@ -247,7 +253,15 @@
         "externalLink": {
           "title": "See project",
           "link": "https://planetedanette.vercel.app/"
-        }
+        },
+        "MyWorkTitle": "My work",
+        "Work": [
+          {
+            "task": "3D programmer",
+            "descTask": "As I mentioned earlier, we had to create a <b>small game</b> about climate change on this website. Since we chose to build a <b>3D website</b>, I was responsible for creating the 3D scene for the game. To assist myself, I used <b>Spline</b> to manage the 3D elements and then <b>exported it into a ThreeJS format</b> to integrate it into the website. I also placed several cameras to focus on the relevant elements for each question. We <b>linked each question to a specific camera</b>, so when you answer a question, the camera switches to focus on the next one.",
+            "mediaTask": "./projects/planete-danete/workOnProject/PlaneteDanete3D.png"
+          }
+        ]
       },
       {
         "name": "DivArt",

@@ -158,6 +158,8 @@
         "image": "./projects/WebOdyssey/WebOdyssey.png",
         "year": "2024",
         "type": "Site Web",
+        "duration":"3 mois",
+        "teamSize" : "Equipe de 6",
         "myTasks": "Programmeur Back-end, Administration Réseau",
         "tags": ["#Website", "#Network"],
         "selected": true,
@@ -228,6 +230,12 @@
       {
         "name": "Planète Danette",
         "image": "./projects/planete-danete/planeteDanette.png",
+        "year": "2024",
+        "type": "Site Web",
+        "duration":"13 heures",
+        "teamSize" : "Equipe de 3",
+        "myTasks": "programmeur 3D",
+        "tags": ["#Website", "#jeu", "#Hackathon"],
         "stacks": {
           "title": "Stacks",
           "content": ["ThreeJS", "NextJS", "NodeJS"]
@@ -245,7 +253,15 @@
         "externalLink": {
           "title": "Voir le projet",
           "link": "https://planetedanette.vercel.app/"
-        }
+        },
+        "MyWorkTitle": "Mon Travail",
+        "Work": [
+          {
+            "task": "3D programmer",
+            "descTask": "Comme je l'ai mentionné précédemment, nous devions créer un <b>petit jeu</b> sur le changement climatique pour ce site web. Comme nous avons choisi de réaliser un <b>site web en 3D</b>, j'étais chargé de créer la scène 3D du jeu. Pour m'aider, j'ai utilisé <b>Spline</b> pour gérer les éléments 3D, puis je l'ai <b>exportée au format ThreeJS</b> afin de l'intégrer dans le site. J'ai également placé plusieurs caméras pour mettre en avant les éléments concernés par chaque question. Nous avons <b>lié chaque question à une caméra spécifique</b> afin que, lorsque vous répondez à une question, la caméra se déplace pour se concentrer sur la suivante.",
+            "mediaTask": "./projects/planete-danete/workOnProject/PlaneteDanete3D.png"
+          }
+        ]
       },
       {
         "name": "DivArt",

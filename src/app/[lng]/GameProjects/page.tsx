@@ -51,7 +51,7 @@ export default async function GameProjects({
                   <div className="projectInfos">
                     <p className={styles.b}>{project.myTasks}</p>
                     <p className={styles.r}>
-                      {project.year} - {project.type} - {project?.engine}
+                      {project.year} - {project.preciseType} {project.engine && (<>- {project.engine}</>)} - {project. duration} - {project.teamSize}
                     </p>
 
                     <div className={styles.tags}>
