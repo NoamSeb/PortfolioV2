@@ -32,8 +32,9 @@
         "teamSize" : "Team of 9",
         "platform" : "Mobile",
         "type": "Game",
+        "preciseType" :"Puzzle Game",
         "engine": "Unity",
-        "myTasks": "UI programmer, Gameplay programmer, Project Management",
+        "myTasks": "UI programmer, Project Management",
         "tags": ["#Uity", "#mobile"],
         "selected": true,
         "stacks": {
@@ -72,6 +73,41 @@
         ]
       },
       {
+        "name": "Slime Rancher Mod",
+        "image": "./projects/SlimeRancherMod/SlimeRancher.jpg",
+        "year": "2025",
+        "duration":"1 month",
+        "teamSize" : "Alone",
+        "type": "Game",
+        "preciseType" :"Mod",
+        "myTasks": "UI programmer",
+        "tags": ["#Mod"],
+        "selected": true,
+        "stacks": {
+          "title": "Stacks",
+          "content": ["C#"]
+        },
+
+        "description": {
+          "title": "Description",
+          "content": "Outside of my studies, I tried creating a mod for the first <i>Slime Rancher</i> game. The idea was to add a timer to track how long it takes to open a specific gate. The goal was to compare different runs, improve over time, and record your best time for a speedrun.",
+          "images": [
+            "./projects/SlimeRancherMod/SlimeRancherMod1.png",
+            "./projects/SlimeRancherMod/SlimeRancherMod2.png",
+            "./projects/SlimeRancherMod/SlimeRancherMod3.png"
+          ]
+        },
+        "link": "SlimeRancherMod",
+        "MyWorkTitle": "My work",
+        "Work": [
+          {
+            "task": "UI programming",
+            "descTask": "For this mod, I used <b>BepInEx</b>, a piece of software that allows me to write code that the game can read alongside the original developers' code. To manage the timer and related systems, I used <b>Harmony</b>, a library that lets me <b>add patches</b> — a way to <b>listen to events</b> in the original code and trigger actions at specific moments — and <b>Newtonsoft.Json</b>, another library used to <b>read and write JSON files</b>.",
+            "mediaTask": "./projects/SlimeRancherMod/workOnProject/SlimeRancherUI.gif"
+          }
+        ]
+      },
+      {
         "name": "Fungi",
         "image": "./projects/Fungi/Fungi.png",
         "year": "2024",
@@ -79,6 +115,7 @@
         "teamSize": "Team 6",
         "platform": "PC",
         "type": "Game",
+        "preciseType" : "Platformer",
         "engine": "Unity",
         "myTasks": "UI programmer, Gameplay programmer",
         "tags": ["#Unity", "#jam"],
@@ -146,8 +183,19 @@
           "title": "See project",
           "link": "https://web-odyssey.vercel.app/"
         },
-        "MyWorkTitle": "My work",
-        "Work": {}
+       "MyWorkTitle": "My work",
+        "Work": [
+          {
+            "task": "Back-end programmer",
+            "descTask": "For this project, we built the website’s front-end with NextJS and the back-end with NodeJS and Express.</br>As a back-end developer, I <b>secured data transfers</b> to the database and made data management easier for the administrator.</br>A major task was also <b>generating entry tickets</b> on the fly and sending them by email.</br>I used users’ reservation details to <b>create a PDF ticket</b> and send it directly to them.",
+            "mediaTask": "./projects/WebOdyssey/workOnProject/WebOdysseyBack.png"
+          },
+          {
+            "task": "Network Administrator",
+            "descTask": "To host our website, we used <b>Vercel</b> to maintain NextJS’s dynamic capabilities and to make production updates easier directly through Git.</br>Then, I updated the domain's <b>DNS</b> settings to properly redirect to Vercel and adjusted some configurations to <b>link O2switch’s mail service</b> with Vercel.",
+            "mediaTask": "./projects/WebOdyssey/workOnProject/WebOdysseyNetwork.png"
+          }
+        ]
       },
       {
         "name": "loop",
@@ -157,10 +205,10 @@
         "teamSize" : "Alone",
         "platform" : "Windows",
         "type": "Game",
+        "preciseType" : "Adventure",
         "engine": "Unity",
         "myTasks": "Gameplay programmer, UI programmer",
         "tags": ["#Game", "#Unity"],
-        "selected":true,
         "stacks": {
           "title": "Stacks",
           "content": ["Unity", "C#"]

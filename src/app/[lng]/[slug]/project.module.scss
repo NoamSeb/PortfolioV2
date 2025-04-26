@@ -22,12 +22,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  h1 {
-    z-index: 10;
-    width: fit-content;
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin-bottom: 0;
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    h1 {
+      z-index: 10;
+      width: fit-content;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+    h2{
+      font-size: 1.2rem;
+    }
   }
   img {
     width: 35vw;

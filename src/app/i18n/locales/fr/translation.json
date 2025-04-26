@@ -32,6 +32,7 @@
         "teamSize": "Equipe de 9",
         "platform": "Mobile",
         "type": "Jeu",
+        "preciseType" :"Jeu de Puzzle",
         "engine": "Unity",
         "myTasks": "programmeur UI, Gestion de Projet",
         "tags": ["#Unity", "#mobile"],
@@ -56,7 +57,7 @@
           "link": "https://play.google.com/store/apps/details?id=com.Moonfish.Lunacy&hl=en-US&pli=1"
         },
         "projectVideo":"./projects/Lunacy/LunacyTrailerFr.mp4",
-        "MyWorkTitle": "My work",
+        "MyWorkTitle": "Mon travail",
         "Work": [
           {
             "task": "Programmeur UI",
@@ -71,6 +72,41 @@
         ]
       },
       {
+        "name": "Mod Slime Rancher",
+        "image": "./projects/SlimeRancherMod/SlimeRancher.jpg",
+        "year": "2025",
+        "duration":"1 month",
+        "teamSize" : "Alone",
+        "type": "Game",
+        "preciseType" :"Mod",
+        "myTasks": "UI programmer",
+        "tags": ["#Mod"],
+        "selected": true,
+        "stacks": {
+          "title": "Stacks",
+          "content": ["C#"]
+        },
+
+        "description": {
+          "title": "Description",
+          "content": "En dehors de mes études, j'ai essayé de créer un mod pour le premier <i>Slime Rancher</i>. L'idée était d'ajouter un chronomètre pour mesurer le temps nécessaire à l'ouverture d'une porte précise. L'objectif était de comparer différentes parties, de s'améliorer avec le temps et d'enregistrer son meilleur temps pour faire un speedrun.",
+          "images": [
+            "./projects/SlimeRancherMod/SlimeRancherMod1.png",
+            "./projects/SlimeRancherMod/SlimeRancherMod2.png",
+            "./projects/SlimeRancherMod/SlimeRancherMod3.png"
+          ]
+        },
+        "link": "SlimeRancherMod",
+        "MyWorkTitle": "Mon Travail",
+        "Work": [
+          {
+            "task": "UI programming",
+            "descTask": "Pour ce mod, j'ai utilisé <b>BepInEx</b>, un logiciel qui me permet d'écrire du code que le jeu peut lire en parallèle de celui des développeurs d'origine. Pour gérer le chronomètre et les autres systèmes, j'ai utilisé <b>Harmony</b>, une bibliothèque qui me permet <b>d'ajouter des patchs</b> — une façon <b>d'écouter des événements</b> dans le code original et de déclencher des actions à des moments précis — ainsi que <b>Newtonsoft.Json</b>, une autre bibliothèque permettant de <b>lire et écrire des fichiers JSON</b>.",
+            "mediaTask": "./projects/SlimeRancherMod/workOnProject/SlimeRancherUI.gif"
+          }
+        ]
+      },
+      {
         "name": "Fungi",
         "image": "./projects/Fungi/Fungi.png",
         "year": "2024",
@@ -78,6 +114,7 @@
         "teamSize": "Equipe 6",
         "platform": "PC",
         "type": "Game",
+        "preciseType" : "Jeu de platforme",
         "engine": "Unity",
         "myTasks": "Programmeur UI, Programmeur Gameplay",
         "tags": ["#Unity", "#jam"],
@@ -102,7 +139,7 @@
           "link": "https://zoyette.itch.io/fungi"
         },
         "projectVideo":"./projects/Fungi/FungiGameplay.mp4",
-        "MyWorkTitle": "My work",
+        "MyWorkTitle": "Mon Travail",
         "Work": [
           {
             "task": "UI programming",
@@ -144,18 +181,32 @@
           "title": "Voir le projet",
           "link": "https://web-odyssey.vercel.app/"
         },
-        "MyWorkTitle": "My work",
-        "Work": {}
+        "MyWorkTitle": "Mon Travail",
+        "Work": [
+          {
+            "task": "Programmeur Back-end",
+            "descTask": "Pour ce projet, nous avons développé le front-end du site avec NextJS et le back-end avec NodeJS et Express.</br>En tant que développeur back-end, j'ai <b>sécurisé les transferts de données</b> vers la base de données et facilité leur gestion pour l'administrateur.</br>Un autre enjeu important était de <b>générer des tickets d'entrée</b> à la volée et de les envoyer par mail.</br>Pour cela, j'ai utilisé les informations de réservation des utilisateurs pour <b>créer un fichier PDF</b> et leur envoyer directement.",
+            "mediaTask": "./projects/WebOdyssey/workOnProject/WebOdysseyBack.png"
+          },
+          {
+            "task": "Administration Réseau",
+            "descTask": "Pour héberger notre site, nous sommes passés par <b>Vercel</b> afin de conserver le dynamisme de NextJS et de faciliter la mise à jour du site en production directement depuis Git.</br>Ensuite, j'ai modifié les <b>DNS</b> du nom de domaine pour rediriger correctement vers Vercel et ajusté certaines configurations afin de <b>lier le service de messagerie d'O2switch</b> à Vercel.",
+            "mediaTask": "./projects/WebOdyssey/workOnProject/WebOdysseyNetwork.png"
+          }
+        ]
       },
       {
         "name": "Loop",
         "image": "./projects/loop/loop.png",
         "year": "2024",
+        "duration": "1 mois",
+        "teamSize": "Solo",
         "type": "Jeu",
+        "preciseType":"Aventure",
         "engine": "Unity",
+        "platform" : "PC",
         "myTasks": "Programmeur Gameplay, programmeur UI",
         "tags": ["#Game", "#Unity"],
-        "selected": true,
         "stacks": {
           "title": "Stacks",
           "content": ["Unity", "C#"]

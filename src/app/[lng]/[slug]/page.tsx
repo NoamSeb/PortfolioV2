@@ -53,7 +53,10 @@ export default async function Page({
       <header>
         <TopBar />
         <div className={styles.titleSection}>
-          <h1 className={styles.b}>{project.name}</h1>
+          <div>
+            <h1 className={styles.b}>{project.myTasks}</h1>
+            <h2 className={styles.b}>{project.name}</h2>
+          </div>
           <img src={project.image} alt={project.name} />
         </div>
       </header>
@@ -85,27 +88,32 @@ export default async function Page({
                   __html: project.description.content,
                 }}
               />
-              <Link href={project.externalLink.link}>
-                {project.externalLink.customButton ? (
-                  <img
-                    src={project.externalLink.customButton}
-                    alt={t(project.externalLink.title)}
-                    className={styles.customButtonImage}
-                  />
-                ) : (
-                  <button
-                    className={`${styles.projectInfosDescriptionExternalLink} ${styles.b}`}
-                  >
-                    {t(project.externalLink.title)}
-                  </button>
-                )}
-              </Link>
+              {project.externalLink && (
+                <Link href={project.externalLink.link}>
+                  {project.externalLink.customButton ? (
+                    <img
+                      src={project.externalLink.customButton}
+                      alt={t(project.externalLink.title)}
+                      className={styles.customButtonImage}
+                    />
+                  ) : (
+                    <button
+                      className={`${styles.projectInfosDescriptionExternalLink} ${styles.b}`}
+                    >
+                      {t(project.externalLink.title)}
+                    </button>
+                  )}
+                </Link>
+              )}
             </div>
           </div>
-
-          <div className={styles.projectVideo}>
-            <video src={t(project.projectVideo)} autoPlay muted loop />
-          </div>
+          {project.projectVideo ? (
+            <div className={styles.projectVideo}>
+              <video src={t(project.projectVideo)} autoPlay muted loop />
+            </div>
+          ) : (
+            <></>
+          )}
 
           <div className={styles.myWorkOnProject}>
             <h2 className={styles.b}>{t(project.MyWorkTitle)}</h2>

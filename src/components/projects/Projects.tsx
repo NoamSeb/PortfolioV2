@@ -23,11 +23,11 @@ const Projects: React.FC<{ lng: string }> = ({ lng }) => {
                   <div className="projectInfos">
                     <p className={styles.b}>{project.myTasks}</p>
                     <p className={styles.r}>
-                      {project.year} - {project.type} {""}
+                      {project.year} - {project.preciseType ? project.preciseType : project.type} {""}
                       {project?.engine && project?.platform && (
                         <>
                           {" "}
-                          - {project.engine} - {project.platform}
+                          - {project.engine} - {project.platform} {""}
                         </>
                       )}
                       - {project.duration} - {project.teamSize}
