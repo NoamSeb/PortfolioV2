@@ -5,8 +5,6 @@ import styles from "./page.module.scss";
 import TopBar from "@/components/topBar/TopBar";
 import NavBar from "@/components/navBar/NavBar";
 import Projects from "@/components/projects/Projects";
-import Testimonials from "@/components/testimonials/Testimonials";
-import Contact from "@/components/contact/Contact";
 
 interface PageProps {
   lng: string;
