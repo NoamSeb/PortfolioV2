@@ -25,6 +25,57 @@
     "otherProjectPageTitle": "Autres projets",
     "projects": [
       {
+        "name": "Frag'Ture",
+        "image": "./projects/FragTure/FragTure.png",
+        "year": "2025",
+        "duration": "1 mois",
+        "teamSize": "Équipe de 8",
+        "platform": "Windows",
+        "type": "Jeu",
+        "preciseType": "First Person Shooter",
+        "engine": "Unreal Engine",
+        "myTasks": "Lead Programmeur, Programmeur Gameplay, Programmeur UI",
+        "tags": ["#Unreal", "#FPS"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unreal", "Blueprint"]
+        },
+        "description": {
+          "title": "Présentation du projet",
+          "content": "Frag'Ture est un <b>FPS local en 1 contre 1, rapide et nerveux</b>, développé dans le cadre de mes études à l’IIM Digital School à Paris. Dans une arène futuriste, deux joueurs s’affrontent dans des duels intenses où l’objectif est de remporter la victoire en éliminant l’adversaire trois fois.<br>Pour dominer l’arène, il faut maîtriser des déplacements dynamiques comme les glissades et les dashs, tout en exploitant une mécanique unique : la fracture temporelle. Ce système modifie l’environnement, les armes et même la manière de se déplacer, créant de nouvelles opportunités stratégiques.<br>Réflexes, adaptation et stratégie sont les clés de la victoire.",
+          "images": [
+            "./projects/FragTure/FragTure1.png",
+            "./projects/FragTure/FragTure2.png"
+          ]
+        },
+        "link": "FragTure",
+        "externalLink": {
+          "title": "Voir le projet",
+          "customButton": "./ItchBanner.svg",
+          "link": "https://kyuzya.itch.io/fragture"
+        },
+        "projectVideo": "./projects/FragTure/FragTureTrailerFr.mp4",
+        "MyWorkTitle": "Mon rôle",
+        "Work": [
+          {
+            "task": "Lead Programmeur",
+            "descTask": "En tant que <b>Lead Programmeur</b>, j’étais responsable du <b>bon déroulement du développement</b> côté technique. En plus de participer directement au <b>développement des fonctionnalités</b>, j’assurais la <b>coordination du travail</b>, le <b>suivi des tâches</b> et la <b>communication fluide</b> entre l’équipe de programmation et les autres pôles (game design, graphisme, son, etc.).",
+            "mediaTask": "./projects/FragTure/workOnProject/FragTureJira.png"
+          },
+          {
+            "task": "Programmeur Gameplay",
+            "descTask": "J’ai conçu et implémenté des <b>mécaniques de gameplay environnementales</b> telles que les bumpers, les trappes de lave et le <b>changement automatique de carte toutes les 30 secondes</b>.</br>J’ai développé une <b>interface de collision</b> pour les bumpers permettant au personnage de déclencher des comportements spécifiques. Les trappes, quant à elles, <b>s’activent automatiquement après 5 secondes</b> sur la <b>carte du passé</b>.</br>Nous avons utilisé le <b>level streaming</b> afin de <b>charger et décharger dynamiquement</b> les deux cartes et ainsi <b>optimiser les performances</b>.",
+            "mediaTask": "./projects/FragTure/workOnProject/FragTureGameplay.gif"
+          },
+          {
+            "task": "Programmeur UI",
+            "descTask": "J’ai pris en charge l’<b>implémentation de l’interface utilisateur</b> : menus, scores, timer et barres de vie, avec une <b>logique de synchronisation</b> entre l’UI et les objets du jeu, <b>paramétrable par les game designers</b>.</br>J’ai structuré plusieurs <b>Widget Blueprints</b> dans Unreal Engine, en créant des <b>composants réutilisables</b> avec une <b>logique autonome</b>, afin de garantir une <b>UI claire, modulable et évolutive</b>.",
+            "mediaTask": "./projects/FragTure/workOnProject/FragTureUI.png"
+          }
+        ]
+      },
+      {
         "name": "Lunacy",
         "image": "./projects/Lunacy/Lunacy.png",
         "year": "2025",
@@ -32,7 +83,7 @@
         "teamSize": "Equipe de 9",
         "platform": "Mobile",
         "type": "Jeu",
-        "preciseType" :"Jeu de Puzzle",
+        "preciseType": "Jeu de Puzzle",
         "engine": "Unity",
         "myTasks": "programmeur UI, Gestion de Projet",
         "tags": ["#Unity", "#mobile"],
@@ -56,7 +107,7 @@
           "customButton": "./GooglePlayBannerFr.png",
           "link": "https://play.google.com/store/apps/details?id=com.Moonfish.Lunacy&hl=en-US&pli=1"
         },
-        "projectVideo":"./projects/Lunacy/LunacyTrailerFr.mp4",
+        "projectVideo": "./projects/Lunacy/LunacyTrailerFr.mp4",
         "MyWorkTitle": "Mon travail",
         "Work": [
           {
@@ -75,10 +126,10 @@
         "name": "Mod Slime Rancher",
         "image": "./projects/SlimeRancherMod/SlimeRancher.jpg",
         "year": "2025",
-        "duration":"1 month",
-        "teamSize" : "Alone",
+        "duration": "1 month",
+        "teamSize": "Alone",
         "type": "Game",
-        "preciseType" :"Mod",
+        "preciseType": "Mod",
         "myTasks": "UI programmer",
         "tags": ["#Mod"],
         "selected": true,
@@ -114,7 +165,7 @@
         "teamSize": "Equipe 6",
         "platform": "PC",
         "type": "Game",
-        "preciseType" : "Jeu de platforme",
+        "preciseType": "Jeu de platforme",
         "engine": "Unity",
         "myTasks": "Programmeur UI, Programmeur Gameplay",
         "tags": ["#Unity", "#jam"],
@@ -138,7 +189,7 @@
           "customButton": "./ItchBanner.svg",
           "link": "https://zoyette.itch.io/fungi"
         },
-        "projectVideo":"./projects/Fungi/FungiGameplay.mp4",
+        "projectVideo": "./projects/Fungi/FungiGameplay.mp4",
         "MyWorkTitle": "Mon Travail",
         "Work": [
           {
@@ -158,11 +209,10 @@
         "image": "./projects/WebOdyssey/WebOdyssey.png",
         "year": "2024",
         "type": "Site Web",
-        "duration":"3 mois",
-        "teamSize" : "Equipe de 6",
+        "duration": "3 mois",
+        "teamSize": "Equipe de 6",
         "myTasks": "Programmeur Back-end, Administration Réseau",
         "tags": ["#Website", "#Network"],
-        "selected": true,
         "stacks": {
           "title": "Stacks",
           "content": ["NodeJS", "NextJS"]
@@ -204,9 +254,9 @@
         "duration": "1 mois",
         "teamSize": "Solo",
         "type": "Jeu",
-        "preciseType":"Aventure",
+        "preciseType": "Aventure",
         "engine": "Unity",
-        "platform" : "PC",
+        "platform": "PC",
         "myTasks": "Programmeur Gameplay, programmeur UI",
         "tags": ["#Game", "#Unity"],
         "stacks": {
@@ -225,15 +275,28 @@
         "externalLink": {
           "title": "Voir le projet",
           "link": "https://noamseb.itch.io/loop"
-        }
+        },
+        "MyWorkTitle": "Mon Travail",
+        "Work": [
+          {
+            "task": "Programmeur Gameplay",
+            "descTask": "Ce petit projet avait pour vocation de faire une courte introduction au Moteur <i>Unity</i>.</br>Pour les controls de base (déplacement, intéractions), j'ai utilisé le new Input System.</br>Pour ensuite gérer les différents objects intéractif, je suis passé par des Sciptable Objects afin de donner des informations unique à chacuns des objets avec lequels je vais intéragir",
+            "mediaTask": "./projects/WebOdyssey/workOnProject/WebOdysseyBack.png"
+          },
+          {
+            "task": "Administration Réseau",
+            "descTask": "Pour héberger notre site, nous sommes passés par <b>Vercel</b> afin de conserver le dynamisme de NextJS et de faciliter la mise à jour du site en production directement depuis Git.</br>Ensuite, j'ai modifié les <b>DNS</b> du nom de domaine pour rediriger correctement vers Vercel et ajusté certaines configurations afin de <b>lier le service de messagerie d'O2switch</b> à Vercel.",
+            "mediaTask": "./projects/WebOdyssey/workOnProject/WebOdysseyNetwork.png"
+          }
+        ]
       },
       {
         "name": "Planète Danette",
         "image": "./projects/planete-danete/planeteDanette.png",
         "year": "2024",
         "type": "Site Web",
-        "duration":"13 heures",
-        "teamSize" : "Equipe de 3",
+        "duration": "13 heures",
+        "teamSize": "Equipe de 3",
         "myTasks": "programmeur 3D",
         "tags": ["#Website", "#jeu", "#Hackathon"],
         "stacks": {
