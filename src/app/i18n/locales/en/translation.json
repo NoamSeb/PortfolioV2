@@ -25,6 +25,47 @@
     "otherProjectPageTitle": "Other Projects",
     "projects": [
       {
+         "name": "So'Briquet",
+        "image": "./projects/SoBriquet/SoBriquet.png",
+        "year": "2025",
+        "duration": "A Week",
+        "teamSize": "Team of 6",
+        "platform": "Windows",
+        "type": "Jeu",
+        "preciseType": "Endless scoring",
+        "engine": "Unity",
+        "myTasks": "Gameplay Programmer",
+        "tags": ["#Unity", "#Jam"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unity", "C#"]
+        },
+        "description": {
+          "title": "Project Overview",
+          "content": "So’Briquet is an endless scrolling game created in just 4 days for a back-to-school game jam! </br>The main constraint was to integrate a lighter as a constant element of the gameplay. Unexpected twists during development added extra challenges, but they also pushed us to be more creative and refine the project further.",
+          "images": [
+            "./projects/SoBriquet/SoBriquet1.png",
+            "./projects/SoBriquet/SoBriquet2.png"
+          ]
+        },
+        "link": "SoBriquet",
+        "externalLink": {
+          "title": "See project",
+          "customButton": "./ItchBanner.svg",
+          "link": "https://anatole13.itch.io/team-10-sobriquet"
+        },
+        "projectVideo": "./projects/SoBriquet/SoBriquet_gameplay.mp4",
+        "MyWorkTitle": "My Role",
+        "Work": [
+          {
+            "task": "Programmeur Gameplay",
+            "descTask": "During this project, I developed <b>player-oriented gameplay mechanics</b>. Throughout the process, I took into account the imposed constraints while also giving the Game Designers the <b>flexibility to adjust</b> key parameters as needed.",
+            "mediaTask": "./projects/SoBriquet/workOnProject/SoBriquetGameplay.png"
+          }
+        ]
+      },
+      {
         "name": "Frag'Ture",
         "image": "./projects/FragTure/FragTure.png",
         "year": "2025",

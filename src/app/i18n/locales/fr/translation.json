@@ -25,6 +25,47 @@
     "otherProjectPageTitle": "Autres projets",
     "projects": [
       {
+         "name": "So'Briquet",
+        "image": "./projects/SoBriquet/SoBriquet.png",
+        "year": "2025",
+        "duration": "Une Semaine",
+        "teamSize": "Équipe de 6",
+        "platform": "Windows",
+        "type": "Jeu",
+        "preciseType": "Endless scoring",
+        "engine": "Unity",
+        "myTasks": "Programmeur Gameplay",
+        "tags": ["#Unity", "#Jam"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unity", "C#"]
+        },
+        "description": {
+          "title": "Présentation du projet",
+          "content": "So’Briquet est un jeu de type endless scoring que nous avons développé en seulement 4 jours dans le cadre d’une game jam de rentrée !</br>La contrainte principale consistait à intégrer un briquet de manière cohérente au cœur du gameplay. Par la suite, plusieurs imprévus ont rendu le projet plus complexe, mais aussi plus stimulant.",
+          "images": [
+            "./projects/SoBriquet/SoBriquet1.png",
+            "./projects/SoBriquet/SoBriquet2.png"
+          ]
+        },
+        "link": "SoBriquet",
+        "externalLink": {
+          "title": "Voir le projet",
+          "customButton": "./ItchBanner.svg",
+          "link": "https://anatole13.itch.io/team-10-sobriquet"
+        },
+        "projectVideo": "./projects/SoBriquet/SoBriquet_gameplay.mp4",
+        "MyWorkTitle": "Mon rôle",
+        "Work": [
+          {
+            "task": "Programmeur Gameplay",
+            "descTask": "Lors de ce projet, j’étais en charge de développer les <b>mécaniques de gameplay</b> liées au joueur. Le développement devait prendre en compte les contraintes imposées tout en offrant aux Game Designers la <b>flexibilité de modifier</b> les paramètres souhaités.",
+            "mediaTask": "./projects/SoBriquet/workOnProject/SoBriquetGameplay.png"
+          }
+        ]
+      },
+      {
         "name": "Frag'Ture",
         "image": "./projects/FragTure/FragTure.png",
         "year": "2025",
@@ -168,7 +209,7 @@
         "preciseType": "Jeu de platforme",
         "engine": "Unity",
         "myTasks": "Programmeur UI, Programmeur Gameplay",
-        "tags": ["#Unity", "#jam"],
+        "tags": ["#Unity", "#Jam"],
         "selected": true,
         "stacks": {
           "title": "Stacks",
@@ -213,6 +254,7 @@
         "teamSize": "Equipe de 6",
         "myTasks": "Programmeur Back-end, Administration Réseau",
         "tags": ["#Website", "#Network"],
+        "selected": true,
         "stacks": {
           "title": "Stacks",
           "content": ["NodeJS", "NextJS"]
