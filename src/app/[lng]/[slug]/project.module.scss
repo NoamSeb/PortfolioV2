@@ -164,6 +164,29 @@
     }
   }
 }
+.nextProject{
+  width: 100vw;
+  height: 20vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  .sail{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    transition: opacity 0.3s ease;
+  }
+  :hover{
+    opacity: 1;
+  }
+}
+
 @media screen and (width < 700px) {
   .titleSection {
     gap: 0;

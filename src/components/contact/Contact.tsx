@@ -29,6 +29,9 @@ export default async function Contact({ lng }: ContactProps) {
           <a href="https://noamseb.itch.io/" aria-label="Voir ma page Itch.io">
             <img src="itchLogo.png" alt="" />
           </a>
+          <a href="https://github.com/NoamSeb" aria-label="Voir mon GitHub">
+            <img src="github.png" alt="" />
+          </a>
         </div>
       </div>
     </div>

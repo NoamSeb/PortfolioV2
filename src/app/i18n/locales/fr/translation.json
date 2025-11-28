@@ -23,6 +23,7 @@
     "title": "Un aperçu de mon travail",
     "gameProjectPageTitle": "Projet de jeu",
     "otherProjectPageTitle": "Autres projets",
+    "nextProjectText" : "Voir le prochain projet",
     "projects": [
       {
          "name": "So'Briquet",

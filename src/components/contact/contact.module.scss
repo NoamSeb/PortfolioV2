@@ -20,13 +20,14 @@
   border-radius: 10px;
   border: none;
   text-decoration: none;
-  color: black;
+  background-color: #161616;
+  color: #fff;
   font-style: normal;
   transition: 0.5s;
   font-style: italic;
   &:hover {
-    background-color: #161616;
-    color: #fff;
+    background-color: #fff;
+    color: #161616;
   }
 }
 .contactLinks {

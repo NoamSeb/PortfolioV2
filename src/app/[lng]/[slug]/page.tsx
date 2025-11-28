@@ -40,9 +40,15 @@ export default async function Page({
     `../../i18n/locales/${lng}/translation.json`
   );
 
-  const project = projectData.whatIDO.projects.find(
-    (project: any) => project.link === slug
+  // const project = projectData.whatIDO.projects.find(
+  //   (project: any) => project.link === slug
+  // );
+  
+  const index = projectData.whatIDO.projects.findIndex(
+  (project: any) => project.link === slug
   );
+  const project = projectData.whatIDO.projects[index];
+  const nextProject = projectData.whatIDO.projects[index+1] ?? null
 
   if (!project) {
     return <div>Project not found</div>;
@@ -145,6 +151,15 @@ export default async function Page({
               ))}
             </div>
           </div>
+          {nextProject ? (
+            <Link href={nextProject.link}>
+            <div className={styles.nextProject} style={{ backgroundImage: `url(${t(nextProject.image)})`}} aria-label={t(nextProject.name)}>
+              <div className={styles.sail}>
+                <p className={styles.r}>{t("whatIDO.nextProjectText")}</p>
+              </div>
+          </div></Link>
+          ):(<></>)}
+          
         </div>
         <NavBar lng={lng} />
       </main>
