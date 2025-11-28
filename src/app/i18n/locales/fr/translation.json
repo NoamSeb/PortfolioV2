@@ -435,7 +435,7 @@
           {
             "task": "Génération de SVG",
             "descTask": "Ce projet ayant pour but de faire de la data visualition, nous avons utilisé la librairie JavaScript <b>D3JS</b> dans le but de généré des contenus <b>SVG depuis le script</b>. L'un des usages de cette librairie dans notre cas à été de généré un graphique entièrement basé sur des données au format JSON que nous avons récupéré sur le site <a href='https://www.feminicides.fr/'><b style='text-decoration:underline; color:#161616;'>feminicides.fr</b></a>. Je me suis appuyé sur ces données pour tracé un graphique représentant l'évolution du nombre de féminicide entre 2016 et 2022.",
-            "mediaTask": "./projects/Feminicide/workOnProject/D3Graph.png"
+            "mediaTask": "./projects/Feminicide/workOnProject/d3Graph.png"
           }
         ]
       }
