@@ -13,7 +13,7 @@ export default async function Contact({ lng }: ContactProps) {
       <p className={styles.r}>{t("contact.subTitle2")}</p>
       <div className={styles.contactLinks}>
         <a
-          href="./CV_nsebahoun.pdf"
+          href="./CV_noam_sebahoun.pdf"
           download="noam_sebahoun_CV"
           className={`${styles.b} ${styles.downloadCV}`}
         >
