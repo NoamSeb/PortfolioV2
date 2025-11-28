@@ -394,6 +394,12 @@
       {
         "name": "Feminicide",
         "image": "./projects/Feminicide/Feminicide.png",
+        "year": "2022",
+        "type": "Website",
+        "duration": "1 mounth",
+        "teamSize": "Team of 3",
+        "myTasks": "Lead Developer",
+        "tags": ["#Website", "#Engaged"],
         "stacks": {
           "title": "Stacks",
           "content": ["JavaScript", "D3JS"]
@@ -410,7 +416,15 @@
         "externalLink": {
           "title": "See project",
           "link": "https://noamseb.github.io/DataViz/"
-        }
+        },
+        "MyWorkTitle": "My work",
+        "Work": [
+          {
+            "task": "SVG Generation",
+            "descTask": "This project aimed to create data visualizations, so we used the JavaScript library <b>D3JS</b> to generate <b>SVG content</b> directly from the script; one of its uses in our case was generating a chart entirely based on JSON data we retrieved from the website <a href='https://www.feminicides.fr/'><b style='text-decoration:underline; color:#161616;'>feminicides.fr</b></a>; I used this data to create a graph showing the evolution of the number of femicides between 2016 and 2022.",
+            "mediaTask": "./projects/Feminicide/workOnProject/D3Graph.png"
+          }
+        ]
       }
     ]
   },
