@@ -358,6 +358,12 @@
       {
         "name": "DivArt",
         "image": "./projects/DivArt/DivArt.png",
+        "year": "2023",
+        "type": "Website",
+        "duration": "2 mounth",
+        "teamSize": "Team of 6",
+        "myTasks": "Interactive developer",
+        "tags": ["#Website", "#AR"],
         "stacks": {
           "title": "Stacks",
           "content": ["Blender", "ThreeJS", "WebXR"]
@@ -375,7 +381,15 @@
         "externalLink": {
           "title": "See project",
           "link": "https://divart-museum.noamsebahoun.fr/"
-        }
+        },
+        "MyWorkTitle": "My work",
+        "Work": [
+          {
+            "task": "Interactive Developer",
+            "descTask": "As part of a second-year web project in my BUT MMI program, we had to create a booking website for a fictional interactive exhibition; in addition to this website, we were required to create an <b>interactive experience</b> (e.g., a small quiz-style game, AR, VR, etc.); I was responsible for developing this experience and integrating it directly into the website, using <b>ThreeJS</b>, a JavaScript library for browser-based 3D, as well as a library called <b>WebXR</b>, which enables <b>augmented or virtual reality</b> directly from a web browser.",
+            "mediaTask": "./projects/DivArt/workOnProject/InteractiveDevice.gif"
+          }
+        ]
       },
       {
         "name": "Feminicide",

@@ -82,11 +82,13 @@
         border: none;
         border-radius: 10px;
         font-size: 1.2rem;
-        cursor: pointer;
+        background-color: #161616;
+        color: #fff;
+        cursor: none;
         transition: 0.5s;
         &:hover {
-          background-color: #161616;
-          color: #fff;
+          background-color: #fff;
+          color: #161616;
         }
       }
     }

@@ -371,6 +371,12 @@
       {
         "name": "DivArt",
         "image": "./projects/DivArt/DivArt.png",
+        "year": "2023",
+        "type": "Site Web",
+        "duration": "2 mois",
+        "teamSize": "Equipe de 6",
+        "myTasks": "Développeur Interactif",
+        "tags": ["#Website", "#AR"],
         "stacks": {
           "title": "Stacks",
           "content": ["Blender", "ThreeJS", "WebXR"]
@@ -388,7 +394,15 @@
         "externalLink": {
           "title": "Voir le projet",
           "link": "https://divart-museum.noamsebahoun.fr/"
-        }
+        },
+        "MyWorkTitle": "Mon Travail",
+        "Work": [
+          {
+            "task": "Développeur Interactif",
+            "descTask": "Dans le cadre d'un projet web de 2eme année de mon BUT MMI, nous avions à réalisé une site de réservation pour une exposition intéractive fictive. En plus de ce site, il nous était demandé de créer un <b>dispositif intéractif</b> (ex: mini jeu type quiz, AR, VR,...).</br>J'étais en charge du développement de ce dispositif que nous intégrer directement au site internet. Pour ce faire, j'ai utilisé <b>ThreeJS</b>, un librairie JavaScript qui permet de faire de 3D sur navigateur ainsi qu'une librairie appelé <b>WebXR</b> qui permet de faire de la <b>réalité augmenté ou virtuelle</b> depuis un navigateur.",
+            "mediaTask": "./projects/DivArt/workOnProject/DispositifInteractif.gif"
+          }
+        ]
       },
       {
         "name": "Feminicide",
