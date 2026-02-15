@@ -26,6 +26,154 @@
     "nextProjectText" : "See next project",
     "projects": [
       {
+        "name": "Hoziron",
+        "image": "./projects/Hoziron/Hoziron.png",
+        "year": "2026",
+        "duration": "1 month",
+        "teamSize": "Team of 9",
+        "platform": "Android/IOS",
+        "type": "Jeu",
+        "preciseType": "Narrative Game",
+        "engine": "Unity",
+        "myTasks": "Lead Gameplay Programmer",
+        "tags": ["#Unity", "#mobile"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unity", "C#"]
+        },
+        "description": {
+          "title": "Project Overview",
+          "content": "As a study project, we had to make a narrative game in a mounth using Unity Engine and realease it on Android and IOS. In Hoziron, you follow a pirate crew looking for gold and fortune. While you can't control the boat, you can create the map with piece of map you had in your hand to make sure your crew isn't lost in the void of the sea... Everyday, something happen, sometime good things, sometime bad things... Take the good decisions and try to enter the legend of piracy.",
+          "images": [
+           "./projects/Hoziron/Hoziron_1.png",
+           "./projects/Hoziron/Hoziron_2.png",
+           "./projects/Hoziron/Hoziron_3.png"
+          ]
+        },
+        "link": "Hoziron",
+        "externalLink": {
+          "title": "See project",
+          "customButton": "./ItchBanner.svg",
+          "link": "https://charliebrv.itch.io/hoziron"
+        },
+        "projectVideo": "",
+        "MyWorkTitle": "My Role",
+        "Work": [
+          {
+            "task": "Lead Gameplay Programmer",
+            "descTask": "As a gameplay programmer, I've made some basic feature on the game such as the boat movement along a spline. Indeed, we wanted the game to be replayable so the previous game will never be the same as the next one. So I've made a auto generated spline system to let the designers put some parameters for the generation and then TADA ! The spline generate herself and respect the given parameters.<br> But as a lead programmer, I worked a lot with our producer to ensure the project goes on the right track. Moreover, I ensured the great process on developement side to everyone had his task and know what he could do next.",
+            "mediaTask": "./projects/Hoziron/workOnProject/HozironTrello.png"
+          }, 
+          {
+            "task": "Tool Programmer",
+            "descTask": "Because we had a lot to tell for this game, we've used a dialogue graph that I previously made so the designers could create amazing dialogue carrying CSV translation file. Because of some specific needs, I created new nodes to help them like a node that can call in game event directly in the graph. The idea was to help the game designers make their dialogue with a lot of possibilities so they can let speak their creativity through the graph.",
+            "mediaTask": "./projects/Hoziron/workOnProject/HozironDialogueGraph.png"
+          }, 
+          {
+            "task": "UI Programmer",
+            "descTask": "For Hoziron, I also was in charge of the UI. Indeed, I've made the main menu and the settings (linked to a save system) that allow me to control an Audio System to manage the music volume, the SFX volume... I also was in charge of the Inventory developement. The main inventory system was already made by a team mate but I have made it visible for the player.",
+            "mediaTask": "./projects/Hoziron/workOnProject/HozironSettings.png"
+          }
+        ]
+      },
+      {
+        "name": "Faceful",
+        "image": "./projects/Faceful/Faceful.png",
+        "year": "2026",
+        "duration": "2 days",
+        "teamSize": "Team of 5",
+        "platform": "Windows",
+        "type": "Jeu",
+        "preciseType": "",
+        "engine": "Unity",
+        "myTasks": "Gameplay Programmer",
+        "tags": ["#Unity", "#Jam", "#GGJ2026"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unity", "C#"]
+        },
+        "description": {
+          "title": "Project Overview",
+          "content": "Faceful has been developped for the Global Game Jam 2026. This year, the theme was \"Mask\" so we've made a game in which you embody a serial killer who uses his victim's face to make like a mask and pass himself to them. But your should take care because the police suspect you... Knocking at your door, they will ask you some questions and look into your house for a body or if you answer wrong...",
+          "images": [
+           "./projects/Faceful/Faceful_1.png",
+            "./projects/Faceful/Faceful_2.png",
+            "./projects/Faceful/Faceful_3.png",
+            "./projects/Faceful/Faceful_4.png"
+          ]
+        },
+        "link": "Faceful",
+        "externalLink": {
+          "title": "See project",
+          "customButton": "./ItchBanner.svg",
+          "link": "https://th4umas.itch.io/faceful"
+        },
+        "projectVideo": "./projects/Faceful/Faceful.mp4",
+        "MyWorkTitle": "My Role",
+        "Work": [
+          {
+            "task": "Gameplay Programmer",
+            "descTask": "During this project, I developed the question system for the designers to make it easy to implement with a great and a wrong answer. I also developed the police IA to make them travel your place to look for a dead body with point of interest and a NavMesh.",
+            "mediaTask": "./projects/Faceful/workOnProject/FacefulDialogue.png"
+          }, 
+          {
+            "task": "UI Programmer",
+            "descTask": "For this game, I also made UI elements such as the main menu (of course) but also the question interface and the dynamic TV. The idea was to make the UI dynamic so it can fit with different question/answer. The TV was designed to display missing faces of people you killed.",
+            "mediaTask": "./projects/Faceful/workOnProject/FacefulTV.png"
+          }
+        ]
+      },
+      {
+        "name": "Dead Meat Motors",
+        "image": "./projects/DeadMeatMotors/KeyArtHorizontal.png",
+        "year": "2025",
+        "duration": "3 mounths",
+        "teamSize": "Team of 13",
+        "platform": "Windows",
+        "type": "Jeu",
+        "preciseType": "Party Game",
+        "engine": "Unreal",
+        "myTasks": "Gameplay Programmer",
+        "tags": ["#Unreal"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unreal", "C++", "Blueprint"]
+        },
+        "description": {
+          "title": "Project Overview",
+          "content": "Dead Meat Motors is an action game where the players controls a robot tasked with delivering supplies to survivor camps. During each delivery, the truck is attacked by zombie hordes that must be defended against while on the road. Upon reaching a camp, the players can upgrade the truck to better survive future runs.",
+          "images": [
+           "./projects/DeadMeatMotors/DMM_1.png",
+            "./projects/DeadMeatMotors/DMM_2.png",
+            "./projects/DeadMeatMotors/DMM_3.png",
+            "./projects/DeadMeatMotors/DMM_4.png"
+          ]
+        },
+        "link": "DeadMeatMotors",
+        "externalLink": {
+          "title": "See project",
+          "customButton": "./ItchBanner.svg",
+          "link": "https://williamreppelin.itch.io/deadmeatmotors"
+        },
+        "projectVideo": "./projects/DeadMeatMotors/DMM_trailer.mp4",
+        "MyWorkTitle": "My Role",
+        "Work": [
+          {
+            "task": "Gameplay Programmer",
+            "descTask": "During this project, I implented the driving logic for the truck. The idea was to make the best driving mecanic as possible with as much variables as possible so the designers can modify easily the driving parameters",
+            "mediaTask": "./projects/SoBriquet/workOnProject/SoBriquetGameplay.png"
+          }, 
+          {
+            "task": "Tool Programmer",
+            "descTask": "During this project, I developed <b>road generation system</b> to help the designers make the levels. Throughout the process, I talked with game designers to have the best <b>flexibility</b> while answer the best to the <b>Designer's needs</b>.",
+            "mediaTask": "./projects/SoBriquet/workOnProject/SoBriquetGameplay.png"
+          }
+        ]
+      },
+      {
          "name": "So'Briquet",
         "image": "./projects/SoBriquet/SoBriquet.png",
         "year": "2025",
@@ -60,7 +208,7 @@
         "MyWorkTitle": "My Role",
         "Work": [
           {
-            "task": "Programmeur Gameplay",
+            "task": "Gameplay Programmer",
             "descTask": "During this project, I developed <b>player-oriented gameplay mechanics</b>. Throughout the process, I took into account the imposed constraints while also giving the Game Designers the <b>flexibility to adjust</b> key parameters as needed.",
             "mediaTask": "./projects/SoBriquet/workOnProject/SoBriquetGameplay.png"
           }
@@ -175,7 +323,6 @@
         "preciseType": "Mod",
         "myTasks": "UI programmer",
         "tags": ["#Mod"],
-        "selected": true,
         "stacks": {
           "title": "Stacks",
           "content": ["C#"]
@@ -212,7 +359,6 @@
         "engine": "Unity",
         "myTasks": "UI programmer, Gameplay programmer",
         "tags": ["#Unity", "#jam"],
-        "selected": true,
         "stacks": {
           "title": "Stacks",
           "content": ["Unity", "C#"]
@@ -256,7 +402,7 @@
         "type": "Website",
         "myTasks": "Back-end programmer, Network Administrator",
         "tags": ["#Website", "#Network"],
-        "selected": true,
+        "selected": false,
         "stacks": {
           "title": "Stacks",
           "content": ["NodeJS", "NextJS"]

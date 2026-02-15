@@ -26,6 +26,154 @@
     "nextProjectText" : "Voir le prochain projet",
     "projects": [
       {
+        "name": "Hoziron",
+        "image": "./projects/Hoziron/Hoziron.png",
+        "year": "2026",
+        "duration": "1 mois",
+        "teamSize": "Equipe de 9",
+        "platform": "Android/IOS",
+        "type": "Jeu",
+        "preciseType": "Jeu narratif",
+        "engine": "Unity",
+        "myTasks": "Lead Gameplay Programmer",
+        "tags": ["#Unity", "#mobile"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unity", "C#"]
+        },
+        "description": {
+          "title": "Project Overview",
+          "content": "Dans le cadre d'un projet d'étude, nous devions créer un jeu narratif en un mois à l'aide du moteur Unity et le publier sur Android et iOS. Dans Hoziron, vous suivez un équipage de pirates à la recherche d'or et de fortune. Bien que vous ne puissiez pas contrôler le bateau, vous pouvez créer une carte à partir des fragments que vous avez en votre possession afin de vous assurer que votre équipage ne se perde pas dans l'immensité de la mer... Chaque jour, il se passe quelque chose, parfois de bon, parfois de mauvais... Prenez les bonnes décisions et essayez d'entrer dans la légende de la piraterie.",
+          "images": [
+           "./projects/Hoziron/Hoziron_1.png",
+           "./projects/Hoziron/Hoziron_2.png",
+           "./projects/Hoziron/Hoziron_3.png"
+          ]
+        },
+        "link": "Hoziron",
+        "externalLink": {
+          "title": "See project",
+          "customButton": "./ItchBanner.svg",
+          "link": "https://charliebrv.itch.io/hoziron"
+        },
+        "projectVideo": "",
+        "MyWorkTitle": "My Role",
+        "Work": [
+          {
+            "task": "Lead Gameplay Programmer",
+            "descTask": "En tant que programmeur gameplay, j'ai créé certaines fonctionnalités de base du jeu, telles que le mouvement du bateau le long d'une spline. En effet, nous voulions que le jeu soit rejouable afin que chaque partie soit différente de la précédente. J'ai donc créé un système de génération procédurale de spline pour permettre aux designers de définir certains paramètres pour la génération, et voilà ! La spline se génère toute seule et respecte les paramètres donnés. <br>Mais en tant que lead programmeur, j'ai beaucoup travaillé avec notre chef de projet pour m'assurer que le projet avançait dans la bonne direction. De plus, j'ai veillé à ce que le processus de développement se déroule bien, afin que chacun ait sa tâche et sache ce qu'il devait faire ensuite.",
+            "mediaTask": "./projects/Hoziron/workOnProject/HozironTrello.png"
+          }, 
+          {
+            "task": "Tool Programmer",
+            "descTask": "Comme nous avions beaucoup à raconter pour ce jeu, nous avons utilisé un graphique de dialogue que j'avais précédemment créé afin que les game designers puissent créer des dialogues incroyables en s'appuyant sur un fichier de traduction CSV. En raison de certains besoins spécifiques, j'ai aussi créé de nouveaux nœuds pour les aider, comme un nœud permettant d'appeler directement un événement du jeu dans le graphique. L'idée était d'aider les designers à créer leurs dialogues avec de nombreuses possibilités afin qu'ils puissent laisser libre cours à leur imagination.",
+            "mediaTask": "./projects/Hoziron/workOnProject/HozironDialogueGraph.png"
+          }, 
+          {
+            "task": "UI Programmer",
+            "descTask": "Pour Hoziron, j'étais également responsable de l'interface utilisateur. J'ai ainsi créé le menu principal et les paramètres (liés à un système de sauvegarde) qui permet de contrôler un système audio pour gérer le volume de la musique, le volume des effets sonores... J'étais également responsable du développement de l'inventaire. Le système d'inventaire principal avait déjà été créé par un collègue, mais je l'ai rendu visible et interactif pour le joueur.",
+            "mediaTask": "./projects/Hoziron/workOnProject/HozironSettings.png"
+          }
+        ]
+      },
+      {
+        "name": "Faceful",
+        "image": "./projects/Faceful/Faceful.png",
+        "year": "2026",
+        "duration": "2 jours",
+        "teamSize": "Equipe de 5",
+        "platform": "Windows",
+        "type": "Jeu",
+        "preciseType": "",
+        "engine": "Unity",
+        "myTasks": "Gameplay Programmer",
+        "tags": ["#Unreal", "#Jam", "#GGJ2026"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unity", "C#"]
+        },
+        "description": {
+          "title": "Présentation du projet",
+          "content": "Faceful a été dévelopé dans le cadre de la Global Game Jam 2026. Cette année le thème était \"Masque\" donc nous avons fait un jeu dans lequel vous incarnez un tueur en série qui utilise le visage de ses victime comme des masque pour se faire passer pour eux. Cependant, vous devrez faire attention car la police vous suspect... Frappent régulièrement à votre porte, la police vous posera des question et rentrera dans votre maison à la recherche d'un corps si vous réponsez mal...",
+          "images": [
+           "./projects/Faceful/Faceful_1.png",
+            "./projects/Faceful/Faceful_2.png",
+            "./projects/Faceful/Faceful_3.png",
+            "./projects/Faceful/Faceful_4.png"
+          ]
+        },
+        "link": "Faceful",
+        "externalLink": {
+          "title": "See project",
+          "customButton": "./ItchBanner.svg",
+          "link": "https://th4umas.itch.io/faceful"
+        },
+        "projectVideo": "./projects/Faceful/Faceful.mp4",
+        "MyWorkTitle": "Mon rôle",
+        "Work": [
+          {
+            "task": "Gameplay Programmer",
+            "descTask": "Durant ce projet, j'ai développer le système de question de sorte à ce que les designers puisse facilement implémenter leurs questions avec une bonne et une mauvaise réponse. J'ai aussi développer l'IA de la police pour les faire bouger à travers votre maison et chercher un cadavre proche de point d'intérêt avec un NavMesh",
+            "mediaTask": "./projects/Faceful/workOnProject/FacefulDialogue.png"
+          }, 
+          {
+            "task": "UI Programmer",
+            "descTask": "Pour ce jeu, j'ai aussi fais les élément en UI tel que le menu principal (évidemment) mais aussi l'interface des questions et la télévision dynamique. l'idée était de faire de l'UI dynamique de sorte à ce qu'elle s'adapte aux différentes question/réponses. La télévision été designé pour afficher les visages des personnes recherché que vous avez tué.",
+            "mediaTask": "./projects/Faceful/workOnProject/FacefulTV.png"
+          }
+        ]
+      },
+      {
+         "name": "Dead Meat Motors",
+        "image": "./projects/DeadMeatMotors/KeyArtHorizontal.png",
+        "year": "2025",
+        "duration": "3 mois",
+        "teamSize": "Equipe de 13",
+        "platform": "Windows",
+        "type": "Jeu",
+        "preciseType": "Party Game",
+        "engine": "Unreal",
+        "myTasks": "Gameplay Programmer",
+        "tags": ["#Unreal"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unreal", "C++", "Blueprint"]
+        },
+        "description": {
+          "title": "Présentation du projet",
+          "content": "Dead Meat Motors est un jeu d'action dans lequel les joueurs incarnent des robots chargé de livré des ressources à des camps de survivants. Pendant chaque livraison, le camion est attaqué par des hordes de zombies que devraient vaincre pendant que vous serez sur la route. Une fois arrivé à chaque camps, les joueurs peuvent amélioré leur camion pour mieux se battre lors de leurs prochaines courses.",
+          "images": [
+            "./projects/DeadMeatMotors/DMM_1.png",
+            "./projects/DeadMeatMotors/DMM_2.png",
+            "./projects/DeadMeatMotors/DMM_3.png",
+            "./projects/DeadMeatMotors/DMM_4.png"
+          ]
+        },
+        "link": "DeadMeatMotors",
+        "externalLink": {
+          "title": "Voir le projet",
+          "customButton": "./ItchBanner.svg",
+          "link": "https://williamreppelin.itch.io/deadmeatmotors"
+        },
+        "projectVideo": "./projects/DeadMeatMotors/DMM_trailer.mp4",
+        "MyWorkTitle": "Mon rôle",
+        "Work": [
+          {
+            "task": "Gameplay Programmer",
+            "descTask": "Pendant ce projet, je le suis occupé d'implémenter la logique de conduite. L'idée était de faire la meilleurs experiences de conduite possible avec autant de variables que possible afin de laisser les Game Designers modifié et équilibré facilement les paramètre de conduite.",
+            "mediaTask": "./projects/DeadMeatMotors/workOnProject/DMMTruck.png"
+          }, 
+          {
+            "task": "Tool Gameplay",
+            "descTask": "Pendant ce projet, j'ai aussi déveloper un <b>système de générationo de route</b> dans le but d'aider les designers à concevoir leur niveau. Tout au long du process de développement, j'ai beaucoup échanger avec les designers pour avoir la meilleur <b>flexibilité</b> tout en répondant aux <b>besoins des deisgners</b>.",
+            "mediaTask": "./projects/DeadMeatMotors/workOnProject/DMMRoadTool.png"
+          }
+        ]
+      },
+      {
          "name": "So'Briquet",
         "image": "./projects/SoBriquet/SoBriquet.png",
         "year": "2025",
@@ -174,7 +322,7 @@
         "preciseType": "Mod",
         "myTasks": "UI programmer",
         "tags": ["#Mod"],
-        "selected": true,
+        "selected": false,
         "stacks": {
           "title": "Stacks",
           "content": ["C#"]
@@ -211,7 +359,7 @@
         "engine": "Unity",
         "myTasks": "Programmeur UI, Programmeur Gameplay",
         "tags": ["#Unity", "#Jam"],
-        "selected": true,
+        "selected": false,
         "stacks": {
           "title": "Stacks",
           "content": ["Unity", "C#"]
@@ -255,7 +403,7 @@
         "teamSize": "Equipe de 6",
         "myTasks": "Programmeur Back-end, Administration Réseau",
         "tags": ["#Website", "#Network"],
-        "selected": true,
+        "selected": false,
         "stacks": {
           "title": "Stacks",
           "content": ["NodeJS", "NextJS"]
