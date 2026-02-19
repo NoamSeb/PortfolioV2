@@ -20,7 +20,7 @@ const Projects: React.FC<{ lng: string }> = ({ lng }) => {
               <Link href={`/${lng}/${project.link}`}>
                 <div key={index} className={styles.project}>
                   <img src={project.image} alt="" />
-                  <div className="projectInfos">
+                  <div className={styles.projectInfos}>
                     <p className={styles.b}>{project.myTasks}</p>
                     <p className={styles.r}>
                       {project.year} - {project.preciseType ? project.preciseType : project.type} {""}

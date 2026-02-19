@@ -136,7 +136,7 @@
         "preciseType": "Party Game",
         "engine": "Unreal",
         "myTasks": "Gameplay Programmer",
-        "tags": ["#Unreal"],
+        "tags": ["#Unreal", "#CouchGame", "#Multiplayer"],
         "selected": true,
         "stacks": {
           "title": "Technologies",
@@ -222,7 +222,7 @@
         "teamSize": "Équipe de 8",
         "platform": "Windows",
         "type": "Jeu",
-        "preciseType": "First Person Shooter",
+        "preciseType": "FPS",
         "engine": "Unreal Engine",
         "myTasks": "Lead Programmeur, Programmeur Gameplay, Programmeur UI",
         "tags": ["#Unreal", "#FPS"],
