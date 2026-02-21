@@ -12,22 +12,30 @@
   font-style: italic;
 }
 .r {
-  font-family: DM sans Regular, sans-serif;
+  font-family:
+    DM sans Regular,
+    sans-serif;
   font-weight: 100;
 }
 .downloadCV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
   border-radius: 10px;
   border: none;
   text-decoration: none;
-  background-color: #161616;
-  color: #fff;
+  background-color: var(--break-black);
+  color: var(--break-white);
   font-style: normal;
   transition: 0.5s;
   font-style: italic;
   &:hover {
-    background-color: #fff;
-    color: #161616;
+    background-color: var(--break-white);
+    color: var(--break-black);
+    border:
+      1px,
+      var(--break-black) solid;
   }
 }
 .contactLinks {
@@ -41,11 +49,15 @@
     width: 3rem;
     height: 3rem;
     margin: 0 1rem;
+    transition: scale 0.5s ease-in-out;
+    &:hover {
+      scale: 150%;
+    }
   }
 }
-@media screen and (width < 950){
-  .socials{
-    img{
+@media screen and (width < 950) {
+  .socials {
+    img {
       width: 2rem !important;
       height: 2rem !important;
     }
@@ -60,8 +72,8 @@
   }
 }
 @media screen and (width < 400) {
-  .socials{
-    img{
+  .socials {
+    img {
       width: 1rem !important;
       height: 1rem !important;
     }

@@ -45,24 +45,32 @@ export default async function GameProjects({
             projectData.whatIDO.projects &&
             GameProjects.map(
               (project: any, index: number, selected: boolean) => (
+               <Link href={`/${lng}/${project.link}`}>
                 <div key={index} className={styles.project}>
                   <img src={project.image} alt="" />
-                  <Link href={`/${lng}/${project.link}`}></Link>
-                  <div className="projectInfos">
+                  <div className={styles.projectInfos}>
                     <p className={styles.b}>{project.myTasks}</p>
                     <p className={styles.r}>
-                      {project.year} - {project.preciseType} {project.engine && (<>- {project.engine}</>)} - {project. duration} - {project.teamSize}
+                      {project.year} - {project.preciseType ? project.preciseType : project.type} {""}
+                      {project?.engine && project?.platform && (
+                        <>
+                          {" "}
+                          - {project.engine} - {project.platform} {""}
+                        </>
+                      )}
+                      - {project.duration} - {project.teamSize}
                     </p>
 
                     <div className={styles.tags}>
                       {project.tags?.map((tag: string, tagIndex: number) => (
                         <div key={tagIndex} className={styles.tag}>
-                          <p className={styles.b}>{tag}</p>
+                          <p className={`${styles.b} ${styles.tagText}`}>{tag}</p>
                         </div>
                       ))}
                     </div>
                   </div>
                 </div>
+              </Link>
               )
             )}
         </div>

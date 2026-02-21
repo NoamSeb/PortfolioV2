@@ -23,6 +23,7 @@
   justify-content: center;
   align-items: center;
   margin-right: 0px;
+
   h1 {
     z-index: 10;
     width: fit-content;
@@ -51,6 +52,7 @@
   align-items: flex-start;
   margin-left: 4vw;
   min-height: 100vh;
+  
   h2 {
     font-size: 3rem;
   }
@@ -62,6 +64,14 @@
   div {
     font-size: 1.2rem;
   }
+}
+
+.Testimonials{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  margin-left: 4vw;
 }
 
 @media screen and (width<800px) {

@@ -1,19 +1,20 @@
 import { useTranslation } from "../i18n";
 import Head from "next/head";
-import { Metadata } from 'next';
+import { Metadata } from "next";
 import styles from "./page.module.scss";
 import TopBar from "@/components/topBar/TopBar";
 import NavBar from "@/components/navBar/NavBar";
 import Projects from "@/components/projects/Projects";
+import Testimonials from "@/components/testimonials/Testimonials";
 
 interface PageProps {
   lng: string;
 }
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Noam Sebahoun',
+  title: "Portfolio | Noam Sebahoun",
   description:
-    'Welcome to my online portfolio. Explore my projects, discover my skills in web and game programming, and get in touch for collaboration opportunities.',
+    "Welcome to my online portfolio. Explore my projects, discover my skills in web and game programming, and get in touch for collaboration opportunities.",
 };
 
 export default async function Page({ params: { lng } }: { params: PageProps }) {
@@ -40,6 +41,10 @@ export default async function Page({ params: { lng } }: { params: PageProps }) {
         <div id="whatIDO" className={styles.whatIDO}>
           <h2 className={styles.b}>{t("whatIDO.title")}</h2>{" "}
           <Projects lng={lng} />
+        </div>
+        <div className={styles.Testimonials}>
+          <h2 className={styles.b}>{t("testimonials.title")}</h2>
+          <Testimonials lng={lng} />
         </div>
       </main>
     </>

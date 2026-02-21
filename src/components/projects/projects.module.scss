@@ -72,8 +72,8 @@ $height: 60vh;
       height: $height;
       position: relative;
       // bottom:100%;
-      transition:scale 0.5s ease-in-out;
     }
+    transition:scale 1s ease-in-out;
     &:hover{
       background-color: var(--break-black);
       scale: 105%;

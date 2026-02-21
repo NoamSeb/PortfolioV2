@@ -20,9 +20,6 @@ export default async function NavBar({ lng }: NavProps) {
             <Link href={`/${lng}/OtherProjects`}>{t("navBar.OtherProject")}</Link>
           </li>
           <li>
-            <Link href={`/${lng}/Recommandations`}>{t("navBar.testimonials")}</Link>
-          </li>
-          <li>
             <Link href={`/${lng}/AboutMe`}>{t("navBar.aboutMe")}</Link>
           </li>
         </ul>
@@ -38,9 +35,6 @@ export default async function NavBar({ lng }: NavProps) {
           </li>
           <li>
             <Link href="#whatIDO">{t("navBar.whatIDO")}</Link>
-          </li>
-          <li>
-            <Link href="#testimonials">{t("navBar.testimonials")}</Link>
           </li>
           <li>
             <Link href="#contact">{t("navBar.contact")}</Link>

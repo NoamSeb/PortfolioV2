@@ -16,56 +16,86 @@ $height: 60vh;
   font-weight: 400;
 }
 .r {
-  font-family: DM sans Regular, sans-serif;
+  font-family:
+    DM sans Regular,
+    sans-serif;
   font-weight: 100;
+}
+.projectContainer{
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .projects {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 2vw;
-}
+  margin-top: 5vh;
+  margin-bottom: 10vh;
 
-.project {
-  width: $width;
-  height: $height;
-  max-width: 90vw !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  margin-bottom: 2vh;
-  &Container {
-    margin-top: 10vh;
-    margin-left: 5vw;
-  }
-  &Infos {
-    font-style: bold;
-  }
-  a {
-    text-decoration: none;
-    width: $width;
-    height: $height;
-    position: relative;
-    // bottom:100%;
-    &:hover {
-      .sail {
-        width: $width;
-        height: $height;
-        opacity: 1;
+  .project {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 5%;
+    max-width: 90vw !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 2vh;
+    p {
+      color: var(--break-black);
+      transition: color 0.5s ease-in-out;
+    }
+
+    a {
+      text-decoration: none;
+      width: $width;
+      height: $height;
+      position: relative;
+      // bottom:100%;
+      transition:scale 0.5s ease-in-out;
+    }
+    &:hover{
+      background-color: var(--break-black);
+      scale: 105%;
+  
+      p{
+        color: var(--break-white);
+      }
+      .tag{
+        .tagText{
+          color: var(--break-black);
+        }
+        background-color: var(--break-white);
       }
     }
+    transition:background-color 0.5s ease-in-out;
   }
 
   img {
-    width: $width;
-    height: $height;
+    width: $width - 10vw;
+    height: auto;
+    // max-height: $height - 20vh;
+    border-radius: 1%;
   }
-  
-  .tags{
+
+  .tags {
     display: flex;
     justify-content: start;
     width: 5vw;
-    div{
+    .tag{
+      transition:background-color 0.5s ease-in-out;
+    }
+    .tagText{
+      color: var(--break-white);
+      transition:color 0.5s ease-in-out;
+    }
+    div {
       width: 5vw;
       display: flex;
       justify-content: center;
@@ -75,7 +105,7 @@ $height: 60vh;
       border-radius: 50px;
       margin-right: 0.5vw;
 
-      p{
+      p {
         padding: 5px 10px 5px 10px;
         font-size: small;
       }
