@@ -26,6 +26,54 @@
     "nextProjectText" : "See next project",
     "projects": [
       {
+        "name": "Phil's Harmony",
+        "image": "./projects/PhilsHarmony/PhilsHarmony.png",
+        "year": "2026",
+        "duration": "2 mois",
+        "teamSize": "Equipe de 13",
+        "platform": "Android/IOS",
+        "type": "Jeu",
+        "preciseType": "Advertising Game",
+        "engine": "Unity",
+        "myTasks": "Lead Gameplay Programmer",
+        "tags": ["#Unity", "#mobile"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unity", "C#"]
+        },
+        "description": {
+          "title": "Project Overview",
+          "content": "During my internship at LevelUpCom!, I had the opportunity to work with la Philharmonie de Paris to create an interactive experience to extend the <a href=\"https://philharmoniedeparis.fr/en/activite/28822\"><i style=\"color: var(--break-black); text-decoration: underline;\">Video Games & Music</i></a> exhibition.<br>The goal of this project was to highlight the relation between the music and the video game through a journey in the history of video games.",
+          "images": [
+           "./projects/PhilsHarmony/PhilsHarmony_1.png",
+           "./projects/PhilsHarmony/PhilsHarmony_2.png",
+           "./projects/PhilsHarmony/PhilsHarmony_3.png",
+           "./projects/PhilsHarmony/PhilsHarmony_4.png"
+          ]
+        },
+        "link": "PhilsHarmony",
+        "projectVideo": "",
+        "MyWorkTitle": "My Role",
+        "Work": [
+          {
+            "task": "Lead Gameplay Programmer",
+            "descTask": "As Lead Gameplay Programmer, I was in charge of the project's progress and distribute the tasks to technical team members following their strengh and curiosity points. To do this, we used a shared Google Sheet file so the project manager could look at the global project progress and talk about it during daily meetings.",
+            "mediaTask": "./projects/PhilsHarmony/workOnProject/PhilsHarmonyLead.png"
+          }, 
+          {
+            "task": "Gameplay Programmer",
+            "descTask": "Because the game was intended to mobile platforme, we usef the package <a href=\"https://assetstore.unity.com/packages/tools/input-management/lean-touch-30111\"><i style=\"color: var(--break-black); text-decoration: underline;\">LeanTouch</i></a> to manage touchscreen inputs. This package allow us to save a lot a time to create swipe and touch inputs.<br> For this game, we have made spécific action depending of the swipe orientation. Because the game evolve, some actions are not available from the beginning but the player's 2D and 3D model evolve with the game. Therefore, we used an animation controller to activate and animate a certain model carrying on the game progress.",
+            "mediaTask": "./projects/PhilsHarmony/workOnProject/PhilsHarmonyGameplay.png"
+          }, 
+          {
+            "task": "Audio Programmer",
+            "descTask": "In addition to the models and animations, the audio effects and music also evolve. As a result, we implemented an Audio Mixer to separate our various audio tracks and ensured that specific sound effects play based on the game’s progress. <br>For example, we’ve given designers the ability to configure the jump settings for each phase of the game. These settings include sound effects for both the takeoff and landing of the jump.",
+            "mediaTask": "./projects/PhilsHarmony/workOnProject/PhilsHarmonyAudio.png"
+          }
+        ]
+      },
+      {
         "name": "Hoziron",
         "image": "./projects/Hoziron/Hoziron.png",
         "year": "2026",
@@ -226,7 +274,7 @@
         "engine": "Unreal Engine",
         "myTasks": "Lead Programmer, Gameplay Programmer, UI Programmer",
         "tags": ["#Unreal", "#FPS"],
-        "selected": true,
+        "selected": false,
         "stacks": {
           "title": "Tech Stack",
           "content": ["Unreal", "Blueprint"]

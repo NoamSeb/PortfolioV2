@@ -26,6 +26,54 @@
     "nextProjectText" : "Voir le prochain projet",
     "projects": [
       {
+        "name": "Phil's Harmony",
+        "image": "./projects/PhilsHarmony/PhilsHarmony.png",
+        "year": "2026",
+        "duration": "2 mois",
+        "teamSize": "Equipe de 13",
+        "platform": "Android/IOS",
+        "type": "Jeu",
+        "preciseType": "Jeu publicitaire",
+        "engine": "Unity",
+        "myTasks": "Lead Gameplay Programmer",
+        "tags": ["#Unity", "#mobile"],
+        "selected": true,
+        "stacks": {
+          "title": "Technologies",
+          "content": ["Unity", "C#"]
+        },
+        "description": {
+          "title": "Présentation du projet",
+          "content": "Dans le cadre de mon stage chez LevelUpCom!, j'ai eu la chance de collaborer avec la Philharmonie de Paris afin de concevoir une expérience interactive pour prolongé l'expérience de l'exposition <a href=\"https://philharmoniedeparis.fr/fr/activite/exposition/28822-video-games-music\"><i style=\"color: var(--break-black); text-decoration: underline;\">Video Games & Music</i></a>.<br>Le but de ce projet était de mettre en relation le lien étroit entre la musique et le jeu vidéo à travers d'un voyage dans l'histoire du jeu vidéo.",
+          "images": [
+           "./projects/PhilsHarmony/PhilsHarmony_1.png",
+           "./projects/PhilsHarmony/PhilsHarmony_2.png",
+           "./projects/PhilsHarmony/PhilsHarmony_3.png",
+           "./projects/PhilsHarmony/PhilsHarmony_4.png"
+          ]
+        },
+        "link": "PhilsHarmony",
+        "projectVideo": "",
+        "MyWorkTitle": "Mon rôle",
+        "Work": [
+          {
+            "task": "Lead Gameplay Programmer",
+            "descTask": "En tant que Lead programmeur gameplay, j'ai été chargé de suivre l'avancée du projet et d'attribuer les différentes tâches aux membres de l'équipe technique en suivant les spécificitées et la curiosité de chacun.<br>Pour ce faire, nous avons utilisé un document Google Sheet partagé dans le but que le chef de projet puisse avoir un regard sur l'avancé général et ainsi nous en parler pendant réunions quotidienne.",
+            "mediaTask": "./projects/PhilsHarmony/workOnProject/PhilsHarmonyLead.png"
+          }, 
+          {
+            "task": "Gameplay Programmer",
+            "descTask": "Etant donné que ce jeu est destiné au mobile, nous avons utilisé le package <a href=\"https://assetstore.unity.com/packages/tools/input-management/lean-touch-30111\"><i style=\"color: var(--break-black); text-decoration: underline;\">LeanTouch</i></a> pour gérer les contrôles tactiles. Ce package nous a permis d'économisé énormement de temps pour créer des contrôle au swipe ou au touch.<br>Pour ce jeu, nous avons fait en sorte que d'avoir une action par direction de swipe. Le jeu étant évolutif, certaines action ne sont pas disponible dès le début mais le modèle 2D ou 3D du joueur évolue au fil du jeu. Par conséquent, nous avons conçu un controller d'animation pour activé et animé un certain modèle en fonction de l'avancé du jeu.",
+            "mediaTask": "./projects/PhilsHarmony/workOnProject/PhilsHarmonyGameplay.png"
+          }, 
+          {
+            "task": "Audio Programmer",
+            "descTask": "En plus des modèles et des animations, les effets audio ainsi que la musique évoluent. Par conséquent, nous avons mis en place un Audio Mixer pour séparer nos différentes pistes audio et avons fait en sorte de jouer un certain effet sonore en s'appuyant encore une fois sur l'avancé du jeu.<br>Par exemple, nous avons laissé aux designers la possibilité de paramétrer le saut pour chaque phase de jeu. Ces paramètres comportent ainsi un effet sonore pour l'impulsion et l'atterrissage du saut.",
+            "mediaTask": "./projects/PhilsHarmony/workOnProject/PhilsHarmonyAudio.png"
+          }
+        ]
+      },
+      {
         "name": "Hoziron",
         "image": "./projects/Hoziron/Hoziron.png",
         "year": "2026",
@@ -43,7 +91,7 @@
           "content": ["Unity", "C#"]
         },
         "description": {
-          "title": "Project Overview",
+          "title": "Présentation du projet",
           "content": "Dans le cadre d'un projet d'étude, nous devions créer un jeu narratif en un mois à l'aide du moteur Unity et le publier sur Android et iOS. Dans Hoziron, vous suivez un équipage de pirates à la recherche d'or et de fortune. Bien que vous ne puissiez pas contrôler le bateau, vous pouvez créer une carte à partir des fragments que vous avez en votre possession afin de vous assurer que votre équipage ne se perde pas dans l'immensité de la mer... Chaque jour, il se passe quelque chose, parfois de bon, parfois de mauvais... Prenez les bonnes décisions et essayez d'entrer dans la légende de la piraterie.",
           "images": [
            "./projects/Hoziron/Hoziron_1.png",
@@ -58,7 +106,7 @@
           "link": "https://charliebrv.itch.io/hoziron"
         },
         "projectVideo": "",
-        "MyWorkTitle": "My Role",
+        "MyWorkTitle": "Mon rôle",
         "Work": [
           {
             "task": "Lead Gameplay Programmer",
@@ -226,7 +274,7 @@
         "engine": "Unreal Engine",
         "myTasks": "Lead Programmeur, Programmeur Gameplay, Programmeur UI",
         "tags": ["#Unreal", "#FPS"],
-        "selected": true,
+        "selected": false,
         "stacks": {
           "title": "Technologies",
           "content": ["Unreal", "Blueprint"]
